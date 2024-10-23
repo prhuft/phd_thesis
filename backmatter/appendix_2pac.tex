@@ -1,0 +1,38 @@
+% \part{Template}\label{part:appendices}
+\chapter{Two-piezo filter cavity}\label{ch:cavity}
+
+% the hierarchy is 
+% chapter,section,subsection,etc
+
+% todo: put the ingredient list pdf(s) here. they are on the wiki but need updating. I think the powerpoint lives on the Coffee lab PC but i may have slacked it to myself.
+
+\section{Optical cavities as spectral filters}
+
+Fabry-Perot optical cavities are convenient tools for spectral filtering of a laser field when one is interested in retaining spectral content only within a certain window centered around the carrier frequency. An example of this situation comes in the context of driving Rydberg transitions for quantum gates, where the gain required for locking the laser creates unwanted "servo bumps" in the spectrum where the sign of the feedback flips, which can cause gate rotation errors \cite{jiang2023sensitivity}. This can be remedied with "filter cavities" which have a linewidth large compared to that of the laser carrier, but narrow enough that the servo bumps are not transmitted \cite{kwon2019rydberg}. The filter cavity, whose length can be modulated using a piezoelectric element attached to one of the mirrors, is then locked to transmit the laser carrier frequency using the PDH locking technique.
+
+One potential issue with using a cavity for filtering is the transfer of cavity length instability to intensity noise on the transmitted light. This length instability can stem from ambient acoustic noise propagating through the cavity, or a deficiency with the PDH lock, such that the cavity length oscillates around the lock point defined by the laser frequency. The former issue can be remedied by placing the optical cavity in a vacuum chamber and using a damping material between the cavity body and chamber. The latter issue depends on the lock parameters such as gain and bandwidth, as well as the sensitivity and bandwidth of the piezo. 
+
+This appendix discusses a cavity intended to improve on intensity noise observed on the original version of filter cavities in this group\cite{Young2022}. The cavity was designed and constructed with great help from Michael Bergdolt, who was an undergraduate student at the time. The cavity described is based on a two-piezo design, and is a modified of the predecessor single-piezo version described in \cite{kwon2019rydberg}. The original cavity design will not be described in detail here, as all of the details not explicitly mentioned were kept the same, from the mechanical design to the mirrors used and the vacuum hardware.
+
+\section{Design principle}
+
+For locking a cavity to a sufficiently narrow-linewidth laser, it is  advantageous to have two piezos\cite{Braverman2018}. One piezo with a sufficiently long range is needed in order to guarantee that the cavity length can be tuned to be resonant with the laser. By analyzing this first requirement, we can motivate the necessity of a second, much less sensitive piezo for locking to a narrow laser. In order to guarantee that the cavity can be brought onto resonance with the laser, we must be able to change the cavity length by one half wavelength, corresponding to one free spectral range (FSR), defined as
+\begin{equation}
+    FSR = \frac{c}{2L}
+\end{equation}
+
+where $c$ is the speed of light and L is the length of the cavity. For the long range or ``slow" piezo, PiezoDrive SR120610, the average sensitivity is 12.857 $V/ \mu$m, meaning that it takes about 5 V to change the cavity length by one FSR at 780 nm. 
+For locking the cavity to a narrow linewidth laser for Rydberg, we may want the frequency stability of the lock to be $\sim 100$ Hz. Converting this frequency change $\delta \nu$ to a change in wavelength $\delta \lambda$, given by $|\delta \nu| = \delta\lambda(c/\lambda^2)$, gives $\delta \lambda \sim 2*10^{-19}$ m. Considering that there are $\sim 256000$ half wavelengths in a 10 cm long cavity ($L=m \lambda/2$), the cavity length must be stabilized to $2.6*10^{-14}$ m. Given the sensitivity of the PiezoDrive SR120610, we would need a piezo driver with noise $\ll 0.3~\mu$V, which is usually unrealistic.
+
+A much less sensitive piezo can be used to overcome this requirement on the piezo driver noise. The Boston Piezo-Optics PZT-5H, chosen for this purpose, has an average sensitivity of 1709 $V/\mu$m. The constraint on the voltage noise is now $44 \mu$V, which is feasible with commercially available drivers (e.g. the PiezoDrive PDU150). By contrast, to scan one FSR with this piezo would require 666 V, over three times the range of typical commercially available piezo drivers. Hence, the need for two piezos is apparent. 
+
+\section{Cavity construction}
+
+The two-piezo cavity construction differs from the original build in that the additional slim piezo is mounted between the long range piezo stack and the mirror. Unlike the long piezo, which comes with wires attached to electrodes opposite sides of the cylindrical surface, the slim piezo's electrical contacts are gold-plated end faces, and electrodes do not come pre-attached. Because of this, it was necessary to design mounting hardware which would not completely obscure the end faces, and would leave clearance for attached wires. The result is shown 
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/two_piezo_stack_assembly.pdf}
+    \caption{Assembly stages of the two piezo stack for the filter cavity. a) Fast piezo holder glued atop slow piezo, which is glued to the invar cavity spacer. b) Fast piezo with soldered connections glued into its holder, with glue applied for the next spacer. c) Spacer applied to fast piezo, which gives clearance for the positive electrode. d) The assembly is glued using a makeshift clamp made with acrylic panels, which keep the components sufficiently parallel while the glue cures.}
+    \label{fig:cavity_fig1}
+\end{figure}

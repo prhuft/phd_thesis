@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dissertation.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: frontmatter/frontmatter.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: Chapters/Ch_intro_to_quantum_networks.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: Chapters/Ch_integrated_network_node.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+A level-1 auxiliary file: Chapters/Ch_preparing_neutral_atom_qubits.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Chapters/Ch_array_PRA.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: backmatter/appendix_GOODlogger.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: backmatter/appendix_experiment_box.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: backmatter/appendix_drawings.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: backmatter/appendix_ingredients.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: backmatter/appendix_cavity_node.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: backmatter/appendix_2pac.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: backmatter/appendix_collective_atomic_radiance.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 15920 items.
+Database file #1: dissertation-blx.bib
+Database file #2: atomic.bib
+Database file #3: optics.bib
+Database file #4: qc_refs.bib
+Database file #5: rydberg.bib
+Database file #6: saffman_refs.bib
+Database file #7: huft_bib.bib
+Biblatex version: 3.20
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 78 entries,
+            6402 wiz_defined-function locations,
+            1790 strings with 42080 characters,
+and the built_in function-call counts, 1256802 in all, are:
+= -- 114746
+> -- 13372
+< -- 3009
++ -- 43809
+- -- 6440
+* -- 96805
+:= -- 161932
+add.period$ -- 0
+call.type$ -- 78
+change.case$ -- 1101
+chr.to.int$ -- 67
+cite$ -- 154
+duplicate$ -- 129223
+empty$ -- 98686
+format.name$ -- 9392
+if$ -- 243321
+int.to.chr$ -- 0
+int.to.str$ -- 192
+missing$ -- 0
+newline$ -- 4507
+num.names$ -- 3540
+pop$ -- 34015
+preamble$ -- 1
+purify$ -- 2203
+quote$ -- 0
+skip$ -- 17205
+stack$ -- 0
+substring$ -- 226560
+swap$ -- 16833
+text.length$ -- 2989
+text.prefix$ -- 16
+top$ -- 1
+type$ -- 2636
+warning$ -- 0
+while$ -- 19539
+width$ -- 0
+write$ -- 4430

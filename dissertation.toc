@@ -1,0 +1,97 @@
+\contentsline {chapter}{Contents}{iii}{section*.3}%
+\contentsline {chapter}{List of Tables}{vii}{section*.5}%
+\contentsline {chapter}{List of Figures}{viii}{section*.7}%
+\contentsline {chapter}{Abstract}{xxii}{chapter*.9}%
+\contentsline {part}{\partnumberline {I}Theory and Background}{1}{part.1}%
+\contentsline {chapter}{\chapternumberline {1}Quantum networking with neutral Rubidium atoms}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Intro to quantum networks}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Distributed quantum entanglement as a resource}{2}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Quantum networking with neutral atom qubits}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Establishing remote entanglement}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Quantum networks for distributed processing}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}A remote entanglement protocol with $^{87}$Rb atoms}{5}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Atom-atom entanglement rate}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Link efficiency}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Photon collection - optical cavity vs free-space}{12}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Experiment repetition rate}{12}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Entanglement fidelity}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Dominant contributions}{12}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Smaller effects}{14}{subsection.1.4.2}%
+\contentsline {subsubsection}{Polarization change from parabolic mirror}{14}{section*.15}%
+\contentsline {part}{\partnumberline {II}Experiment}{16}{part.2}%
+\contentsline {chapter}{\chapternumberline {2}Quantum network apparatus design}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Quantum Network Node Design}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}On-chip optical architecture}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Vacuum system design}{18}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}UHV science optics}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Clean room assembly environments}{22}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}MOT and state preparation optics}{22}{subsection.2.2.2}%
+\contentsline {subsubsection}{MOT optics}{22}{section*.20}%
+\contentsline {subsubsection}{State preparation optics}{24}{section*.21}%
+\contentsline {subsection}{\numberline {2.2.3}Parabolic mirror: dipole trap and photon collection}{25}{subsection.2.2.3}%
+\contentsline {subsubsection}{Mirror optics design}{25}{section*.23}%
+\contentsline {subsubsection}{Alignment and characterization}{27}{section*.24}%
+\contentsline {subsection}{\numberline {2.2.4}Co-alignment of the on-chip optics}{31}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Optical chip installation and vacuum bakeout}{38}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Lasers}{41}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}D2 Line cooling, excitation, and repumpers}{41}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}D1 Line Optical pumping}{41}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Dipole trap}{41}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Magnetic field coils and control}{41}{section.2.4}%
+\contentsline {section}{\numberline {2.5}MOT Geometry}{43}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Experiment Control}{44}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}Preparation, manipulation, and measurement of neutral atom qubits}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}MOT}{45}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Alignment and imaging}{45}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Fiber AOMs and cooling light power stabilization}{48}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Trapping single atoms}{50}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}FORT formed with parabolic mirror}{50}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}FORT power stabilization}{52}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}FORT polarization optimization}{53}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Single atom loading in steady-state MOT}{53}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Trap depth and vibrational frequencies}{55}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Single atom experiments}{56}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}FORT loading and atom readout}{57}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Limitations to cycle time}{58}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Qubit state preparation}{58}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Optical pumping and microwave rotations}{59}{subsection.3.4.1}%
+\contentsline {chapter}{\chapternumberline {4}A simple, passive design for large optical trap arrays}{60}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Working Principle}{62}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Bright Trap Array}{62}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Dark Trap Array}{66}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Combined Bright and Dark Trap Array}{69}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Atom Confinement}{71}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Experiment}{74}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Incoherent trap}{76}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Coherent trap}{78}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Robustness of $4f$ filtered traps}{80}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Tighter traps with alternative Fourier plane masks}{82}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Talbot Trap Mitigation}{82}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Experimental details}{86}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Array mask and observed trap profiles}{86}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Atom lifetime in incoherent trap}{88}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Fluorescence imaging}{89}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}Two-species trap array}{89}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Vacuum Pressure from MOT loading rate}{90}{section.4.9}%
+\contentsline {part}{\partnumberline {III}Appendix}{94}{part.3}%
+\contentsline {appendix}{\chapternumberline {A}GOOD Logger}{95}{chapter.A}%
+\contentsline {appendix}{\chapternumberline {B}Temperature-controlled experiment box}{97}{chapter.B}%
+\contentsline {appendix}{\chapternumberline {C}Mechanical drawings}{101}{chapter.C}%
+\contentsline {appendix}{\chapternumberline {D}Network node ingredient lists}{105}{chapter.D}%
+\contentsline {appendix}{\chapternumberline {E}A Cavity-based Network Design}{107}{chapter.E}%
+\contentsline {section}{\numberline {E.1}Cavity Mirrors}{107}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Mode Matching}{108}{section.E.2}%
+\contentsline {section}{\numberline {E.3}Cavity opto-mechanics}{111}{section.E.3}%
+\contentsline {section}{\numberline {E.4}MInt Chip}{113}{section.E.4}%
+\contentsline {appendix}{\chapternumberline {F}Two-piezo filter cavity}{114}{chapter.F}%
+\contentsline {section}{\numberline {F.1}Optical cavities as spectral filters}{114}{section.F.1}%
+\contentsline {section}{\numberline {F.2}Design principle}{115}{section.F.2}%
+\contentsline {section}{\numberline {F.3}Cavity construction}{116}{section.F.3}%
+\contentsline {appendix}{\chapternumberline {G}Collective radiance in atomic arrays and volumes}{117}{chapter.G}%
+\contentsline {section}{\numberline {G.1}Hamiltonian for the single-excitation subspace}{118}{section.G.1}%
+\contentsline {section}{\numberline {G.2}Eigenmodes, decay, and emission patterns of 2D arrays}{119}{section.G.2}%
+\contentsline {section}{\numberline {G.3}Sensitivity to imperfections}{122}{section.G.3}%
+\contentsline {section}{\numberline {G.4}Eigenmodes of 3D arrays}{123}{section.G.4}%
+\contentsline {chapter}{Colophon}{126}{chapter*.84}%
+\contentsline {chapter}{References}{127}{section*.86}%
