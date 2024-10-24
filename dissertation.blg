@@ -18,6 +18,8 @@ Reallocating 'name_of_file' (item size: 1) to 40 items.
 A level-1 auxiliary file: Chapters/Ch_integrated_network_node.aux
 Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: Chapters/Ch_preparing_neutral_atom_qubits.aux
+Reallocating 'name_of_file' (item size: 1) to 49 items.
+A level-1 auxiliary file: Chapters/Ch_towards_atom_photon_entanglement.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Chapters/Ch_array_PRA.aux
 Reallocating 'name_of_file' (item size: 1) to 35 items.
@@ -49,7 +51,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 16900 items.
+Reallocating 'field_info' (item size: 4) to 17320 items.
 Database file #1: dissertation-blx.bib
 Database file #2: bib/atomic.bib
 Database file #3: bib/optics.bib
@@ -60,44 +62,44 @@ Database file #7: bib/huft_bib.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 85 entries,
+You've used 88 entries,
             6402 wiz_defined-function locations,
-            1821 strings with 44079 characters,
-and the built_in function-call counts, 1399457 in all, are:
-= -- 128196
-> -- 14781
-< -- 3385
-+ -- 48474
-- -- 7121
-* -- 108097
-:= -- 180068
+            1834 strings with 44774 characters,
+and the built_in function-call counts, 1447619 in all, are:
+= -- 132532
+> -- 15340
+< -- 3494
++ -- 50281
+- -- 7393
+* -- 111757
+:= -- 186417
 add.period$ -- 0
-call.type$ -- 85
-change.case$ -- 1282
+call.type$ -- 88
+change.case$ -- 1311
 chr.to.int$ -- 67
-cite$ -- 168
-duplicate$ -- 142681
-empty$ -- 110044
-format.name$ -- 10347
-if$ -- 271364
+cite$ -- 174
+duplicate$ -- 147955
+empty$ -- 113684
+format.name$ -- 10749
+if$ -- 280566
 int.to.chr$ -- 0
-int.to.str$ -- 211
+int.to.str$ -- 222
 missing$ -- 0
-newline$ -- 4943
-num.names$ -- 3947
-pop$ -- 37258
+newline$ -- 5119
+num.names$ -- 4082
+pop$ -- 38611
 preamble$ -- 1
-purify$ -- 2497
+purify$ -- 2572
 quote$ -- 0
-skip$ -- 19039
+skip$ -- 19705
 stack$ -- 0
-substring$ -- 254272
-swap$ -- 18526
-text.length$ -- 3295
+substring$ -- 262506
+swap$ -- 19184
+text.length$ -- 3419
 text.prefix$ -- 19
 top$ -- 1
-type$ -- 2873
+type$ -- 2975
 warning$ -- 0
-while$ -- 21556
+while$ -- 22363
 width$ -- 0
-write$ -- 4859
+write$ -- 5032

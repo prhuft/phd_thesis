@@ -3286,6 +3286,185 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{gyger2024continuous}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=GF}{%
+         family={Gyger},
+         familyi={G\bibinitperiod},
+         given={Flavien},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ammenwerth},
+         familyi={A\bibinitperiod},
+         given={Maximilian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Renhao},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Timme},
+         familyi={T\bibinitperiod},
+         given={Hendrik},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Snigirev},
+         familyi={S\bibinitperiod},
+         given={Stepan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bloch},
+         familyi={B\bibinitperiod},
+         given={Immanuel},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zeiher},
+         familyi={Z\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{GF+1}
+    \strng{fullhash}{GFAMTRTHSSBIZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{033104}
+    \field{title}{Continuous operation of large-scale atom arrays in optical
+  lattices}
+    \field{volume}{6}
+    \field{journaltitle}{Physical Review Research}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Bluvstein2022}{article}{}{}
+    \name{author}{12}{}{%
+      {{hash=BD}{%
+         family={Bluvstein},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Levine},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Semeghini},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WTT}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima T.},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Ebadi},
+         familyi={E\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kalinowski},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Keesling},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Maskara},
+         familyi={M\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pichler},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vuleti\'c},
+         familyi={V\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LMD}{%
+         family={Lukin},
+         familyi={L\bibinitperiod},
+         given={M.\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BD+2}
+    \strng{fullhash}{BDLHSGWTTESKMKAMNPHGMVVLMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{451\bibrangedash 456}
+    \field{title}{A quantum processor based on coherent transport of entangled
+  atom arrays}
+    \field{volume}{604}
+    \field{journaltitle}{Nature}
+    \field{year}{2022}
+  \endentry
+
+  \entry{li2024high}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yiyi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TJD}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Jeff\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{LYTJD2}
+    \strng{fullhash}{LYTJD2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{020363}
+    \field{title}{High-rate and high-fidelity modular interconnects between
+  neutral atom quantum processors}
+    \field{volume}{5}
+    \field{journaltitle}{PRX Quantum}
+    \field{year}{2024}
+  \endentry
+
   \entry{Kaufman2021}{article}{}{}
     \name{author}{2}{}{%
       {{hash=KAM}{%

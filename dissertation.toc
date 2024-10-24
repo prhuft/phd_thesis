@@ -53,43 +53,45 @@
 \contentsline {subsection}{\numberline {3.3.2}Limitations to cycle time}{60}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Qubit state preparation}{61}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Optical pumping and microwave rotations}{61}{subsection.3.4.1}%
-\contentsline {chapter}{\chapternumberline {4}A simple, passive design for large optical trap arrays}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Working Principle}{65}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Bright Trap Array}{65}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Dark Trap Array}{69}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Combined Bright and Dark Trap Array}{72}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Atom Confinement}{74}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Experiment}{77}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Incoherent trap}{79}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Coherent trap}{81}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Robustness of $4f$ filtered traps}{83}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Tighter traps with alternative Fourier plane masks}{85}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Talbot Trap Mitigation}{85}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Experimental details}{89}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Array mask and observed trap profiles}{89}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Atom lifetime in incoherent trap}{91}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Fluorescence imaging}{92}{subsection.4.7.3}%
-\contentsline {section}{\numberline {4.8}Two-species trap array}{93}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Vacuum Pressure from MOT loading rate}{94}{section.4.9}%
-\contentsline {part}{\partnumberline {III}Appendix}{97}{part.3}%
-\contentsline {appendix}{\chapternumberline {A}GOOD Logger}{98}{chapter.A}%
-\contentsline {appendix}{\chapternumberline {B}Temperature-controlled experiment box}{100}{chapter.B}%
-\contentsline {appendix}{\chapternumberline {C}Mechanical drawings}{104}{chapter.C}%
-\contentsline {appendix}{\chapternumberline {D}Network node ingredient lists}{108}{chapter.D}%
-\contentsline {appendix}{\chapternumberline {E}A Cavity-based Network Design}{110}{chapter.E}%
-\contentsline {section}{\numberline {E.1}Cavity Mirrors}{110}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Mode Matching}{111}{section.E.2}%
-\contentsline {section}{\numberline {E.3}Cavity opto-mechanics}{114}{section.E.3}%
-\contentsline {section}{\numberline {E.4}MInt Chip}{116}{section.E.4}%
-\contentsline {appendix}{\chapternumberline {F}Two-piezo filter cavity}{117}{chapter.F}%
-\contentsline {section}{\numberline {F.1}Optical cavities as spectral filters}{117}{section.F.1}%
-\contentsline {section}{\numberline {F.2}Design principle}{118}{section.F.2}%
-\contentsline {section}{\numberline {F.3}Cavity construction}{119}{section.F.3}%
-\contentsline {appendix}{\chapternumberline {G}Collective radiance in atomic arrays and volumes}{120}{chapter.G}%
-\contentsline {section}{\numberline {G.1}Hamiltonian for the single-excitation subspace}{121}{section.G.1}%
-\contentsline {section}{\numberline {G.2}Eigenmodes, decay, and emission patterns of 2D arrays}{122}{section.G.2}%
-\contentsline {section}{\numberline {G.3}Sensitivity to imperfections}{125}{section.G.3}%
-\contentsline {section}{\numberline {G.4}Eigenmodes of 3D arrays}{126}{section.G.4}%
-\contentsline {chapter}{Colophon}{129}{chapter*.87}%
-\contentsline {chapter}{References}{130}{section*.89}%
+\contentsline {chapter}{\chapternumberline {4}Towards atom-photon entanglement}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Single photon generation}{63}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}A simple, passive design for large optical trap arrays}{66}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{66}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Working Principle}{67}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Bright Trap Array}{67}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Dark Trap Array}{72}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Combined Bright and Dark Trap Array}{75}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Atom Confinement}{76}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Experiment}{79}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Incoherent trap}{81}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Coherent trap}{83}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Robustness of $4f$ filtered traps}{85}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Tighter traps with alternative Fourier plane masks}{87}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Talbot Trap Mitigation}{87}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Experimental details}{91}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Array mask and observed trap profiles}{91}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Atom lifetime in incoherent trap}{93}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Fluorescence imaging}{94}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Two-species trap array}{95}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Vacuum Pressure from MOT loading rate}{96}{section.5.9}%
+\contentsline {part}{\partnumberline {III}Appendix}{99}{part.3}%
+\contentsline {appendix}{\chapternumberline {A}GOOD Logger}{100}{chapter.A}%
+\contentsline {appendix}{\chapternumberline {B}Temperature-controlled experiment box}{102}{chapter.B}%
+\contentsline {appendix}{\chapternumberline {C}Mechanical drawings}{106}{chapter.C}%
+\contentsline {appendix}{\chapternumberline {D}Network node ingredient lists}{110}{chapter.D}%
+\contentsline {appendix}{\chapternumberline {E}A Cavity-based Network Design}{112}{chapter.E}%
+\contentsline {section}{\numberline {E.1}Cavity Mirrors}{112}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Mode Matching}{113}{section.E.2}%
+\contentsline {section}{\numberline {E.3}Cavity opto-mechanics}{116}{section.E.3}%
+\contentsline {section}{\numberline {E.4}MInt Chip}{118}{section.E.4}%
+\contentsline {appendix}{\chapternumberline {F}Two-piezo filter cavity}{119}{chapter.F}%
+\contentsline {section}{\numberline {F.1}Optical cavities as spectral filters}{119}{section.F.1}%
+\contentsline {section}{\numberline {F.2}Design principle}{120}{section.F.2}%
+\contentsline {section}{\numberline {F.3}Cavity construction}{121}{section.F.3}%
+\contentsline {appendix}{\chapternumberline {G}Collective radiance in atomic arrays and volumes}{122}{chapter.G}%
+\contentsline {section}{\numberline {G.1}Hamiltonian for the single-excitation subspace}{123}{section.G.1}%
+\contentsline {section}{\numberline {G.2}Eigenmodes, decay, and emission patterns of 2D arrays}{124}{section.G.2}%
+\contentsline {section}{\numberline {G.3}Sensitivity to imperfections}{127}{section.G.3}%
+\contentsline {section}{\numberline {G.4}Eigenmodes of 3D arrays}{128}{section.G.4}%
+\contentsline {chapter}{Colophon}{131}{chapter*.87}%
+\contentsline {chapter}{References}{132}{section*.89}%
