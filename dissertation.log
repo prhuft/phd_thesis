@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.18)  24 OCT 2024 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.18)  24 OCT 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1347,40 +1347,46 @@ l.89 \end{umiabstract}
 
 ] [2
 
-] [3] [4]
+] [3]
+<Images/network_of_quantum_registers.pdf, id=1102, 897.52415pt x 320.32199pt>
+File: Images/network_of_quantum_registers.pdf Graphic file (type pdf)
+<use Images/network_of_quantum_registers.pdf>
+Package pdftex.def Info: Images/network_of_quantum_registers.pdf  used on input line 38.
+(pdftex.def)             Requested size: 387.00153pt x 138.1219pt.
+ [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 50.
+(hyperref)                removing `math shift' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 50.
+(hyperref)                removing `superscript' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 50.
+(hyperref)                removing `math shift' on input line 55.
 
-[5]
-<Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf, id=1123, 1534.74515pt x 566.93674pt>
+[5 <./Images/network_of_quantum_registers.pdf>]
+<Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf, id=1246, 1534.74515pt x 566.93674pt>
 File: Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf Graphic file (type pdf)
 <use Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf>
-Package pdftex.def Info: Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf  used on input line 66.
+Package pdftex.def Info: Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf  used on input line 71.
 (pdftex.def)             Requested size: 387.00153pt x 142.95358pt.
  [6] [7 <./Images/rb87_atomphoton_entanglement_and_photon_emission_pattern2.pdf>]
-<Images/entanglement_attempt_loop.pdf, id=1182, 405.90121pt x 217.26286pt>
+<Images/entanglement_attempt_loop.pdf, id=1305, 405.90121pt x 217.26286pt>
 File: Images/entanglement_attempt_loop.pdf Graphic file (type pdf)
 <use Images/entanglement_attempt_loop.pdf>
-Package pdftex.def Info: Images/entanglement_attempt_loop.pdf  used on input line 94.
+Package pdftex.def Info: Images/entanglement_attempt_loop.pdf  used on input line 99.
 (pdftex.def)             Requested size: 215.0023pt x 115.08244pt.
- [8 <./Images/entanglement_attempt_loop.pdf>] [9]
-Overfull \hbox (54.1822pt too wide) in paragraph at lines 114--129
+ [8] [9 <./Images/entanglement_attempt_loop.pdf>]
+Overfull \hbox (54.1822pt too wide) in paragraph at lines 119--134
  [][] 
  []
 
-<Images/covey_link_efficiency.pdf, id=1232, 194.08336pt x 128.95753pt>
+<Images/covey_link_efficiency.pdf, id=1356, 194.08336pt x 128.95753pt>
 File: Images/covey_link_efficiency.pdf Graphic file (type pdf)
 <use Images/covey_link_efficiency.pdf>
-Package pdftex.def Info: Images/covey_link_efficiency.pdf  used on input line 150.
+Package pdftex.def Info: Images/covey_link_efficiency.pdf  used on input line 155.
 (pdftex.def)             Requested size: 301.00192pt x 200.01984pt.
 [10] [11] [12 <./Images/covey_link_efficiency.pdf>] [13] [14]) [15]
 \openout2 = `Chapters/Ch_integrated_network_node.aux'.
@@ -1393,212 +1399,209 @@ Package pdftex.def Info: Images/covey_link_efficiency.pdf  used on input line 15
 ] [17
 
 ]
-<Images/optical_chip_schematic.pdf, id=1288, 446.51877pt x 396.3662pt>
+<Images/optical_chip_schematic.pdf, id=1418, 446.51877pt x 396.3662pt>
 File: Images/optical_chip_schematic.pdf Graphic file (type pdf)
 <use Images/optical_chip_schematic.pdf>
 Package pdftex.def Info: Images/optical_chip_schematic.pdf  used on input line 25.
 (pdftex.def)             Requested size: 193.50076pt x 171.76471pt.
-<Images/fig_coming_soon.png, id=1292, 496.10344pt x 304.63812pt>
-File: Images/fig_coming_soon.png Graphic file (type png)
-<use Images/fig_coming_soon.png>
-Package pdftex.def Info: Images/fig_coming_soon.png  used on input line 37.
-(pdftex.def)             Requested size: 496.10222pt x 304.63736pt.
-
-Overfull \hbox (66.0976pt too wide) in paragraph at lines 37--38
- [][] 
- []
-
-[18 <./Images/optical_chip_schematic.pdf>]
-<Images/differential_pumping.pdf, id=1330, 513.5889pt x 492.74982pt>
+<Images/chamber_is_open_and_shut.pdf, id=1421, 8404.00372pt x 3313.05086pt>
+File: Images/chamber_is_open_and_shut.pdf Graphic file (type pdf)
+<use Images/chamber_is_open_and_shut.pdf>
+Package pdftex.def Info: Images/chamber_is_open_and_shut.pdf  used on input line 36.
+(pdftex.def)             Requested size: 387.00153pt x 152.51846pt.
+ [18 <./Images/optical_chip_schematic.pdf>]
+<Images/differential_pumping.pdf, id=1460, 513.5889pt x 492.74982pt>
 File: Images/differential_pumping.pdf Graphic file (type pdf)
 <use Images/differential_pumping.pdf>
-Package pdftex.def Info: Images/differential_pumping.pdf  used on input line 46.
+Package pdftex.def Info: Images/differential_pumping.pdf  used on input line 45.
 (pdftex.def)             Requested size: 215.0023pt x 206.27682pt.
- [19 <./Images/fig_coming_soon.png>] [20 <./Images/differential_pumping.pdf>] [21] [22] [23]
+ [19 <./Images/chamber_is_open_and_shut.pdf>] [20 <./Images/differential_pumping.pdf>] [21] [22] [23]
 
-LaTeX Warning: Reference `fig:network_node_apparatus_schematic' on page 24 undefined on input line 80.
+LaTeX Warning: Reference `fig:network_node_apparatus_schematic' on page 24 undefined on input line 79.
 
 [24]
-<Images/MOT_and_GRIN_tubes.pdf, id=1373, 2124.14919pt x 1395.57298pt>
+<Images/MOT_and_GRIN_tubes.pdf, id=1515, 2124.14919pt x 1395.57298pt>
 File: Images/MOT_and_GRIN_tubes.pdf Graphic file (type pdf)
 <use Images/MOT_and_GRIN_tubes.pdf>
-Package pdftex.def Info: Images/MOT_and_GRIN_tubes.pdf  used on input line 88.
+Package pdftex.def Info: Images/MOT_and_GRIN_tubes.pdf  used on input line 87.
 (pdftex.def)             Requested size: 344.005pt x 226.00066pt.
- [25] [26 <./Images/MOT_and_GRIN_tubes.pdf>] [27]
-<Images/mirror_focus_fiber_scan.pdf, id=1451, 3390.88339pt x 1374.29683pt>
+ [25 <./Images/MOT_and_GRIN_tubes.pdf>] [26] [27]
+<Images/mirror_focus_fiber_scan.pdf, id=1593, 3390.88339pt x 1374.29683pt>
 File: Images/mirror_focus_fiber_scan.pdf Graphic file (type pdf)
 <use Images/mirror_focus_fiber_scan.pdf>
-Package pdftex.def Info: Images/mirror_focus_fiber_scan.pdf  used on input line 118.
+Package pdftex.def Info: Images/mirror_focus_fiber_scan.pdf  used on input line 117.
 (pdftex.def)             Requested size: 430.00462pt x 174.26114pt.
- [28] [29 <./Images/mirror_focus_fiber_scan.pdf>]
-<Images/fiber_scan_tranverse_slices.pdf, id=1534, 416.27318pt x 93.82732pt>
+ [28]
+<Images/fiber_scan_tranverse_slices.pdf, id=1603, 416.27318pt x 93.82732pt>
 File: Images/fiber_scan_tranverse_slices.pdf Graphic file (type pdf)
 <use Images/fiber_scan_tranverse_slices.pdf>
-Package pdftex.def Info: Images/fiber_scan_tranverse_slices.pdf  used on input line 129.
+Package pdftex.def Info: Images/fiber_scan_tranverse_slices.pdf  used on input line 128.
 (pdftex.def)             Requested size: 430.00462pt x 96.92667pt.
-<Images/fiberscan_852_780_xyz_fig.pdf, id=1536, 774.1852pt x 176.40709pt>
+ [29 <./Images/mirror_focus_fiber_scan.pdf>]
+<Images/fiberscan_852_780_xyz_fig.pdf, id=1678, 774.1852pt x 176.40709pt>
 File: Images/fiberscan_852_780_xyz_fig.pdf Graphic file (type pdf)
 <use Images/fiberscan_852_780_xyz_fig.pdf>
-Package pdftex.def Info: Images/fiberscan_852_780_xyz_fig.pdf  used on input line 138.
+Package pdftex.def Info: Images/fiberscan_852_780_xyz_fig.pdf  used on input line 137.
 (pdftex.def)             Requested size: 430.00462pt x 97.98245pt.
  [30 <./Images/fiber_scan_tranverse_slices.pdf>] [31 <./Images/fiberscan_852_780_xyz_fig.pdf>]
-<Images/beam_projection_imaging_schematic.pdf, id=1751, 4879.81737pt x 1295.8285pt>
+<Images/beam_projection_imaging_schematic.pdf, id=1893, 4879.81737pt x 1295.8285pt>
 File: Images/beam_projection_imaging_schematic.pdf Graphic file (type pdf)
 <use Images/beam_projection_imaging_schematic.pdf>
-Package pdftex.def Info: Images/beam_projection_imaging_schematic.pdf  used on input line 151.
+Package pdftex.def Info: Images/beam_projection_imaging_schematic.pdf  used on input line 150.
 (pdftex.def)             Requested size: 430.00462pt x 114.18748pt.
  [32 <./Images/beam_projection_imaging_schematic.pdf>] [33] [34] [35]
-<Images/transparency_sheet_beam_projections.pdf, id=1819, 768.3708pt x 720.47752pt>
+<Images/transparency_sheet_beam_projections.pdf, id=1961, 768.3708pt x 720.47752pt>
 File: Images/transparency_sheet_beam_projections.pdf Graphic file (type pdf)
 <use Images/transparency_sheet_beam_projections.pdf>
-Package pdftex.def Info: Images/transparency_sheet_beam_projections.pdf  used on input line 180.
+Package pdftex.def Info: Images/transparency_sheet_beam_projections.pdf  used on input line 179.
 (pdftex.def)             Requested size: 430.00462pt x 403.2118pt.
  [36] [37 <./Images/transparency_sheet_beam_projections.pdf>]
 
 pdfTeX warning: pdflatex (file ./Images/chamber_fiber_strain_relief.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/chamber_fiber_strain_relief.pdf, id=1917, 844.61635pt x 475.09671pt>
+<Images/chamber_fiber_strain_relief.pdf, id=2059, 844.61635pt x 475.09671pt>
 File: Images/chamber_fiber_strain_relief.pdf Graphic file (type pdf)
 <use Images/chamber_fiber_strain_relief.pdf>
-Package pdftex.def Info: Images/chamber_fiber_strain_relief.pdf  used on input line 194.
+Package pdftex.def Info: Images/chamber_fiber_strain_relief.pdf  used on input line 193.
 (pdftex.def)             Requested size: 301.00192pt x 169.31657pt.
 [38 <./Images/chamber_fiber_strain_relief.pdf>]
-<Images/chip_in_chamber_akbar.pdf, id=1927, 2035.605pt x 1263.97218pt>
+<Images/chip_in_chamber_akbar.pdf, id=2069, 2035.605pt x 1263.97218pt>
 File: Images/chip_in_chamber_akbar.pdf Graphic file (type pdf)
 <use Images/chip_in_chamber_akbar.pdf>
-Package pdftex.def Info: Images/chip_in_chamber_akbar.pdf  used on input line 205.
+Package pdftex.def Info: Images/chip_in_chamber_akbar.pdf  used on input line 204.
 (pdftex.def)             Requested size: 262.30307pt x 162.85637pt.
 
 
 pdfTeX warning: pdflatex (file ./Images/chip_in_chamber_with_gasket.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/chip_in_chamber_with_gasket.pdf, id=1928, 2073.7475pt x 2101.8525pt>
+<Images/chip_in_chamber_with_gasket.pdf, id=2070, 2073.7475pt x 2101.8525pt>
 File: Images/chip_in_chamber_with_gasket.pdf Graphic file (type pdf)
 <use Images/chip_in_chamber_with_gasket.pdf>
-Package pdftex.def Info: Images/chip_in_chamber_with_gasket.pdf  used on input line 209.
+Package pdftex.def Info: Images/chip_in_chamber_with_gasket.pdf  used on input line 208.
 (pdftex.def)             Requested size: 161.25172pt x 163.4371pt.
 [39 <./Images/chip_in_chamber_akbar.pdf> <./Images/chip_in_chamber_with_gasket.pdf>]
 
-LaTeX Warning: Reference `fig:fiber_scan_post_airbake' on page 40 undefined on input line 220.
+LaTeX Warning: Reference `fig:fiber_scan_post_airbake' on page 40 undefined on input line 219.
 
 [40]
-<Images/laser_frequencies.pdf, id=1957, 560.14366pt x 525.77484pt>
+<Images/laser_frequencies.pdf, id=2099, 560.14366pt x 525.77484pt>
 File: Images/laser_frequencies.pdf Graphic file (type pdf)
 <use Images/laser_frequencies.pdf>
-Package pdftex.def Info: Images/laser_frequencies.pdf  used on input line 230.
+Package pdftex.def Info: Images/laser_frequencies.pdf  used on input line 229.
 (pdftex.def)             Requested size: 387.00153pt x 363.26639pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41]
-<Images/quantum_network_lasers_schematic.png, id=1963, 937.977pt x 888.264pt>
+<Images/quantum_network_lasers_schematic.png, id=2105, 937.977pt x 888.264pt>
 File: Images/quantum_network_lasers_schematic.png Graphic file (type png)
 <use Images/quantum_network_lasers_schematic.png>
-Package pdftex.def Info: Images/quantum_network_lasers_schematic.png  used on input line 243.
+Package pdftex.def Info: Images/quantum_network_lasers_schematic.png  used on input line 242.
 (pdftex.def)             Requested size: 387.00153pt x 366.48119pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [42 <./Images/laser_frequencies.pdf>]
-Overfull \hbox (3.30284pt too wide) in paragraph at lines 252--253
+Overfull \hbox (3.30284pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 $ \OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = 1$ \T1/qpl/m/n/12 (-20) on the $\OML/cmm/m/it/12 D[]$ \T1/qpl/m/n/12 (-20) line is used for op-ti-cally pump-ing the atoms into $[]$.
  []
 
 [43 <./Images/quantum_network_lasers_schematic.png>]
 
 pdfTeX warning: pdflatex (file ./Images/node1_coils.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/node1_coils.pdf, id=2021, 646.81653pt x 596.82973pt>
+<Images/node1_coils.pdf, id=2163, 646.81653pt x 596.82973pt>
 File: Images/node1_coils.pdf Graphic file (type pdf)
 <use Images/node1_coils.pdf>
-Package pdftex.def Info: Images/node1_coils.pdf  used on input line 262.
+Package pdftex.def Info: Images/node1_coils.pdf  used on input line 261.
 (pdftex.def)             Requested size: 301.00192pt x 277.7324pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[44] [45 <./Images/node1_coils.pdf>]
-<Images/goofy_mot_beams.pdf, id=2036, 796.57861pt x 689.23311pt>
-File: Images/goofy_mot_beams.pdf Graphic file (type pdf)
-<use Images/goofy_mot_beams.pdf>
-Package pdftex.def Info: Images/goofy_mot_beams.pdf  used on input line 277.
-(pdftex.def)             Requested size: 215.0023pt x 186.0218pt.
- [46 <./Images/goofy_mot_beams.pdf>] [47]) [48]
+[44] [45 <./Images/node1_coils.pdf>]) [46]
 \openout2 = `Chapters/Ch_preparing_neutral_atom_qubits.aux'.
 
  (Chapters/Ch_preparing_neutral_atom_qubits.tex
-<Images/chamber_cross_section.pdf, id=2076, 658.71094pt x 542.77782pt>
+<Images/chamber_cross_section.pdf, id=2187, 658.71094pt x 542.77782pt>
 File: Images/chamber_cross_section.pdf Graphic file (type pdf)
 <use Images/chamber_cross_section.pdf>
 Package pdftex.def Info: Images/chamber_cross_section.pdf  used on input line 22.
 (pdftex.def)             Requested size: 387.00153pt x 318.89442pt.
-<Images/mot6_alignment_to_repump.pdf, id=2078, 998.9822pt x 499.11469pt>
+<Images/mot6_alignment_to_repump.pdf, id=2189, 998.9822pt x 499.11469pt>
 File: Images/mot6_alignment_to_repump.pdf Graphic file (type pdf)
 <use Images/mot6_alignment_to_repump.pdf>
 Package pdftex.def Info: Images/mot6_alignment_to_repump.pdf  used on input line 29.
 (pdftex.def)             Requested size: 387.00153pt x 193.35162pt.
-<Images/large_mot_and_thorcam_mot.pdf, id=2079, 4264.35738pt x 2058.37366pt>
+<Images/large_mot_and_thorcam_mot.pdf, id=2190, 4264.35738pt x 2058.37366pt>
 File: Images/large_mot_and_thorcam_mot.pdf Graphic file (type pdf)
 <use Images/large_mot_and_thorcam_mot.pdf>
 Package pdftex.def Info: Images/large_mot_and_thorcam_mot.pdf  used on input line 39.
 (pdftex.def)             Requested size: 387.00153pt x 186.78464pt.
- [49
+ [47
 
 
 
 
-] [50 <./Images/chamber_cross_section.pdf>] [51 <./Images/mot6_alignment_to_repump.pdf>]
-<Images/on_chip_mot_feedback.pdf, id=2112, 657.83922pt x 335.2525pt>
+] [48 <./Images/chamber_cross_section.pdf>] [49 <./Images/mot6_alignment_to_repump.pdf>]
+<Images/on_chip_mot_feedback.pdf, id=2224, 657.83922pt x 335.2525pt>
 File: Images/on_chip_mot_feedback.pdf Graphic file (type pdf)
 <use Images/on_chip_mot_feedback.pdf>
 Package pdftex.def Info: Images/on_chip_mot_feedback.pdf  used on input line 54.
 (pdftex.def)             Requested size: 387.00153pt x 197.22943pt.
- [52 <./Images/large_mot_and_thorcam_mot.pdf>] [53 <./Images/on_chip_mot_feedback.pdf>]
-<Images/mirror_fluorescence_and_chip_beams_yellow.pdf, id=2322, 355.18362pt x 346.89601pt>
+ [50 <./Images/large_mot_and_thorcam_mot.pdf>] [51 <./Images/on_chip_mot_feedback.pdf>]
+<Images/mirror_fluorescence_and_chip_beams_yellow.pdf, id=2434, 355.18362pt x 346.89601pt>
 File: Images/mirror_fluorescence_and_chip_beams_yellow.pdf Graphic file (type pdf)
 <use Images/mirror_fluorescence_and_chip_beams_yellow.pdf>
 Package pdftex.def Info: Images/mirror_fluorescence_and_chip_beams_yellow.pdf  used on input line 74.
 (pdftex.def)             Requested size: 215.0023pt x 209.99182pt.
-<Images/FORT_feedback.pdf, id=2324, 753.94pt x 113.384pt>
-File: Images/FORT_feedback.pdf Graphic file (type pdf)
-<use Images/FORT_feedback.pdf>
-Package pdftex.def Info: Images/FORT_feedback.pdf  used on input line 81.
-(pdftex.def)             Requested size: 387.00153pt x 58.2005pt.
- [54]
+ [52]
+<Images/fig_coming_soon.png, id=2441, 496.10344pt x 304.63812pt>
 File: Images/fig_coming_soon.png Graphic file (type png)
 <use Images/fig_coming_soon.png>
-Package pdftex.def Info: Images/fig_coming_soon.png  used on input line 95.
+Package pdftex.def Info: Images/fig_coming_soon.png  used on input line 97.
 (pdftex.def)             Requested size: 387.00153pt x 237.64465pt.
- [55 <./Images/mirror_fluorescence_and_chip_beams_yellow.pdf> <./Images/FORT_feedback.pdf>]
+ [53 <./Images/mirror_fluorescence_and_chip_beams_yellow.pdf>]
+<Images/FORT_feedback.pdf, id=2451, 922.1974pt x 304.13779pt>
 File: Images/FORT_feedback.pdf Graphic file (type pdf)
 <use Images/FORT_feedback.pdf>
 Package pdftex.def Info: Images/FORT_feedback.pdf  used on input line 106.
-(pdftex.def)             Requested size: 387.00153pt x 58.2005pt.
- [56]
-<Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf, id=2432, 715.47299pt x 281.40187pt>
+(pdftex.def)             Requested size: 387.00153pt x 127.63025pt.
+<Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf, id=2454, 715.47299pt x 281.40187pt>
 File: Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf Graphic file (type pdf)
 <use Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf>
 Package pdftex.def Info: Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf  used on input line 129.
 (pdftex.def)             Requested size: 387.00153pt x 152.20807pt.
- [57] [58 <./Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf>]
-<Images/network_trap_frequency_electronics.pdf, id=2469, 385.5476pt x 139.05954pt>
+ [54 <./Images/fig_coming_soon.png>] [55 <./Images/FORT_feedback.pdf>] [56 <./Images/2024-06-21_atom_loading_with_continuous_MOT_time_series_loading_comparison_aspect0.02.pdf>]
+<Images/network_trap_frequency_electronics.pdf, id=2597, 385.5476pt x 139.05954pt>
 File: Images/network_trap_frequency_electronics.pdf Graphic file (type pdf)
 <use Images/network_trap_frequency_electronics.pdf>
 Package pdftex.def Info: Images/network_trap_frequency_electronics.pdf  used on input line 154.
 (pdftex.def)             Requested size: 387.00153pt x 139.58752pt.
-<Images/network_trap_frequencies_20240627.pdf, id=2474, 559.34018pt x 426.09138pt>
+<Images/network_trap_frequencies_20240627.pdf, id=2602, 559.34018pt x 426.09138pt>
 File: Images/network_trap_frequencies_20240627.pdf Graphic file (type pdf)
 <use Images/network_trap_frequencies_20240627.pdf>
 Package pdftex.def Info: Images/network_trap_frequencies_20240627.pdf  used on input line 162.
 (pdftex.def)             Requested size: 387.00153pt x 294.81607pt.
- [59]
-<Images/atom_histogram_and_scatterplot.pdf, id=2482, 852.34322pt x 313.53964pt>
+ [57]
+<Images/atom_histogram_and_scatterplot.pdf, id=2610, 852.34322pt x 313.53964pt>
 File: Images/atom_histogram_and_scatterplot.pdf Graphic file (type pdf)
 <use Images/atom_histogram_and_scatterplot.pdf>
 Package pdftex.def Info: Images/atom_histogram_and_scatterplot.pdf  used on input line 181.
 (pdftex.def)             Requested size: 387.00153pt x 142.36412pt.
- [60 <./Images/network_trap_frequency_electronics.pdf>] [61 <./Images/network_trap_frequencies_20240627.pdf>] [62 <./Images/atom_histogram_and_scatterplot.pdf>]) [63]
+ [58 <./Images/network_trap_frequency_electronics.pdf>] [59 <./Images/network_trap_frequencies_20240627.pdf>] [60 <./Images/atom_histogram_and_scatterplot.pdf>]
+File: Images/fig_coming_soon.png Graphic file (type png)
+<use Images/fig_coming_soon.png>
+Package pdftex.def Info: Images/fig_coming_soon.png  used on input line 203.
+(pdftex.def)             Requested size: 387.00153pt x 237.64465pt.
+<Images/microwave_system_schematic.pdf, id=2831, 810.90446pt x 393.75818pt>
+File: Images/microwave_system_schematic.pdf Graphic file (type pdf)
+<use Images/microwave_system_schematic.pdf>
+Package pdftex.def Info: Images/microwave_system_schematic.pdf  used on input line 212.
+(pdftex.def)             Requested size: 387.00153pt x 187.92029pt.
+) [61]
+
+LaTeX Warning: Text page 62 contains only floats.
+
+[62 <./Images/microwave_system_schematic.pdf>]
 \openout2 = `Chapters/Ch_array_PRA.aux'.
 
- (Chapters/Ch_array_PRA.tex [64
+ (Chapters/Ch_array_PRA.tex [63
 
 
 
@@ -1613,17 +1616,17 @@ Package epstopdf Info: Source file: <Images/figure1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure1-eps-converted-to.pdf Images/figure1.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure1-eps-converted-to.pdf, id=2726, 1378.14874pt x 415.5525pt>
+<Images/figure1-eps-converted-to.pdf, id=2894, 1378.14874pt x 415.5525pt>
 File: Images/figure1-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure1-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure1-eps-converted-to.pdf  used on input line 182.
 (pdftex.def)             Requested size: 430.00462pt x 129.65692pt.
- [65] [66] [67 <./Images/figure1-eps-converted-to.pdf>] [68
+ [64] [65] [66 <./Images/figure1-eps-converted-to.pdf>] [67
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.220 
-      ] [69] [70] [71] [72] [73] [74]
+      ] [68] [69] [70] [71] [72] [73]
 Package epstopdf Info: Source file: <Images/figure2.eps>
 (epstopdf)                    date: 2024-05-18 19:35:10
 (epstopdf)                    size: 3502028 bytes
@@ -1633,7 +1636,7 @@ Package epstopdf Info: Source file: <Images/figure2.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure2-eps-converted-to.pdf Images/figure2.eps>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure2-eps-converted-to.pdf, id=2868, 1427.3325pt x 907.39pt>
+<Images/figure2-eps-converted-to.pdf, id=3036, 1427.3325pt x 907.39pt>
 File: Images/figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure2-eps-converted-to.pdf  used on input line 378.
@@ -1643,7 +1646,7 @@ Overfull \hbox (12.13379pt too wide) in paragraph at lines 383--384
 []\T1/qpl/m/n/12 (-20) For a Gaus-sian beam with waist pa-ram-e-ter $\OML/cmm/m/it/12 w[]$ \T1/qpl/m/n/12 (-20) we have $\OML/cmm/m/it/12 ^^O[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 =w[]; ^^O[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^U[]=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^Y[]w[]\OT1/cmr/m/n/12 ) =
  []
 
-[75] [76 <./Images/figure2-eps-converted-to.pdf>] [77]
+[74] [75 <./Images/figure2-eps-converted-to.pdf>] [76]
 Overfull \hbox (7.41069pt too wide) in paragraph at lines 407--426
  [][] 
  []
@@ -1657,12 +1660,12 @@ Package epstopdf Info: Source file: <Images/figure3.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure3-eps-converted-to.pdf Images/figure3.eps>
 (epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure3-eps-converted-to.pdf, id=2906, 2435.0975pt x 1077.02374pt>
+<Images/figure3-eps-converted-to.pdf, id=3074, 2435.0975pt x 1077.02374pt>
 File: Images/figure3-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure3-eps-converted-to.pdf  used on input line 434.
 (pdftex.def)             Requested size: 430.00462pt x 190.17468pt.
-[78 <./Images/figure3-eps-converted-to.pdf>] [79]
+[77 <./Images/figure3-eps-converted-to.pdf>] [78]
 Package epstopdf Info: Source file: <Images/figure4.eps>
 (epstopdf)                    date: 2024-05-18 19:35:10
 (epstopdf)                    size: 1003412 bytes
@@ -1672,13 +1675,13 @@ Package epstopdf Info: Source file: <Images/figure4.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure4-eps-converted-to.pdf Images/figure4.eps>
 (epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure4-eps-converted-to.pdf, id=2935, 1362.08875pt x 455.7025pt>
+<Images/figure4-eps-converted-to.pdf, id=3103, 1362.08875pt x 455.7025pt>
 File: Images/figure4-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure4-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure4-eps-converted-to.pdf  used on input line 446.
 (pdftex.def)             Requested size: 430.00462pt x 143.85994pt.
- [80 <./Images/figure4-eps-converted-to.pdf>] [81]
-<Images/coherent_trap_intensity_and_atoms.pdf, id=2970, 832.63538pt x 445.29153pt>
+ [79 <./Images/figure4-eps-converted-to.pdf>] [80]
+<Images/coherent_trap_intensity_and_atoms.pdf, id=3138, 832.63538pt x 445.29153pt>
 File: Images/coherent_trap_intensity_and_atoms.pdf Graphic file (type pdf)
 <use Images/coherent_trap_intensity_and_atoms.pdf>
 Package pdftex.def Info: Images/coherent_trap_intensity_and_atoms.pdf  used on input line 463.
@@ -1687,13 +1690,13 @@ Package pdftex.def Info: Images/coherent_trap_intensity_and_atoms.pdf  used on i
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82]
-<Images/coherent_trap_lifetime_and_resonances.pdf, id=2980, 725.71768pt x 269.2847pt>
+[81]
+<Images/coherent_trap_lifetime_and_resonances.pdf, id=3148, 725.71768pt x 269.2847pt>
 File: Images/coherent_trap_lifetime_and_resonances.pdf Graphic file (type pdf)
 <use Images/coherent_trap_lifetime_and_resonances.pdf>
 Package pdftex.def Info: Images/coherent_trap_lifetime_and_resonances.pdf  used on input line 473.
 (pdftex.def)             Requested size: 430.00462pt x 159.56279pt.
- [83 <./Images/coherent_trap_intensity_and_atoms.pdf>]
+ [82 <./Images/coherent_trap_intensity_and_atoms.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 502.
@@ -1711,12 +1714,12 @@ Package epstopdf Info: Source file: <Images/figure5.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure5-eps-converted-to.pdf Images/figure5.eps>
 (epstopdf)             \includegraphics on input line 507.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure5-eps-converted-to.pdf, id=3038, 446.66875pt x 415.5525pt>
+<Images/figure5-eps-converted-to.pdf, id=3206, 446.66875pt x 415.5525pt>
 File: Images/figure5-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure5-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure5-eps-converted-to.pdf  used on input line 507.
 (pdftex.def)             Requested size: 258.00539pt x 240.03778pt.
-[84 <./Images/coherent_trap_lifetime_and_resonances.pdf>] [85 <./Images/figure5-eps-converted-to.pdf>]
+[83 <./Images/coherent_trap_lifetime_and_resonances.pdf>] [84 <./Images/figure5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/figure6.eps>
 (epstopdf)                    date: 2024-05-18 19:35:10
 (epstopdf)                    size: 92493 bytes
@@ -1726,12 +1729,12 @@ Package epstopdf Info: Source file: <Images/figure6.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure6-eps-converted-to.pdf Images/figure6.eps>
 (epstopdf)             \includegraphics on input line 519.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure6-eps-converted-to.pdf, id=3142, 748.7975pt x 480.79625pt>
+<Images/figure6-eps-converted-to.pdf, id=3310, 748.7975pt x 480.79625pt>
 File: Images/figure6-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure6-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure6-eps-converted-to.pdf  used on input line 519.
 (pdftex.def)             Requested size: 258.00539pt x 165.66212pt.
- [86]
+ [85]
 Package epstopdf Info: Source file: <Images/figure7.eps>
 (epstopdf)                    date: 2024-05-18 19:35:10
 (epstopdf)                    size: 331722 bytes
@@ -1741,12 +1744,12 @@ Package epstopdf Info: Source file: <Images/figure7.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure7-eps-converted-to.pdf Images/figure7.eps>
 (epstopdf)             \includegraphics on input line 533.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure7-eps-converted-to.pdf, id=3150, 404.51125pt x 301.125pt>
+<Images/figure7-eps-converted-to.pdf, id=3318, 404.51125pt x 301.125pt>
 File: Images/figure7-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure7-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure7-eps-converted-to.pdf  used on input line 533.
 (pdftex.def)             Requested size: 258.00539pt x 192.06686pt.
- [87 <./Images/figure6-eps-converted-to.pdf>] [88 <./Images/figure7-eps-converted-to.pdf>] [89]
+ [86 <./Images/figure6-eps-converted-to.pdf>] [87 <./Images/figure7-eps-converted-to.pdf>] [88]
 Package epstopdf Info: Source file: <Images/figure8.eps>
 (epstopdf)                    date: 2024-05-18 19:35:10
 (epstopdf)                    size: 110309 bytes
@@ -1756,64 +1759,55 @@ Package epstopdf Info: Source file: <Images/figure8.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure8-eps-converted-to.pdf Images/figure8.eps>
 (epstopdf)             \includegraphics on input line 559.
 Package epstopdf Info: Output file is already uptodate.
-<Images/figure8-eps-converted-to.pdf, id=3187, 431.6125pt x 302.12875pt>
+<Images/figure8-eps-converted-to.pdf, id=3355, 431.6125pt x 302.12875pt>
 File: Images/figure8-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/figure8-eps-converted-to.pdf>
 Package pdftex.def Info: Images/figure8-eps-converted-to.pdf  used on input line 559.
 (pdftex.def)             Requested size: 258.00539pt x 180.61017pt.
- [90] [91 <./Images/figure8-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Images/figure9.eps>
-(epstopdf)                    date: 2024-05-18 19:35:10
-(epstopdf)                    size: 107387 bytes
-(epstopdf)             Output file: <Images/figure9-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-05-19 09:46:57
-(epstopdf)                    size: 37030 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images/figure9-eps-converted-to.pdf Images/figure9.eps>
-(epstopdf)             \includegraphics on input line 574.
-Package epstopdf Info: Output file is already uptodate.
-<Images/figure9-eps-converted-to.pdf, id=3207, 413.545pt x 261.97874pt>
-File: Images/figure9-eps-converted-to.pdf Graphic file (type pdf)
-<use Images/figure9-eps-converted-to.pdf>
-Package pdftex.def Info: Images/figure9-eps-converted-to.pdf  used on input line 574.
-(pdftex.def)             Requested size: 258.00539pt x 163.44849pt.
- [92 <./Images/figure9-eps-converted-to.pdf>]
-<Images/first_dual_species_trap_image.pdf, id=3222, 903.88895pt x 215.22954pt>
+ [89] [90 <./Images/figure8-eps-converted-to.pdf>]
+<Images/trap_array_frequencies_and_lifetimes.pdf, id=3375, 708.0503pt x 266.61914pt>
+File: Images/trap_array_frequencies_and_lifetimes.pdf Graphic file (type pdf)
+<use Images/trap_array_frequencies_and_lifetimes.pdf>
+Package pdftex.def Info: Images/trap_array_frequencies_and_lifetimes.pdf  used on input line 576.
+(pdftex.def)             Requested size: 387.00153pt x 145.72968pt.
+ [91] [92 <./Images/trap_array_frequencies_and_lifetimes.pdf>]
+<Images/first_dual_species_trap_image.pdf, id=3430, 903.88895pt x 215.22954pt>
 File: Images/first_dual_species_trap_image.pdf Graphic file (type pdf)
 <use Images/first_dual_species_trap_image.pdf>
-Package pdftex.def Info: Images/first_dual_species_trap_image.pdf  used on input line 591.
+Package pdftex.def Info: Images/first_dual_species_trap_image.pdf  used on input line 602.
 (pdftex.def)             Requested size: 430.00462pt x 102.38943pt.
- [93] [94 <./Images/first_dual_species_trap_image.pdf>] [95]
-<Images/CsMOT_loading_curves.pdf, id=3293, 409.55824pt x 264.50005pt>
+ [93 <./Images/first_dual_species_trap_image.pdf>] [94]
+<Images/CsMOT_loading_curves.pdf, id=3493, 409.55824pt x 264.50005pt>
 File: Images/CsMOT_loading_curves.pdf Graphic file (type pdf)
 <use Images/CsMOT_loading_curves.pdf>
-Package pdftex.def Info: Images/CsMOT_loading_curves.pdf  used on input line 627.
+Package pdftex.def Info: Images/CsMOT_loading_curves.pdf  used on input line 638.
 (pdftex.def)             Requested size: 258.00539pt x 166.63187pt.
- [96 <./Images/CsMOT_loading_curves.pdf>]) [97]
+) [95] [96 <./Images/CsMOT_loading_curves.pdf>]
 \openout2 = `backmatter/appendix_GOODlogger.aux'.
 
- (backmatter/appendix_GOODlogger.tex [98
+ (backmatter/appendix_GOODlogger.tex [97
 
 
 
 
 ]
-<Images/goodlogger_coil_jumps_20210213_14.pdf, id=3358, 405.79605pt x 333.16472pt>
+<Images/goodlogger_coil_jumps_20210213_14.pdf, id=3562, 405.79605pt x 333.16472pt>
 File: Images/goodlogger_coil_jumps_20210213_14.pdf Graphic file (type pdf)
 <use Images/goodlogger_coil_jumps_20210213_14.pdf>
 Package pdftex.def Info: Images/goodlogger_coil_jumps_20210213_14.pdf  used on input line 12.
 (pdftex.def)             Requested size: 387.00153pt x 317.74pt.
- [99
+ [98
 
-]) [100 <./Images/goodlogger_coil_jumps_20210213_14.pdf>]
+]) [99 <./Images/goodlogger_coil_jumps_20210213_14.pdf>]
 \openout2 = `backmatter/appendix_experiment_box.aux'.
 
  (backmatter/appendix_experiment_box.tex
-<Images/chiller_TEC_control_diagram.pdf, id=3376, 469.75504pt x 262.58101pt>
+<Images/chiller_TEC_control_diagram.pdf, id=3580, 469.75504pt x 262.58101pt>
 File: Images/chiller_TEC_control_diagram.pdf Graphic file (type pdf)
 <use Images/chiller_TEC_control_diagram.pdf>
 Package pdftex.def Info: Images/chiller_TEC_control_diagram.pdf  used on input line 9.
 (pdftex.def)             Requested size: 430.00462pt x 240.36342pt.
- [101
+ [100
 
 
 
@@ -1821,7 +1815,7 @@ Package pdftex.def Info: Images/chiller_TEC_control_diagram.pdf  used on input l
 ]
 
 pdfTeX warning: pdflatex (file ./Images/network_box_TEC_mount_sides.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/network_box_TEC_mount_sides.pdf, id=3385, 794.97pt x 614.295pt>
+<Images/network_box_TEC_mount_sides.pdf, id=3588, 794.97pt x 614.295pt>
 File: Images/network_box_TEC_mount_sides.pdf Graphic file (type pdf)
 <use Images/network_box_TEC_mount_sides.pdf>
 Package pdftex.def Info: Images/network_box_TEC_mount_sides.pdf  used on input line 20.
@@ -1829,15 +1823,15 @@ Package pdftex.def Info: Images/network_box_TEC_mount_sides.pdf  used on input l
 
 
 pdfTeX warning: pdflatex (file ./Images/network_box_TEC_mount_back.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/network_box_TEC_mount_back.pdf, id=3386, 794.97pt x 614.295pt>
+<Images/network_box_TEC_mount_back.pdf, id=3589, 794.97pt x 614.295pt>
 File: Images/network_box_TEC_mount_back.pdf Graphic file (type pdf)
 <use Images/network_box_TEC_mount_back.pdf>
 Package pdftex.def Info: Images/network_box_TEC_mount_back.pdf  used on input line 29.
 (pdftex.def)             Requested size: 556.47656pt x 430.01294pt.
-) [102 <./Images/chiller_TEC_control_diagram.pdf>] [103 <./Images/network_box_TEC_mount_sides.pdf>] [104 <./Images/network_box_TEC_mount_back.pdf>]
+) [101 <./Images/chiller_TEC_control_diagram.pdf>] [102 <./Images/network_box_TEC_mount_sides.pdf>] [103 <./Images/network_box_TEC_mount_back.pdf>]
 \openout2 = `backmatter/appendix_drawings.aux'.
 
- (backmatter/appendix_drawings.tex [105
+ (backmatter/appendix_drawings.tex [104
 
 
 
@@ -1845,7 +1839,7 @@ Package pdftex.def Info: Images/network_box_TEC_mount_back.pdf  used on input li
 ]
 
 pdfTeX warning: pdflatex (file ./Images/mdc_chamber_20220428.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/mdc_chamber_20220428.pdf, id=3422, 794.97pt x 614.295pt>
+<Images/mdc_chamber_20220428.pdf, id=3625, 794.97pt x 614.295pt>
 File: Images/mdc_chamber_20220428.pdf Graphic file (type pdf)
 <use Images/mdc_chamber_20220428.pdf>
 Package pdftex.def Info: Images/mdc_chamber_20220428.pdf  used on input line 13.
@@ -1853,7 +1847,7 @@ Package pdftex.def Info: Images/mdc_chamber_20220428.pdf  used on input line 13.
 
 
 pdfTeX warning: pdflatex (file ./Images/AQX Networking Box Frame LAYOUT.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/AQX Networking Box Frame LAYOUT.pdf, id=3423, 1228.59pt x 794.97pt>
+<Images/AQX Networking Box Frame LAYOUT.pdf, id=3626, 1228.59pt x 794.97pt>
 File: Images/AQX Networking Box Frame LAYOUT.pdf Graphic file (type pdf)
 <use Images/AQX Networking Box Frame LAYOUT.pdf>
 Package pdftex.def Info: Images/AQX Networking Box Frame LAYOUT.pdf  used on input line 22.
@@ -1861,170 +1855,170 @@ Package pdftex.def Info: Images/AQX Networking Box Frame LAYOUT.pdf  used on inp
 
 
 pdfTeX warning: pdflatex (file ./Images/nipro_parabolic_mirror_drawing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/nipro_parabolic_mirror_drawing.pdf, id=3424, 794.97pt x 614.295pt>
+<Images/nipro_parabolic_mirror_drawing.pdf, id=3627, 794.97pt x 614.295pt>
 File: Images/nipro_parabolic_mirror_drawing.pdf Graphic file (type pdf)
 <use Images/nipro_parabolic_mirror_drawing.pdf>
 Package pdftex.def Info: Images/nipro_parabolic_mirror_drawing.pdf  used on input line 38.
 (pdftex.def)             Requested size: 556.47656pt x 430.01294pt.
-) [106 <./Images/mdc_chamber_20220428.pdf>] [107 <./Images/AQX Networking Box Frame LAYOUT.pdf, page is rotated 270 degrees>] [108 <./Images/nipro_parabolic_mirror_drawing.pdf>]
+) [105 <./Images/mdc_chamber_20220428.pdf>] [106 <./Images/AQX Networking Box Frame LAYOUT.pdf, page is rotated 270 degrees>] [107 <./Images/nipro_parabolic_mirror_drawing.pdf>]
 \openout2 = `backmatter/appendix_ingredients.aux'.
 
- (backmatter/appendix_ingredients.tex [109
+ (backmatter/appendix_ingredients.tex [108
 
 
 
 
 ]
-<Images/optical_chip_parts_mirror_version_20230316.pdf, id=3471, 963.6pt x 542.025pt>
+<Images/optical_chip_parts_mirror_version_20230316.pdf, id=3674, 963.6pt x 542.025pt>
 File: Images/optical_chip_parts_mirror_version_20230316.pdf Graphic file (type pdf)
 <use Images/optical_chip_parts_mirror_version_20230316.pdf>
 Package pdftex.def Info: Images/optical_chip_parts_mirror_version_20230316.pdf  used on input line 15.
 (pdftex.def)             Requested size: 556.47656pt x 313.0266pt.
-) [110 <./Images/optical_chip_parts_mirror_version_20230316.pdf>]
+) [109 <./Images/optical_chip_parts_mirror_version_20230316.pdf>]
 \openout2 = `backmatter/appendix_cavity_node.aux'.
 
  (backmatter/appendix_cavity_node.tex
-<Images/cavity_mirror_substrate.pdf, id=3497, 600.71295pt x 193.44269pt>
+<Images/cavity_mirror_substrate.pdf, id=3700, 600.71295pt x 193.44269pt>
 File: Images/cavity_mirror_substrate.pdf Graphic file (type pdf)
 <use Images/cavity_mirror_substrate.pdf>
 Package pdftex.def Info: Images/cavity_mirror_substrate.pdf  used on input line 12.
 (pdftex.def)             Requested size: 387.00153pt x 124.6264pt.
- [111
+ [110
 
 
 
 
 ]
-<Images/mode_matching_mirror_approximation.pdf, id=3505, 542.81886pt x 188.41264pt>
+<Images/mode_matching_mirror_approximation.pdf, id=3708, 542.81886pt x 188.41264pt>
 File: Images/mode_matching_mirror_approximation.pdf Graphic file (type pdf)
 <use Images/mode_matching_mirror_approximation.pdf>
 Package pdftex.def Info: Images/mode_matching_mirror_approximation.pdf  used on input line 25.
 (pdftex.def)             Requested size: 387.00153pt x 134.32877pt.
- [112 <./Images/cavity_mirror_substrate.pdf>] [113 <./Images/mode_matching_mirror_approximation.pdf>] [114]
-<Images/zemax_cavity_design.pdf, id=3579, 541.39189pt x 223.37297pt>
+ [111 <./Images/cavity_mirror_substrate.pdf>] [112 <./Images/mode_matching_mirror_approximation.pdf>] [113]
+<Images/zemax_cavity_design.pdf, id=3781, 541.39189pt x 223.37297pt>
 File: Images/zemax_cavity_design.pdf Graphic file (type pdf)
 <use Images/zemax_cavity_design.pdf>
 Package pdftex.def Info: Images/zemax_cavity_design.pdf  used on input line 70.
 (pdftex.def)             Requested size: 387.00153pt x 159.67636pt.
- [115 <./Images/zemax_cavity_design.pdf>]
-<Images/mode_matching_housings.pdf, id=3638, 754.30956pt x 317.28575pt>
+ [114 <./Images/zemax_cavity_design.pdf>]
+<Images/mode_matching_housings.pdf, id=3841, 754.30956pt x 317.28575pt>
 File: Images/mode_matching_housings.pdf Graphic file (type pdf)
 <use Images/mode_matching_housings.pdf>
 Package pdftex.def Info: Images/mode_matching_housings.pdf  used on input line 81.
 (pdftex.def)             Requested size: 387.00153pt x 162.7867pt.
-<Images/cavitybridge.pdf, id=3642, 1218.80344pt x 569.12625pt>
+<Images/cavitybridge.pdf, id=3845, 1218.80344pt x 569.12625pt>
 File: Images/cavitybridge.pdf Graphic file (type pdf)
 <use Images/cavitybridge.pdf>
 Package pdftex.def Info: Images/cavitybridge.pdf  used on input line 89.
 (pdftex.def)             Requested size: 193.50076pt x 90.34996pt.
- [116 <./Images/mode_matching_housings.pdf>]) [117 <./Images/cavitybridge.pdf>]
+ [115 <./Images/mode_matching_housings.pdf>]) [116 <./Images/cavitybridge.pdf>]
 \openout2 = `backmatter/appendix_2pac.aux'.
 
- (backmatter/appendix_2pac.tex [118
+ (backmatter/appendix_2pac.tex [117
 
 
 
 
-] [119]
-<Images/two_piezo_stack_assembly.pdf, id=3717, 12141.36098pt x 4047.12pt>
+] [118]
+<Images/two_piezo_stack_assembly.pdf, id=3920, 12141.36098pt x 4047.12pt>
 File: Images/two_piezo_stack_assembly.pdf Graphic file (type pdf)
 <use Images/two_piezo_stack_assembly.pdf>
 Package pdftex.def Info: Images/two_piezo_stack_assembly.pdf  used on input line 35.
 (pdftex.def)             Requested size: 387.00153pt x 128.94235pt.
-) [120 <./Images/two_piezo_stack_assembly.pdf>]
+) [119 <./Images/two_piezo_stack_assembly.pdf>]
 \openout2 = `backmatter/appendix_collective_atomic_radiance.aux'.
 
  (backmatter/appendix_collective_atomic_radiance.tex
-<Images/Dicke_neutron_decay.pdf, id=3747, 562.58043pt x 244.7816pt>
+<Images/Dicke_neutron_decay.pdf, id=3949, 562.58043pt x 244.7816pt>
 File: Images/Dicke_neutron_decay.pdf Graphic file (type pdf)
 <use Images/Dicke_neutron_decay.pdf>
 Package pdftex.def Info: Images/Dicke_neutron_decay.pdf  used on input line 8.
 (pdftex.def)             Requested size: 387.00153pt x 168.38777pt.
- [121
+ [120
 
 
 
 
  <./Images/Dicke_neutron_decay.pdf>]
-<Images/atomgrid.pdf, id=3788, 332.69019pt x 235.9749pt>
+<Images/atomgrid.pdf, id=3991, 332.69019pt x 235.9749pt>
 File: Images/atomgrid.pdf Graphic file (type pdf)
 <use Images/atomgrid.pdf>
 Package pdftex.def Info: Images/atomgrid.pdf  used on input line 21.
 (pdftex.def)             Requested size: 193.50076pt x 137.24721pt.
- [122 <./Images/atomgrid.pdf>]
-<Images/symm_anti_symm_modes.pdf, id=3824, 607.991pt x 288.31459pt>
+ [121 <./Images/atomgrid.pdf>]
+<Images/symm_anti_symm_modes.pdf, id=4027, 607.991pt x 288.31459pt>
 File: Images/symm_anti_symm_modes.pdf Graphic file (type pdf)
 <use Images/symm_anti_symm_modes.pdf>
 Package pdftex.def Info: Images/symm_anti_symm_modes.pdf  used on input line 53.
 (pdftex.def)             Requested size: 387.00153pt x 183.52205pt.
- [123]
-<Images/collective_linewidths_2d.pdf, id=3833, 864.98051pt x 237.1354pt>
+ [122]
+<Images/collective_linewidths_2d.pdf, id=4037, 864.98051pt x 237.1354pt>
 File: Images/collective_linewidths_2d.pdf Graphic file (type pdf)
 <use Images/collective_linewidths_2d.pdf>
 Package pdftex.def Info: Images/collective_linewidths_2d.pdf  used on input line 62.
 (pdftex.def)             Requested size: 387.00153pt x 106.0948pt.
- [124 <./Images/symm_anti_symm_modes.pdf>]
-<Images/collective_decay_composition.pdf, id=3860, 837.75117pt x 263.82565pt>
+ [123 <./Images/symm_anti_symm_modes.pdf>]
+<Images/collective_decay_composition.pdf, id=4064, 837.75117pt x 263.82565pt>
 File: Images/collective_decay_composition.pdf Graphic file (type pdf)
 <use Images/collective_decay_composition.pdf>
 Package pdftex.def Info: Images/collective_decay_composition.pdf  used on input line 72.
 (pdftex.def)             Requested size: 387.00153pt x 121.87654pt.
-<Images/collective_emission_patterns.pdf, id=3862, 564.60938pt x 371.88937pt>
+<Images/collective_emission_patterns.pdf, id=4066, 564.60938pt x 371.88937pt>
 File: Images/collective_emission_patterns.pdf Graphic file (type pdf)
 <use Images/collective_emission_patterns.pdf>
 Package pdftex.def Info: Images/collective_emission_patterns.pdf  used on input line 80.
 (pdftex.def)             Requested size: 387.00153pt x 254.90724pt.
- [125 <./Images/collective_linewidths_2d.pdf> <./Images/collective_decay_composition.pdf
+ [124 <./Images/collective_linewidths_2d.pdf> <./Images/collective_decay_composition.pdf
 
 pdfTeX warning: pdflatex (file ./Images/collective_decay_composition.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Images/superradiance_vs_atom_spread.pdf, id=3938, 413.29407pt x 267.2447pt>
+<Images/superradiance_vs_atom_spread.pdf, id=4142, 413.29407pt x 267.2447pt>
 File: Images/superradiance_vs_atom_spread.pdf Graphic file (type pdf)
 <use Images/superradiance_vs_atom_spread.pdf>
 Package pdftex.def Info: Images/superradiance_vs_atom_spread.pdf  used on input line 91.
 (pdftex.def)             Requested size: 193.50076pt x 125.12384pt.
- [126 <./Images/collective_emission_patterns.pdf>]
-<Images/superradiance_vs_array_efficiency.pdf, id=3979, 846.16125pt x 274.28479pt>
+ [125 <./Images/collective_emission_patterns.pdf>]
+<Images/superradiance_vs_array_efficiency.pdf, id=4182, 846.16125pt x 274.28479pt>
 File: Images/superradiance_vs_array_efficiency.pdf Graphic file (type pdf)
 <use Images/superradiance_vs_array_efficiency.pdf>
 Package pdftex.def Info: Images/superradiance_vs_array_efficiency.pdf  used on input line 100.
 (pdftex.def)             Requested size: 387.00153pt x 125.44429pt.
-<Images/collective_radiance_in_volumetric_arrays.pdf, id=3982, 631.09384pt x 279.29283pt>
+<Images/collective_radiance_in_volumetric_arrays.pdf, id=4185, 631.09384pt x 279.29283pt>
 File: Images/collective_radiance_in_volumetric_arrays.pdf Graphic file (type pdf)
 <use Images/collective_radiance_in_volumetric_arrays.pdf>
 Package pdftex.def Info: Images/collective_radiance_in_volumetric_arrays.pdf  used on input line 109.
 (pdftex.def)             Requested size: 387.00153pt x 171.27611pt.
- [127 <./Images/superradiance_vs_atom_spread.pdf>] [128 <./Images/superradiance_vs_array_efficiency.pdf> <./Images/collective_radiance_in_volumetric_arrays.pdf
+ [126 <./Images/superradiance_vs_atom_spread.pdf>] [127 <./Images/superradiance_vs_array_efficiency.pdf> <./Images/collective_radiance_in_volumetric_arrays.pdf
 
 pdfTeX warning: pdflatex (file ./Images/collective_radiance_in_volumetric_arrays.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) [129]
-pdfTeX warning (ext4): destination with the same identifier (name{page.129}) has been already used, duplicate ignored
+>]) [128]
+pdfTeX warning (ext4): destination with the same identifier (name{page.128}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.84 \begin{colophon}
-                      [129
+                      [128
 
 
-] (backmatter/colophon.tex) [130
+] (backmatter/colophon.tex) [129
 
 ]
 Overfull \hbox (11.10736pt too wide) in paragraph at lines 95--95
 []\T1/qpl/m/n/12 (-20) Sebastian Philipp Neu-mann, Alexan-der Buch-ner, Lukas Bulla, Mar-tin Bohmann,
  []
 
-[131
+[130
 
 ]
 Overfull \hbox (11.55415pt too wide) in paragraph at lines 95--95
 \T1/qpl/m/n/12 (-20) tures''. In: \T1/qpl/m/it/12 (-20) Phys. Rev. Ap-plied \T1/qpl/m/n/12 (-20) 16 (2021), p. 034013. \T1/qpl/m/sc/12 (-20) doi\T1/qpl/m/n/12 (-20) : [][]$\T1/cmtt/m/n/12 10 . 1103 / PhysRevApplied .
  []
 
-[132] [133] [134]
+[131] [132] [133]
 Overfull \hbox (7.12456pt too wide) in paragraph at lines 95--95
 \T1/qpl/m/n/12 (-20) sin-gle atom imag-ing in op-ti-cal lat-tice ar-rays''. In: \T1/qpl/m/it/12 (-20) arXiv preprint arXiv:2404.09978
  []
 
-
+[134]
 Overfull \hbox (0.33664pt too wide) in paragraph at lines 95--95
 []\T1/qpl/m/n/12 (-20) Chun Kit Lam, Stephan Maka, David Nadlinger, Chris Bal-lance, and Sébastien
  []
@@ -2034,12 +2028,12 @@ Overfull \hbox (8.51955pt too wide) in paragraph at lines 95--95
 []\T1/qpl/m/n/12 (-20) D. Stu-art and A. Kuhn. ``Single-atom trap-ping and trans-port in DMD-controlled
  []
 
-[136] [137]
+[136]
 Overfull \hbox (0.5813pt too wide) in paragraph at lines 95--95
 \T1/qpl/m/n/12 (-20) ``Time averaging of multimode optical fiber output for a magneto-optical trap''.
  []
 
-[138] [139] [140]
+[137] [138] [139] [140]
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
 
@@ -2062,7 +2056,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: FD2A0F81DE27A5C4552E5BDF9B241B8F;17947.
+(rerunfilecheck)             Checksum: 00C72B5B85C739F6C9ADBEEB53080232;17611.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                dissertation
@@ -2073,17 +2067,17 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31300 strings out of 474369
- 561043 string characters out of 5740514
- 1980754 words of memory out of 5000000
- 52494 multiletter control sequences out of 15000+600000
- 644736 words of font info for 239 fonts, out of 8000000 for 9000
+ 31321 strings out of 474369
+ 562527 string characters out of 5740514
+ 1981754 words of memory out of 5000000
+ 52517 multiletter control sequences out of 15000+600000
+ 644882 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,18n,93p,2635b,1813s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\prest\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/prest/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on dissertation.pdf (166 pages, 20792307 bytes).
+Output written on dissertation.pdf (166 pages, 23259319 bytes).
 PDF statistics:
- 4464 PDF objects out of 5155 (max. 8388607)
- 490 named destinations out of 1000 (max. 500000)
- 48678 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 4671 PDF objects out of 5155 (max. 8388607)
+ 486 named destinations out of 1000 (max. 500000)
+ 48672 words of extra memory for PDF output out of 51595 (max. 10000000)
 

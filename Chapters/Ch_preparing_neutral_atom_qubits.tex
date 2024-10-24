@@ -76,17 +76,19 @@ The far-off resonant trap (FORT) used for trapping single atoms is formed by foc
     \label{fig:parabolicfluorescence}
 \end{figure}
 For consistency in single atom trapping and the experiments to be described later, it is important to stabilize both the power and polarization of the light. Power stability is important to minimize DC drift of the AC Stark shift experienced by the atomic states, for example between $F=1$ and $F=2$ in the ground state during microwave rotations. Maintaining a high degree of linear polarization is typically is necessary for achieving effective polarization gradient cooling (PGC), which can be hindered by the presence of a non-zero vector Stark shift introduced by non-zero ellipticity of the polarization\cite{chin2017polarization}.
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Images/FORT_feedback.pdf}
-    \caption{Schematic of the polarization for the on-chip
-    of the 852 nm FORT light. DC power stabilization of the FORT is accomplished by measuring light scattered off surfaces in the chamber with an avalanche photodetector (not shown).}
-    \label{fig:fort_feedback}
-\end{figure}
+% \begin{figure}[!ht]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{Images/FORT_feedback.pdf}
+%     \caption{Schematic of the polarization for the on-chip
+%     of the 852 nm FORT light. DC power stabilization of the FORT is accomplished by measuring light scattered off surfaces in the chamber with an avalanche photodetector (not shown).}
+%     \label{fig:fort_feedback}
+% \end{figure}
 
-?? \textbf{section needs to be reworked}
+% ?? \textbf{section needs to be reworked}
 
-Stabilization of the polarization of the FORT is accomplished by the feedback loop shown in Fig. (\ref{fig:fort_feedback}). Because the FORT power is launched into the same SM fiber which carries out 780 nm photons emitted by trapped atoms, it is not possible to simply set a fixed polarization state before the fiber. For this reason, there is a hole bored through the parabolic mirror and a linear polarizer(Skight Optics) mounted behind the mirror, which allows for optimizing the linearity of the polarization by monitoring light coupled out of the vacuum with a MM fiber. The power out of the MM fiber, measured with a photodetector (TTI), can be maximized by adjusting a quarter- and half-waveplate mounted in motorized stages (Thorlabs K10CR1). The optimization algorithm used and results will be discussed in Sec. \ref{sec:FORTpolarizationOptimization}
+Because the FORT power is launched into the same SM fiber which carries out 780 nm photons emitted by trapped atoms, it is not possible to simply set a fixed polarization state before the fiber. For this reason, there is a hole bored through the parabolic mirror and a linear polarizer (Skight Optics) mounted behind the mirror, which allows for optimizing the linearity of the polarization by monitoring light coupled out of the vacuum with a MM fiber. The power out of the MM fiber, measured with a photodetector (TTI), can be maximized by adjusting a quarter- and half-waveplate mounted in motorized stages (Thorlabs K10CR1). The polarizer transmission is typically observed to drift by not more than a couple of percent over the course of a day, so for now the polarization is not actively stabilized. We maximize the polarizer transmission "by hand" as needed by controlling the motorized waveplate mounts upstream of the SM fiber.
+
+% The optimization algorithm used and results will be discussed in Sec. \ref{sec:FORTpolarizationOptimization}
 
 \subsection{FORT power stabilization}
 
@@ -97,15 +99,13 @@ Stabilization of the polarization of the FORT is accomplished by the feedback lo
     \label{fig:FORTAPDpolarizationtest}
 \end{figure}
 
-Stabilizing the optical power of the FORT is done by measuring light scattered off of surfaces in the chamber, primarily the parabolic mirror tube, and feeding back to the FORT AOM as described in Sec. \ref{sec:fiber_AOM_power_stabilization}. A Thorlabs APD430A with an asphere and 780 nm bandpass is mounted outside of the chamber's upper window, positioned for maximum signal from the scattered FORT light. SNR around 50 is typical for the science phase setpoint, and higher than this for the loading setpoint. Because the polarization is not stabilized as often as the power due to the associated cost to the experiment cycle rate, it was necessary to verify that the amount of scattering at the APD did not depend strongly on the polarization of the light.
-
-?? Show the measurements of the Raman light while the waveplates are being rotated
+Stabilizing the optical power of the FORT is done by measuring light scattered off of surfaces in the chamber, primarily the parabolic mirror tube, and feeding back to the FORT AOM as described in Sec. \ref{sec:fiber_AOM_power_stabilization}. A Thorlabs APD430A with an asphere and 780 nm bandpass is mounted outside of the chamber's upper window, positioned for maximum signal from the scattered FORT light. SNR around 50 is typical for the science phase setpoint, and higher than this for the loading setpoint. Because the polarization is not stabilized as often as the power due to the associated cost to the experiment cycle rate, it was necessary to verify that the amount of scattering at the APD did not depend strongly on the polarization of the light. By programmatically rotating the motorized waveplates in the FORT path upstream of the SM fiber, we can maximize and minimize the transmission through the polarizer after the parabolic mirror, and compare with the scattering signal seen by the APD. For redundancy the scattering is also monitored with an EMCCD (Andor Luca). The results of these measurements are shown in Fig. \ref{fig:FORTfeedback}
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Images/FORT_feedback.pdf}
-    \caption{Photon count rate of the scattered Raman light at 780 nm from the 852 nm fORT light in the single mode fiber, measured over ?? hours.}
-    \label{fig:FORTraman}
+    \caption{The feedback scheme for FORT dc intensity stabilization, shown schematically in (a). The inset (b) shows scattering from the FORT light on the Macor mirror tube in the chamber as viewed with an EMCCD. (c) Analysis of the extent to which the scattering monitored with the APD, which is used for dc stabilization of the FORT power, is dependent on polarization. The color of the data corresponds to the detectors outlined in the same color in (a). See text for details.}
+    \label{fig:FORTfeedback}
 \end{figure}
 
 the FORT light causes enough Raman scattering in the SM fiber at 780 nm, which can not be filtered out of from the light emitted by trapped atoms, and hence shows up during single atom readout
@@ -114,9 +114,9 @@ The standard deviation of the Raman light from the SM fiber implies stability of
 
 % The astute reader will have noticed that the photodetector's measurement of the FORT power can not distinguish between power and polarization drift, such that the relative rates of polarization and power drifts must be ascertained another way. Fortunately, the FORT light causes enough Raman scattering in the SM fiber at 780 nm, which can not be filtered out of from the light emitted by trapped atoms, and hence shows up during single atom readout, discussed later. When the polarization drifts during experiments, step (1) of the feedback will increase the optical power to bring the measured signal after the polarizer to the setpoint, thus increasing the light at the atoms beyond the intended set point. When this happens, the mean background during atom readout increases, and this can be monitored over many atom readouts in order to extract both the magnitude and rate of polarization drift. See Sec. \ref{sec:single_atom_readout} for relevant data.
 
-?? say something about the estimated Raman rate here? maybe just the measured rate
+% ?? say something about the estimated Raman rate here? maybe just the measured rate
 
-\subsection{FORT polarization optimization}\label{sec:FORTpolarizationOptimization}
+% \subsection{FORT polarization optimization}\label{sec:FORTpolarizationOptimization}
 
 \subsection{Single atom loading in steady-state MOT}
 % Scanning the shim fields, monitoring SPCM counts to see atom-loading with
@@ -189,14 +189,27 @@ The presence of atoms in the second readout is used as the primary method of ans
 The single atom experiment described above provides the basic framework for most of the experiments described in this thesis. As such, any timing limitations intrinsic to this framework will affect the cycle rate we achieve. The dominant offender is the MOT loading phase, which typically takes 500 ms, depending on the pressure of background atoms in the chamber. Coming in second place is DC feedback to the MOT and FORT power to the atoms, as described in Sec. \ref{sec:fiber_AOM_power_stabilization}, which takes $\sim~100$ ms. Lastly, the two atom readouts take $\sim~10$ ms each. Enhancing cycle time is best achieved by atom reuse, so that we amortize the cost of loading the MOT over many experiments per loading event. This is of high importance for fast entanglement attempt rates (see Sec. \ref{sec:entanglementrate}).
 
 \section{Qubit state preparation}
-The communication qubit state must be initialized for attempting
-atom-photon entanglement generation.
 
 \subsection{Optical pumping and microwave rotations}
-D1 line pumping, D2 line repump. can have schematic of the pumping
-levels here. 
+The communication qubit state must be initialized into $\ket{F=1,m_F=0}$ for attempting
+atom-photon entanglement generation. For optical pumping into this target state, we drive the $D_1$ transition $F=1 \leftrightarrow F'=1$ with linearly polarized light, fow which the $m_F=0$ to $m_F'=0$ transition is dark. We typically apply a bias field of a few G parallel to the polarization of the light, which coincides with the axis of the parabolic mirror used for photon collection. To avoid worrying about Stark shifts from the FORT, the optical pumping and FORT light are chopped on and off out of phase so that we only address the bare atomic states. 
 
-pumping verified with microwave rotations
+Optical pumping fidelity is verified by driving the ground state clock transition $\ket{F=1,m_F=0} \leftrightarrow \ket{F=2,m_F=0}$ with microwaves delivered with an external horn, where full population transfer would indicate unity pumping fidelity. A typical microwave Rabi oscillation is shown in \ref{fig:microwave_oscillation}. The observed Rabi oscillation is generally around 30 kHz, which is the correct order of magnitude expected given approximately 3 W microwave power emitted by the horn\cite{kwon2019rydberg}.
 
+%% ?? how much pumping power and pumping time?
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/fig_coming_soon.png}
+    \caption{?? put a bad microwave oscillation here}
+    \label{fig:microwave_oscillation}
+\end{figure}
 
+The microwave system, based on an RF generator (Valon) has been adapted from the one used in \cite{Young2022thesis,kwon2019rydberg}, with minor modifications. The system, along with an RF line for use in the tomography of the atomic state, is shown in Fig. \ref{fig:microwave_system}.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/microwave_system_schematic.pdf}
+    \caption{The microwave system used in the quantum network experiment and a (not yet implemented) RF line and coil planned to be used for two-photon rotations in the computational basis used for atom state tomography, as shown in the inset level diagram.}
+    \label{fig:microwave_system}
+\end{figure}

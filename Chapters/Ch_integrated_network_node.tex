@@ -3,7 +3,7 @@
 % the hierarchy is 
 % chapter,section,subsection,etc
 
-An outstanding technical challenge for cold atom technologies, including but not limited to quantum networks and processors, is reducing the footprint of these often space-consuming apparatuses. Building more compact cold atom science platforms is of both academic and potential commercial interest, and our implementation is one of several demonstrated approaches to date (?? CITE some of the on-chip stuff, think Aidan Arnold, also CAL. See what has been shared in Kats slack). The approach we present here makes use of relatively small bulk optics which are pre-aligned and placed in the UHV chamber and connected to by fiber optic feedthroughs, making for a plug-and-play quantum testbed. The design and construction procedure for our apparatus is outlined in the remainder of this chapter.
+An outstanding technical challenge for cold atom technologies, including but not limited to quantum networks and processors, is reducing the footprint of these often space-consuming apparatuses. Building more compact cold atom science platforms is of both academic and potential commercial interest, and our implementation is one of several demonstrations to date. These include 3D printed optomechanics and vacuum chambers\cite{madkhaly2021performance}, laser beam delivery with photonic integrated circuits\cite{isichenko2023photonic}, and fiber-coupled vacuum chambers with grating-based MOTs\cite{lee2022compact}. The approach we present here makes use of relatively small bulk optics which are pre-aligned and placed in the UHV chamber and connected to by fiber optic feedthroughs, making for a plug-and-play quantum testbed. The design and construction procedure for our apparatus is outlined in the remainder of this chapter.
 
 \section{Quantum Network Node Design}
 \subsection{On-chip optical architecture}
@@ -30,16 +30,15 @@ The in-vacuum optics are installed on a custom substrate  machined out of Macor.
 \subsection{Vacuum system design}
 %An illustrative cross-section of the quantum network node UHV system is shown in Fig. \ref{fig:vacuum_cross_section}. 
 
-The vacuum system consists of a custom science chamber in which the optics live, a valve and bellows to store an atomic ampule, two ion pumps (Edwards 10S TiTan), and valves for pumping down the system. A SOLIDWORKS model is shown in Fig. \ref{fig:vacuum_chamber_model}
-
+The vacuum system consists of a custom science chamber in which the optics live, a valve and bellows to store an atomic ampule, two ion pumps (Edwards 10S TiTan), and valves for pumping down the system. 
 \begin{figure}
     \centering
-    \includegraphics{Images/fig_coming_soon.png}
-    \caption{Caption coming soon}
-    \label{fig:vacuum_chamber_model}
+    \includegraphics[width=0.9\textwidth]{Images/chamber_is_open_and_shut.pdf}
+    \caption{The custom two piece 6" flange-like vacuum chamber for one of the quantum network nodes. a) The brain and spinal cord of the quantum node being strung through its head (optical chip, fibers, and bottom of the chamber, respectively). Note the Kimball Physics Groover Grabbers and copper shims used for mounting the so-called optical chip. b) The optical chip in the chamber with the top window attached.}
+    \label{fig:vacuum_chamber_imgs}
 \end{figure}
 
-The custom stainless steel chamber (MDC Precision) which houses the optical chip is modeled in the fashion of a pair of 6" Conflat flanges, furnished with fused silica view ports on each side for external optical access. The view ports are AR coated on both sides for 400-1100 nm and the thickness of each was chosen so as to cancel optical aberrations when used with existing custom objective lenses (JenOptik) used in our group. The Macor chip holding the optics mounts into the chamber with the help of two Kimball Physics Groove Grabbers (6", Reverse) which mount to the inner wall of the lower half of the science chamber. The chip is situated such that the plane defined by the axes of the optical beams on the chip, and hence the region where an atom will be trapped, is equidistant from each window. See the mechanical drawing in Appendix \ref{ch:mech_drawings} for the full dimensions of the science chamber.
+The custom stainless steel chamber (MDC Precision) which houses the optical chip is modeled in the fashion of a pair of 6" Conflat flanges, furnished with fused silica view ports on each side for external optical access (Fig. \ref{fig:vacuum_chamber_imgs}). The view ports are AR coated on both sides for 400-1100 nm and the thickness of each was chosen so as to cancel optical aberrations when used with existing custom objective lenses (JenOptik) used in our group. The Macor chip holding the optics mounts into the chamber with the help of two Kimball Physics Groove Grabbers (6", Reverse) which mount to the inner wall of the lower half of the science chamber. The chip is situated such that the plane defined by the axes of the optical beams on the chip, and hence the region where an atom will be trapped, is equidistant from each window. See the mechanical drawing in Appendix \ref{ch:mech_drawings} for the full dimensions of the science chamber.
 
 \begin{figure}
     \centering
@@ -249,7 +248,7 @@ The cooling, MOT repump, and OP repump are delivered to the science chamber's fi
 
 \subsection{D1 Line optical pumping}
 
-A 795 nm DFB laser (EYP-DFB-0795-00080-1500-TOC03-0005) resonant with $F=1 \leftrightarrow F'=1$ on the $D_1$ line is used for optically pumping the atoms into $\ket{F=1, m=0}$. This light shares a path to the atoms with the excitation light, where two AOMs are used for switching between two opposite directions (GRIN 1 and GRIN 2 paths in the chamber). This choice was made  because alternating between the two paths during optical pumping can reduce photo-scatter induced heating \cite{su2024fast}.
+A 795 nm DFB laser (EYP-DFB-0795-00080-1500-TOC03-0005) resonant with $F=1 \leftrightarrow F'=1$ on the $D_1$ line is used for optically pumping the atoms into $\ket{F=1, m=0}$. The laser is locked on the $F=1 \leftrightarrow F'=2$ $D_1$ transition with frequency modulation (FM) saturated absorption spectroscopy and frequency shifted with AOMs. This light shares a path to the atoms with the excitation light, where two AOMs are used for switching between two opposite directions (GRIN 1 and GRIN 2 paths in the chamber). This choice was made  because alternating between the two paths during optical pumping can reduce photo-scatter induced heating \cite{su2024fast}.
 
 \subsection{FORT}
 The dipole trap or far-off resonant trap (FORT), which we use interchangeably, is formed with a high-power 852 nm distributed Bragg reflector (DBR) laser (Photodigm 852.347DBRH-IBragg). The FORT light is coupled into the SM fiber interface to the science chamber after being combined with the 780 nm photon path using a dichroic beamsplitter (AVR Optics LPD02-785RU-25).  
@@ -266,36 +265,36 @@ The coils for creating the quadrupole field for forming a MOT as well as shim fi
 
 More details on preliminary coil testing will be given in the upcoming PhD thesis by Eunji Oh. Details on the design of the home-built coil drivers might be given in the upcoming PhD thesis by Jacob Scott. 
 
-\section{MOT Geometry}
+% \section{MOT Geometry}
 
-?? section needs fixing, particularly the equations. otherwise, omit entirely
+% ?? section needs fixing, particularly the equations. otherwise, omit entirely
 
-The MOT geometry in the parabolic mirror version of the network node has no pairs of orthogonal beams among the three pairs, which is a result of the requirements imposed on the geometry by the in-vacuum optics and external objective lenses (see Fig. (\ref{fig:chamber_cross_section})). MOTs have been demonstrated with angles much less than 90 degrees between beam pairs (\cite{Garcia2013}), but the relative optical intensity in different pairs must be tuned to give comparable force gradients in each Cartesian direction.
+% The MOT geometry in the parabolic mirror version of the network node has no pairs of orthogonal beams among the three pairs, which is a result of the requirements imposed on the geometry by the in-vacuum optics and external objective lenses (see Fig. (\ref{fig:chamber_cross_section})). MOTs have been demonstrated with angles much less than 90 degrees between beam pairs (\cite{Garcia2013}), but the relative optical intensity in different pairs must be tuned to give comparable force gradients in each Cartesian direction.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.5\textwidth]{Images/goofy_mot_beams.pdf}
-    \caption{Non-orthogonal pairs of MOT beams. The cylindrical shell is intended to invoke a notion of where our vacuum chamber would be with respect to this set of beams. ?? double check this graphic}
-    \label{fig:goofy_mot_beams}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{Images/goofy_mot_beams.pdf}
+%     \caption{Non-orthogonal pairs of MOT beams. The cylindrical shell is intended to invoke a notion of where our vacuum chamber would be with respect to this set of beams. ?? double check this graphic}
+%     \label{fig:goofy_mot_beams}
+% \end{figure}
 
-Consider a MOT with beam pairs X, Y, and Z, where X and Y lie in the $x-y$ plane and Z lies in the $y-z$ plane, with angles $\theta_x$ between the X/Y beams and the $x$ axis, and $\theta_z$ between Z and the $z$ axis, as in Fig. \ref{fig:goofy_mot_beams}. The two-level atom radiative force including the detuning of the light $\delta$ and Zeeman shift $\Delta_B$ due to a magnetic field due to a pair of beams $i$ is, in a low-intensity approximation, given by
-\begin{equation}
-    F_i(\mathbf{r}) = \frac{s_i}{1 + s_i + 4(\delta + \Delta_B(\mathbf{r}) \hat{B}(\mathbf{r})\cdot\hat{e}_i)^2/\gamma^2} - \frac{s_i}{1 + s_i + 4(\delta - \Delta_B(\mathbf{r}) \hat{B}(\mathbf{r})\cdot\hat{e}_i)^2/\gamma^2}
-\end{equation}\label{eq:force_i}
-where $\hat{B}\cdot\hat{e}_i$ gives the dot product of the magnetic field at a particular point in space with the propagation axis of the beams and $s_i$ is the saturation parameter, assumed to be equal for both beams in the pair. For the beams denoted X,Y, and Z as defined, the forces along Cartesian directions $\hat{x},\hat{y}$ and $\hat{z}$ are
-\begin{align}
-    F_x &= F_X \cos{\theta_x} + F_Y \cos{\theta_x} \\
-    F_y &= F_X \sin{\theta_x} + F_Y \sin{\theta_x} + F_Y \sin{\theta_z} \\
-    F_x &= F_Z \cos{\theta_z}
-\end{align}
-where the $F_i$ on the RHS are given by Eq. (\ref{eq:force_i}). In order to find beam intensities which give a symmetric MOT in $\hat{x}$ and $\hat{y}$, we can find solve the system 
-\begin{align}
-    \nabla F_y &= \nabla F_x \\
-    \nabla F_x &= -\kappa \nabla F_z \\
-    s_x &= s_y
-\end{align}
-for $s_y, s_z$, and $\kappa$, evaluated at $x=y=z=0$, where $\kappa$ is a positive-valued constant. We can approximate the magnetic quadrupole field by $B = B_0 (-x/2 \hat{x} -y/2 \hat{y} + z\hat{z})$
+% Consider a MOT with beam pairs X, Y, and Z, where X and Y lie in the $x-y$ plane and Z lies in the $y-z$ plane, with angles $\theta_x$ between the X/Y beams and the $x$ axis, and $\theta_z$ between Z and the $z$ axis, as in Fig. \ref{fig:goofy_mot_beams}. The two-level atom radiative force including the detuning of the light $\delta$ and Zeeman shift $\Delta_B$ due to a magnetic field due to a pair of beams $i$ is, in a low-intensity approximation, given by
+% \begin{equation}
+%     F_i(\mathbf{r}) = \frac{s_i}{1 + s_i + 4(\delta + \Delta_B(\mathbf{r}) \hat{B}(\mathbf{r})\cdot\hat{e}_i)^2/\gamma^2} - \frac{s_i}{1 + s_i + 4(\delta - \Delta_B(\mathbf{r}) \hat{B}(\mathbf{r})\cdot\hat{e}_i)^2/\gamma^2}
+% \end{equation}\label{eq:force_i}
+% where $\hat{B}\cdot\hat{e}_i$ gives the dot product of the magnetic field at a particular point in space with the propagation axis of the beams and $s_i$ is the saturation parameter, assumed to be equal for both beams in the pair. For the beams denoted X,Y, and Z as defined, the forces along Cartesian directions $\hat{x},\hat{y}$ and $\hat{z}$ are
+% \begin{align}
+%     F_x &= F_X \cos{\theta_x} + F_Y \cos{\theta_x} \\
+%     F_y &= F_X \sin{\theta_x} + F_Y \sin{\theta_x} + F_Y \sin{\theta_z} \\
+%     F_x &= F_Z \cos{\theta_z}
+% \end{align}
+% where the $F_i$ on the RHS are given by Eq. (\ref{eq:force_i}). In order to find beam intensities which give a symmetric MOT in $\hat{x}$ and $\hat{y}$, we can find solve the system 
+% \begin{align}
+%     \nabla F_y &= \nabla F_x \\
+%     \nabla F_x &= -\kappa \nabla F_z \\
+%     s_x &= s_y
+% \end{align}
+% for $s_y, s_z$, and $\kappa$, evaluated at $x=y=z=0$, where $\kappa$ is a positive-valued constant. We can approximate the magnetic quadrupole field by $B = B_0 (-x/2 \hat{x} -y/2 \hat{y} + z\hat{z})$
 
 % If the radiative force including the spatially-dependent Zeeman shifts along the $i^{\textrm th}$ beam pair is $f_i$, we can compute the forces $F_{i}$ along each Cartesian axis $i$: ?? not correct
 

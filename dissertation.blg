@@ -49,7 +49,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 16480 items.
+Reallocating 'field_info' (item size: 4) to 16900 items.
 Database file #1: dissertation-blx.bib
 Database file #2: bib/atomic.bib
 Database file #3: bib/optics.bib
@@ -60,44 +60,44 @@ Database file #7: bib/huft_bib.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 82 entries,
+You've used 85 entries,
             6402 wiz_defined-function locations,
-            1810 strings with 43288 characters,
-and the built_in function-call counts, 1347819 in all, are:
-= -- 123410
-> -- 14183
-< -- 3177
-+ -- 46741
-- -- 6867
-* -- 104289
-:= -- 173771
+            1821 strings with 44079 characters,
+and the built_in function-call counts, 1399457 in all, are:
+= -- 128196
+> -- 14781
+< -- 3385
++ -- 48474
+- -- 7121
+* -- 108097
+:= -- 180068
 add.period$ -- 0
-call.type$ -- 82
-change.case$ -- 1144
+call.type$ -- 85
+change.case$ -- 1282
 chr.to.int$ -- 67
-cite$ -- 162
-duplicate$ -- 137488
-empty$ -- 106012
-format.name$ -- 9989
-if$ -- 261111
+cite$ -- 168
+duplicate$ -- 142681
+empty$ -- 110044
+format.name$ -- 10347
+if$ -- 271364
 int.to.chr$ -- 0
-int.to.str$ -- 201
+int.to.str$ -- 211
 missing$ -- 0
-newline$ -- 4769
-num.names$ -- 3709
-pop$ -- 35951
+newline$ -- 4943
+num.names$ -- 3947
+pop$ -- 37258
 preamble$ -- 1
-purify$ -- 2318
+purify$ -- 2497
 quote$ -- 0
-skip$ -- 18119
+skip$ -- 19039
 stack$ -- 0
-substring$ -- 245002
-swap$ -- 17779
-text.length$ -- 3177
-text.prefix$ -- 16
+substring$ -- 254272
+swap$ -- 18526
+text.length$ -- 3295
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 2772
+type$ -- 2873
 warning$ -- 0
-while$ -- 20823
+while$ -- 21556
 width$ -- 0
-write$ -- 4688
+write$ -- 4859

@@ -2290,6 +2290,204 @@
     \field{year}{1989}
   \endentry
 
+  \entry{madkhaly2021performance}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=MS}{%
+         family={Madkhaly},
+         familyi={M\bibinitperiod},
+         given={SH},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Coles},
+         familyi={C\bibinitperiod},
+         given={LA},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Morley},
+         familyi={M\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=CC}{%
+         family={Colquhoun},
+         familyi={C\bibinitperiod},
+         given={CD},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fromhold},
+         familyi={F\bibinitperiod},
+         given={TM},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=HL}{%
+         family={Hackerm{\"u}ller},
+         familyi={H\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSCLMCCCFTCNHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{030326}
+    \field{title}{Performance-optimized components for quantum technologies via
+  additive manufacturing}
+    \field{volume}{2}
+    \field{journaltitle}{PRX Quantum}
+    \field{year}{2021}
+  \endentry
+
+  \entry{isichenko2023photonic}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=IA}{%
+         family={Isichenko},
+         familyi={I\bibinitperiod},
+         given={Andrei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Chauhan},
+         familyi={C\bibinitperiod},
+         given={Nitesh},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bose},
+         familyi={B\bibinitperiod},
+         given={Debapam},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jiawei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KPD}{%
+         family={Kunz},
+         familyi={K\bibinitperiod},
+         given={Paul\bibnamedelima D},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BDJ}{%
+         family={Blumenthal},
+         familyi={B\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{IA+1}
+    \strng{fullhash}{IACNBDWJKPDBDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{3080}
+    \field{title}{Photonic integrated beam delivery for a rubidium 3D
+  magneto-optical trap}
+    \field{volume}{14}
+    \field{journaltitle}{Nature communications}
+    \field{year}{2023}
+  \endentry
+
+  \entry{lee2022compact}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=LJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jongmin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Christensen},
+         familyi={C\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RRR}{%
+         family={Rosenthal},
+         familyi={R\bibinitperiod},
+         given={Randy\bibnamedelima R},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Ison},
+         familyi={I\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GDP}{%
+         family={Gillund},
+         familyi={G\bibinitperiod},
+         given={Daniel\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bossert},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FKH}{%
+         family={Fuerschbach},
+         familyi={F\bibinitperiod},
+         given={Kyle\bibnamedelima H},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kindel},
+         familyi={K\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FPS}{%
+         family={Finnegan},
+         familyi={F\bibinitperiod},
+         given={Patrick\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJDRCJRRRIAGDPBDFKHKWFPS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{5131}
+    \field{title}{A compact cold-atom interferometer with a high data-rate
+  grating magneto-optical trap and a photonic-integrated-circuit-compatible
+  laser system}
+    \field{volume}{13}
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2022}
+  \endentry
+
   \entry{Marquardt1999}{article}{}{}
     \name{author}{1}{}{%
       {{hash=MN}{%
@@ -2609,51 +2807,6 @@
     \field{title}{Fast single atom imaging in optical lattice arrays}
     \field{journaltitle}{arXiv preprint arXiv:2404.09978}
     \field{year}{2024}
-  \endentry
-
-  \entry{Garcia2013}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=GS}{%
-         family={Garcia},
-         familyi={G\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MD}{%
-         family={Maxein},
-         familyi={M\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=HL}{%
-         family={Hohmann},
-         familyi={H\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=RJ}{%
-         family={Reichel},
-         familyi={R\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=LR}{%
-         family={Long},
-         familyi={L\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GS+1}
-    \strng{fullhash}{GSMDHLRJLR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{eid}{114103}
-    \field{title}{Fiber-pigtailed optical tweezer for single-atom trapping and
-  single-photon generation}
-    \field{volume}{103}
-    \field{journaltitle}{Appl. Phys. Lett.}
-    \field{year}{2013}
   \endentry
 
   \entry{lam2021combining}{article}{}{}
@@ -3010,6 +3163,53 @@
     \field{journaltitle}{Scientific Reports}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{kwon2019rydberg}{thesis}{}{}
+    \name{author}{1}{}{%
+      {{hash=KM}{%
+         family={Kwon},
+         familyi={K\bibinitperiod},
+         given={Minho},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KM1}
+    \strng{fullhash}{KM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Rydberg-mediated Atomic Ensemble Entanglement and Hyperfine
+  Qubit Detection}
+    \list{institution}{1}{%
+      {University of Wisconsin - Madison}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Young2022thesis}{thesis}{}{}
+    \name{author}{1}{}{%
+      {{hash=YC}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YC1}
+    \strng{fullhash}{YC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Progress towards Building a Quantum Network Node using
+  Near-Concentric Resonant Cavities}
+    \list{location}{1}{%
+      {Madison, WI}%
+    }
+    \list{institution}{1}{%
+      {University of Wisconsin - Madison}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2022}
   \endentry
 
   \entry{PHuft2022}{article}{}{}
@@ -4505,28 +4705,6 @@
     \field{year}{2023}
   \endentry
 
-  \entry{kwon2019rydberg}{thesis}{}{}
-    \name{author}{1}{}{%
-      {{hash=KM}{%
-         family={Kwon},
-         familyi={K\bibinitperiod},
-         given={Minho},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KM1}
-    \strng{fullhash}{KM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Rydberg-mediated Atomic Ensemble Entanglement and Hyperfine
-  Qubit Detection}
-    \list{institution}{1}{%
-      {University of Wisconsin - Madison}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2019}
-  \endentry
-
   \entry{garcia2020overlapping}{article}{}{}
     \name{author}{4}{}{%
       {{hash=GS}{%
@@ -4557,7 +4735,7 @@
     \list{publisher}{1}{%
       {Optica Publishing Group}%
     }
-    \strng{namehash}{GS+2}
+    \strng{namehash}{GS+1}
     \strng{fullhash}{GSFFRJLR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
