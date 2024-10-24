@@ -1,5 +1,0 @@
-qubits
-Fowles
-unpolarized
-prefactor
-Raman
