@@ -224,13 +224,37 @@ Following the final optical alignment check, the science chamber was sealed and 
 
 \section{Lasers}
 
+Lasers of several frequencies are needed in the quantum network experiment for cooling, trapping, imaging, exciting, and pumping atoms into various internal electronic states. These different frequencies are shown in Fig. \ref{fig:laser_frequencies}. The lasers used supply power to both network nodes, i.e., each individual laser head has its power split between both nodes. This has the advantage that any intensity noise present directly on the laser output is common mode and could be mitigating with only one feedback loop upstream of the split. It also allows the possibility of reducing the number of AOMs required to the pulse the lasers once the two nodes are operating together as a network rather than as indepenedent systems. A schematic with all of the quantum network lasers is given in Fig. \ref{fig:all_lasers_schematic}. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/laser_frequencies.pdf}
+    \caption{The different laser frequencies used in the quantum network experiment and their purposes.}
+    \label{fig:laser_frequencies}
+\end{figure}
+
 \subsection{D2 Line cooling, excitation, and repumpers}
-The D2 line DFB lasers... The cooling light, MOT repumper, and excitation repumper are all coupled into the six beam paths that are used for forming a MOT. After the light comes from the laser setup by a single fiber to our temperature stabilized experiment box (Appendix \ref{ch:experiment_box}), the light is broken out with free space optics to go to six different fiber AOMs (CSRayzer AOM-780-78.5M-05-S-C1-PM780-1-1-1-FA). These AOMs are used as optical switches and amplitude adjusters, as well as for creating small frequency differences between the MOT beams to mitigate standing waves and lattices that would otherwise form from the interference of the coherent light.
-\subsection{D1 Line Optical pumping}
-The D1 line DFB...
-\subsection{Dipole trap}
-The 852 DFB...
-\section{Magnetic field coils and control}
+
+There are four laser frequencies with a nominal wavelength of 780 nm which we generate using only two distributed-feedback (DFB) laser sources (Eagleyard DFB Eagleyard EYP-DFB-0780-00080-1500-TOC03-0005) plus AOMs for frequency shifting. The two lasers supply two frequencies each, divided up by whether the relevant frequency is closer to resonance on the $D_2$ line with $F=1$ or $F=2$ in the ground state. In particular, one laser is locked on $F=1 \leftrightarrow F'=0$ and used to generate the excitation light (for generating single photons from the atoms) and the MOT repumper, while the other is locked on $F=2 \leftrightarrow F'=3$ and used for cooling/imaging and optical pumping (OP) repumper. Both lasers are locked using homebuilt saturated absorbtion setups in modulation transfer spectroscopy (MTS) configuration and homebuilt lockboxes.
+
+The power of the individual DFB laser heads is insufficient for supplying power to both nodes, so each seeds a tapered amplifier (TA) for additional power. The cooling laser uses a homebuilt TA setup (with Eagleyard EYP-TPA-0780-03000-4006-CMT04-0000 TA chip) based on the design in \cite{kangara2014design}. The excitation laser seeds a commercially available fiber-coupled TA solution (MOGLabs MOAL with 785TA3000D TA chip) which provides over 1 W after the output fiber.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/quantum_network_lasers_schematic.png}
+    \caption{Schematic of the laser systems and routing for the quantum network experiment. Each laser head supplies both nodes, but only the common paths and those for one node (arbitrarily chosen to represent Node 1). The Node 2 setups are mostly duplicates of those for Node 1 except for some minor component-level differences.}
+    \label{fig:all_lasers_schematic}
+\end{figure}
+
+The cooling, MOT repump, and OP repump are delivered to the science chamber's fibers through a fiber breakout made from PM fiber splitters (Thorlabs) linked with with PM butt connectors. Fiber-connectorized AOMs (CSRayzer AOM-780-78.5M-05-S-C1-PM780-1-1-1-FA) are used for introducing small frequency differences between MOT beams for standing wave mitigation, as well as switching of the MOT beam paths and performing dc intensity stabilization (see Sec. \ref{sec:fiber_AOM_power_stabilization}). 
+
+\subsection{D1 Line optical pumping}
+
+A 795 nm DFB laser (EYP-DFB-0795-00080-1500-TOC03-0005) resonant with $F=1 \leftrightarrow F'=1$ on the $D_1$ line is used for optically pumping the atoms into $\ket{F=1, m=0}$. This light shares a path to the atoms with the excitation light, where two AOMs are used for switching between two opposite directions (GRIN 1 and GRIN 2 paths in the chamber). This choice was made  because alternating between the two paths during optical pumping can reduce photo-scatter induced heating \cite{su2024fast}.
+
+\subsection{FORT}
+The dipole trap or far-off resonant trap (FORT), which we use interchangeably, is formed with a high-power 852 nm distributed Bragg reflector (DBR) laser (Photodigm 852.347DBRH-IBragg). The FORT light is coupled into the SM fiber interface to the science chamber after being combined with the 780 nm photon path using a dichroic beamsplitter (AVR Optics LPD02-785RU-25).  
+
+\section{Magnetic field coils}
 The coils for creating the quadrupole field for forming a MOT as well as shim fields and a bias field for entanglement experiments were made from Kapton-coated wire wrapped around custom aluminum holders designed by the author (Fig. \ref{fig:node1_coils.pdf}). The holders consist of six c-shaped sections, one for each coil which bolt to each other to form a frame which clamps to the chamber. The c-shape, rather than a closed loop, was chosen to mitigate the formation of eddy currents. The author notes that in retrospect, a non-metallic material or a variant of this design with fewer sharp edges would be preferable in a future build, as multiple shorts in the wires were found after wiring, apparently caused by the Kapton coating being worn off in certain places during the winding process. The version of coil holders used in the second node still suffered from this problem, despite design changes to reduce the number of edges encountered by the wires during winding.
 
 \begin{figure}[h!]
@@ -243,6 +267,8 @@ The coils for creating the quadrupole field for forming a MOT as well as shim fi
 More details on preliminary coil testing will be given in the upcoming PhD thesis by Eunji Oh. Details on the design of the home-built coil drivers might be given in the upcoming PhD thesis by Jacob Scott. 
 
 \section{MOT Geometry}
+
+?? section needs fixing, particularly the equations. otherwise, omit entirely
 
 The MOT geometry in the parabolic mirror version of the network node has no pairs of orthogonal beams among the three pairs, which is a result of the requirements imposed on the geometry by the in-vacuum optics and external objective lenses (see Fig. (\ref{fig:chamber_cross_section})). MOTs have been demonstrated with angles much less than 90 degrees between beam pairs (\cite{Garcia2013}), but the relative optical intensity in different pairs must be tuned to give comparable force gradients in each Cartesian direction.
 
@@ -281,8 +307,8 @@ for $s_y, s_z$, and $\kappa$, evaluated at $x=y=z=0$, where $\kappa$ is a positi
 
 \section{Experiment Control}
 
-Quantum networking experiments with cold atoms require control hardware including analog and digital inputs and outputs, each with a high degree of timing precision. It is also important to be able to write flexible control programs which streamline experiment runs, including data acquisition and analysis. For these purposes, we use the Sinara hardware suite and ARTIQ control software.   
+Quantum networking experiments with cold atoms require control hardware including analog and digital inputs and outputs, each with a high degree of timing precision. It is also important to be able to write flexible control programs which streamline experiment runs, including data acquisition and analysis. For these purposes, we use the Sinara hardware suite and ARTIQ control software. Our Sinara hardware consists of analog and digital I/O and DDS channels controlled by a Zynq-based FPGA controller, the Kasli-SoC\cite{lam2021combining}. The benefit of FPGA-controlled hardware, as opposed to looping a predetermined pulse sequence, is the ability to have experiments with conditional logic which determines how the experiment progresses. This is particularly important for the probabilistic entanglement sequence described in Sec. \ref{sec:reg}, in which a detection event heralding remote entanglement can be used to break out of the entanglement attempt loop to use the entanglement as a resource. Breaking out of the loop is also a necessity for verifying the state with quantum state tomography and for reloading atoms when one is lost.
 
-say stuff about timing (?? Rb 10 MHz reference, include a timing diagram), what controls what, etc
+For one-node operation described in this thesis, each network node is independently controlled by its own Sinara hardware and ARTIQ instance. However, for two-node operation, the FPGA controllers (Kasli-SoC) can be operated in a satellite configuration in which one operates as a master while the other(s) follows and the two share a clock \cite{Stephenson2020}. 
 
-% tentative next chapter: Lasers
+% could make a figure showing how many channels are controlling each thing?

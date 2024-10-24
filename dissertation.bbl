@@ -2464,6 +2464,153 @@
     \field{year}{1998}
   \endentry
 
+  \entry{kangara2014design}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=KJC}{%
+         family={Kangara},
+         familyi={K\bibinitperiod},
+         given={Jayampathi\bibnamedelima CB},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HAJ}{%
+         family={Hachtel},
+         familyi={H\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GMC}{%
+         family={Gillette},
+         familyi={G\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BJT}{%
+         family={Barkeloo},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima T},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=CER}{%
+         family={Clements},
+         familyi={C\bibinitperiod},
+         given={Ethan\bibnamedelima R},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bali},
+         familyi={B\bibinitperiod},
+         given={Samir},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=UBE}{%
+         family={Unks},
+         familyi={U\bibinitperiod},
+         given={Brett\bibnamedelima E},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PNA}{%
+         family={Proite},
+         familyi={P\bibinitperiod},
+         given={Nicholas\bibnamedelima A},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=YDD}{%
+         family={Yavuz},
+         familyi={Y\bibinitperiod},
+         given={Deniz\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MPJ}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Paul\bibnamedelima J},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AIP Publishing}%
+    }
+    \strng{namehash}{KJC+1}
+    \strng{fullhash}{KJCHAJGMCBJTCERBSUBEPNAYDDMPJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{805\bibrangedash 817}
+    \field{title}{Design and construction of cost-effective tapered amplifier
+  systems for laser cooling and trapping experiments}
+    \field{volume}{82}
+    \field{journaltitle}{American Journal of Physics}
+    \field{year}{2014}
+  \endentry
+
+  \entry{su2024fast}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=SL}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Douglas},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Szurek},
+         familyi={S\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HAH}{%
+         family={Hebert},
+         familyi={H\bibinitperiod},
+         given={Anne\bibnamedelima H},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Krahn},
+         familyi={K\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Groth},
+         familyi={G\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PGA}{%
+         family={Phelps},
+         familyi={P\bibinitperiod},
+         given={Gregory\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={Markovic},
+         familyi={M\bibinitperiod},
+         given={Ognjen},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SL+1}
+    \strng{fullhash}{SLDASMHAHKAGRPGAMOGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fast single atom imaging in optical lattice arrays}
+    \field{journaltitle}{arXiv preprint arXiv:2404.09978}
+    \field{year}{2024}
+  \endentry
+
   \entry{Garcia2013}{article}{}{}
     \name{author}{5}{}{%
       {{hash=GS}{%
@@ -2507,6 +2654,124 @@
     \field{volume}{103}
     \field{journaltitle}{Appl. Phys. Lett.}
     \field{year}{2013}
+  \endentry
+
+  \entry{lam2021combining}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LCK}{%
+         family={Lam},
+         familyi={L\bibinitperiod},
+         given={Chun\bibnamedelima Kit},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Maka},
+         familyi={M\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Nadlinger},
+         familyi={N\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Ballance},
+         familyi={B\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bourdeauducq},
+         familyi={B\bibinitperiod},
+         given={S{\'e}bastien},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCK+1}
+    \strng{fullhash}{LCKMSNDBCBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Combining processing throughput, low latency and timing
+  accuracy in experiment control}
+    \field{journaltitle}{arXiv preprint arXiv:2111.15290}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Stephenson2020}{article}{}{}
+    \name{author}{10}{}{%
+      {{hash=SLJ}{%
+         family={Stephenson},
+         familyi={S\bibinitperiod},
+         given={L.\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NDP}{%
+         family={Nadlinger},
+         familyi={N\bibinitperiod},
+         given={D.\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=NBC}{%
+         family={Nichol},
+         familyi={N\bibinitperiod},
+         given={B.\bibnamedelima C.},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Drmota},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BTG}{%
+         family={Ballance},
+         familyi={B\bibinitperiod},
+         given={T.\bibnamedelima G.},
+         giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Thirumalai},
+         familyi={T\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GJF}{%
+         family={Goodwin},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LDM}{%
+         family={Lucas},
+         familyi={L\bibinitperiod},
+         given={D.\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BCJ}{%
+         family={Ballance},
+         familyi={B\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SLJ+1}
+    \strng{fullhash}{SLJNDPNBCASDPBTGTKGJFLDMBCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{110501}
+    \field{title}{High-Rate, High-Fidelity Entanglement of Qubits Across an
+  Elementary Quantum Network}
+    \field{volume}{124}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2020}
   \endentry
 
   \entry{covey20192000}{article}{}{}

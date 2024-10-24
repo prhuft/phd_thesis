@@ -84,12 +84,12 @@
       <file>dissertation-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>atomic.bib</file>
-      <file>optics.bib</file>
-      <file>qc_refs.bib</file>
-      <file>rydberg.bib</file>
-      <file>saffman_refs.bib</file>
-      <file>huft_bib.bib</file>
+      <file>bib/atomic.bib</file>
+      <file>bib/optics.bib</file>
+      <file>bib/qc_refs.bib</file>
+      <file>bib/rydberg.bib</file>
+      <file>bib/saffman_refs.bib</file>
+      <file>bib/huft_bib.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

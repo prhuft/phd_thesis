@@ -4,12 +4,12 @@ The top-level auxiliary file: dissertation.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: frontmatter/frontmatter.aux
 Reallocating 'name_of_file' (item size: 1) to 42 items.
@@ -49,55 +49,55 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 15920 items.
+Reallocating 'field_info' (item size: 4) to 16480 items.
 Database file #1: dissertation-blx.bib
-Database file #2: atomic.bib
-Database file #3: optics.bib
-Database file #4: qc_refs.bib
-Database file #5: rydberg.bib
-Database file #6: saffman_refs.bib
-Database file #7: huft_bib.bib
+Database file #2: bib/atomic.bib
+Database file #3: bib/optics.bib
+Database file #4: bib/qc_refs.bib
+Database file #5: bib/rydberg.bib
+Database file #6: bib/saffman_refs.bib
+Database file #7: bib/huft_bib.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 78 entries,
+You've used 82 entries,
             6402 wiz_defined-function locations,
-            1790 strings with 42080 characters,
-and the built_in function-call counts, 1256802 in all, are:
-= -- 114746
-> -- 13372
-< -- 3009
-+ -- 43809
-- -- 6440
-* -- 96805
-:= -- 161932
+            1810 strings with 43288 characters,
+and the built_in function-call counts, 1347819 in all, are:
+= -- 123410
+> -- 14183
+< -- 3177
++ -- 46741
+- -- 6867
+* -- 104289
+:= -- 173771
 add.period$ -- 0
-call.type$ -- 78
-change.case$ -- 1101
+call.type$ -- 82
+change.case$ -- 1144
 chr.to.int$ -- 67
-cite$ -- 154
-duplicate$ -- 129223
-empty$ -- 98686
-format.name$ -- 9392
-if$ -- 243321
+cite$ -- 162
+duplicate$ -- 137488
+empty$ -- 106012
+format.name$ -- 9989
+if$ -- 261111
 int.to.chr$ -- 0
-int.to.str$ -- 192
+int.to.str$ -- 201
 missing$ -- 0
-newline$ -- 4507
-num.names$ -- 3540
-pop$ -- 34015
+newline$ -- 4769
+num.names$ -- 3709
+pop$ -- 35951
 preamble$ -- 1
-purify$ -- 2203
+purify$ -- 2318
 quote$ -- 0
-skip$ -- 17205
+skip$ -- 18119
 stack$ -- 0
-substring$ -- 226560
-swap$ -- 16833
-text.length$ -- 2989
+substring$ -- 245002
+swap$ -- 17779
+text.length$ -- 3177
 text.prefix$ -- 16
 top$ -- 1
-type$ -- 2636
+type$ -- 2772
 warning$ -- 0
-while$ -- 19539
+while$ -- 20823
 width$ -- 0
-write$ -- 4430
+write$ -- 4688
