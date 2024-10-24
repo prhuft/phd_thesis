@@ -1,7 +1,7 @@
 \contentsline {chapter}{Contents}{iii}{section*.3}%
 \contentsline {chapter}{List of Tables}{vii}{section*.5}%
 \contentsline {chapter}{List of Figures}{viii}{section*.7}%
-\contentsline {chapter}{Abstract}{xxii}{chapter*.9}%
+\contentsline {chapter}{Abstract}{xxiii}{chapter*.9}%
 \contentsline {part}{\partnumberline {I}Theory and Background}{1}{part.1}%
 \contentsline {chapter}{\chapternumberline {1}Quantum networking with neutral Rubidium atoms}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Intro to quantum networks}{2}{section.1.1}%
@@ -78,20 +78,20 @@
 \contentsline {appendix}{\chapternumberline {A}GOOD Logger}{100}{chapter.A}%
 \contentsline {appendix}{\chapternumberline {B}Temperature-controlled experiment box}{102}{chapter.B}%
 \contentsline {appendix}{\chapternumberline {C}Mechanical drawings}{106}{chapter.C}%
-\contentsline {appendix}{\chapternumberline {D}Network node ingredient lists}{110}{chapter.D}%
-\contentsline {appendix}{\chapternumberline {E}A Cavity-based Network Design}{112}{chapter.E}%
-\contentsline {section}{\numberline {E.1}Cavity Mirrors}{112}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Mode Matching}{113}{section.E.2}%
-\contentsline {section}{\numberline {E.3}Cavity opto-mechanics}{116}{section.E.3}%
-\contentsline {section}{\numberline {E.4}MInt Chip}{118}{section.E.4}%
-\contentsline {appendix}{\chapternumberline {F}Two-piezo filter cavity}{119}{chapter.F}%
-\contentsline {section}{\numberline {F.1}Optical cavities as spectral filters}{119}{section.F.1}%
-\contentsline {section}{\numberline {F.2}Design principle}{120}{section.F.2}%
-\contentsline {section}{\numberline {F.3}Cavity construction}{121}{section.F.3}%
-\contentsline {appendix}{\chapternumberline {G}Collective radiance in atomic arrays and volumes}{122}{chapter.G}%
-\contentsline {section}{\numberline {G.1}Hamiltonian for the single-excitation subspace}{123}{section.G.1}%
-\contentsline {section}{\numberline {G.2}Eigenmodes, decay, and emission patterns of 2D arrays}{124}{section.G.2}%
-\contentsline {section}{\numberline {G.3}Sensitivity to imperfections}{127}{section.G.3}%
-\contentsline {section}{\numberline {G.4}Eigenmodes of 3D arrays}{128}{section.G.4}%
-\contentsline {chapter}{Colophon}{131}{chapter*.87}%
-\contentsline {chapter}{References}{132}{section*.89}%
+\contentsline {appendix}{\chapternumberline {D}Network node ingredient lists}{112}{chapter.D}%
+\contentsline {appendix}{\chapternumberline {E}A Cavity-based Network Design}{114}{chapter.E}%
+\contentsline {section}{\numberline {E.1}Cavity Mirrors}{114}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Mode Matching}{115}{section.E.2}%
+\contentsline {section}{\numberline {E.3}Cavity opto-mechanics}{118}{section.E.3}%
+\contentsline {section}{\numberline {E.4}MInt Chip}{120}{section.E.4}%
+\contentsline {appendix}{\chapternumberline {F}Two-piezo filter cavity}{123}{chapter.F}%
+\contentsline {section}{\numberline {F.1}Optical cavities as spectral filters}{123}{section.F.1}%
+\contentsline {section}{\numberline {F.2}Design principle}{124}{section.F.2}%
+\contentsline {section}{\numberline {F.3}Cavity construction}{125}{section.F.3}%
+\contentsline {appendix}{\chapternumberline {G}Collective radiance in atomic arrays and volumes}{126}{chapter.G}%
+\contentsline {section}{\numberline {G.1}Hamiltonian for the single-excitation subspace}{127}{section.G.1}%
+\contentsline {section}{\numberline {G.2}Eigenmodes, decay, and emission patterns of 2D arrays}{128}{section.G.2}%
+\contentsline {section}{\numberline {G.3}Sensitivity to imperfections}{131}{section.G.3}%
+\contentsline {section}{\numberline {G.4}Eigenmodes of 3D arrays}{132}{section.G.4}%
+\contentsline {chapter}{Colophon}{135}{chapter*.91}%
+\contentsline {chapter}{References}{136}{section*.93}%

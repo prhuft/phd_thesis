@@ -83,7 +83,7 @@ The mechanical design of the cavity uses Macor housings to secure the cavity mir
     \label{fig:modematchhousings}
 \end{figure}
 
-The entire cavity assembly can be mounted in Macor V-groove pieces which themselves are mounted on a linear alignment piece or "bridge" which holds the entire cavity together once the individual optic housing and V-grooves have been aligned and glued. The cavity mirror housing V-grooves are in turn mounted to shear-mode piezo-electric transducers (Noliac NAC2402-H3.4). The exact height of the cavity mirror may need to be adjusted, which can be done by shimming the V-grooves on one side of the cavity. For this purpose, titanium shims (Surepure Chemetals) were ordered, as titanium and Macor have very similar coefficents of thermal expansion, which maintain the this similarity and the same sign over the range of temperatures including our vacuum bakeout. This design is shown in Fig. \ref{fig:cavitybridge} with an alternative fiber coupling housing design allowing for the insertion of $45^{\circ}$ mirrors to be inserted if switching to free-space mode-matching is desired. This allows for a plan B if fiber coupling becomes misaligned, for example, while the glue cures.
+The entire cavity assembly can be mounted in Macor V-groove pieces which themselves are mounted on a linear alignment piece or "bridge" which holds the entire cavity together once the individual optic housing and V-grooves have been aligned and glued. The cavity mirror housing V-grooves are in turn mounted to shear-mode piezo-electric transducers (Noliac NAC2402-H3.4). The exact height of the cavity mirror may need to be adjusted, which can be done by shimming the V-grooves on one side of the cavity. For this purpose, titanium shims (Surepure Chemetals) were ordered, as titanium and Macor have very similar coefficents of thermal expansion, which maintain their similar values and, crucially, the same sign over the range of temperatures including our vacuum bakeout. This design is shown in Fig. \ref{fig:cavitybridge} with an alternative fiber coupling housing design allowing for the insertion of $45^{\circ}$ mirrors to be inserted if switching to free-space mode-matching is desired. This allows for a plan B if fiber coupling becomes misaligned, for example, while the glue cures.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.45\textwidth]{Images/cavitybridge.pdf}
@@ -93,9 +93,22 @@ The entire cavity assembly can be mounted in Macor V-groove pieces which themsel
 
 \section{MInt Chip}\label{sec:mintchip}
 
-Some pics of the MInt chip and the chamber maybe ??
+In light of the difficulty in assembling the chip-based node discussed in Ch. \ref{ch:nodes} and the lack of ability to pivot or course correct in the event of catastrophy (e.g. a part glued down incorrectly), here we present an updated architecture dubbed MInt Chip (Modular Integrated Chip). The MInt Chip systems consistes of Ti substrate with a grid of tapped holes, acting a miniature breadboard to which miniature optomechanical modules can be attached. Components of the MInt Chip system machined from Grade 2 Ti (manufactured by Fast Radius), including hardware for mounting the cavity described in the previous section, is shown in Fig. \ref{fig:mintchip}.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/mint_chip.pdf}
+    \caption{a) The titanium MInt Chip substrate and b,c) cavity mounting hardware.}
+    \label{fig:mintchip}
+\end{figure}
 
-
+As a first pass design for the MInt Chip based cavity apparatus, we elected to use free space beams and a chamber with more plentiful optical access compared to the custom chamber used in the network experiment described in this thesis. A SOLIDWORKS model of this apparatus is shown in Fig. \ref{fig:cavnodechamber}. The author elected to use mainly commercially available components, including a commercially available vacuum chamber (Kimball Physics 6" Spherical Octogon) and standard viewports (Accuglass 115063, 780~1064nm Broadband AR Coated Viewport). Custom recessed windows were designed (on order from MDC Precision) to accomodate our broadband custom high NA objective lenses (JenOptik, 0.4 NA).
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/mint_chip_science_chamber.pdf}
+    \caption{The cavity node vacuum chamber and MInt Chip mounting system. The red sections in (a) represent quadrupole coils and the black object at the bottom represents a 0.4 NA  custom objective, both of which are in the bore of a custom recessed objective.}
+    \label{fig:cavnodechamber}
+\end{figure}
+Mechanical drawings of the recessed windows are given in Figs. (\ref{fig:recessedwindowdrawing}, \ref{fig:recessedwindowdraft}) in Appendix \ref{ch:mech_drawings}.
     
 
 
