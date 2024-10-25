@@ -1752,6 +1752,48 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Zukowski1993}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=idZM}{%
+         prefix={\ifmmode\bibnamedelima \dot{Z}\else},
+         prefixi={i\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={\.{Z}\fi{}ukowski},
+         familyi={Z\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zeilinger},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HMA}{%
+         family={Horne},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EAK}{%
+         family={Ekert},
+         familyi={E\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZMid+1}
+    \strng{fullhash}{ZMidZAHMAEAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{26}
+    \field{pages}{4287\bibrangedash 4290}
+    \field{title}{\char96{}\char96{}Event-ready-detectors\char39{}\char39{}
+  Bell experiment via entanglement swapping}
+    \field{volume}{71}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1993}
+  \endentry
+
   \entry{Thompson2024}{article}{}{}
     \name{author}{2}{}{%
       {{hash=LY}{%
@@ -3210,6 +3252,49 @@
     }
     \field{type}{phdthesis}
     \field{year}{2022}
+  \endentry
+
+  \entry{cabrillo1999creation}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CC}{%
+         family={Cabrillo},
+         familyi={C\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CJI}{%
+         family={Cirac},
+         familyi={C\bibinitperiod},
+         given={J\bibnamedelima Ignacio},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GFP}{%
+         family={Garcia-Fernandez},
+         familyi={G\bibinithyphendelim F\bibinitperiod},
+         given={Pablo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zoller},
+         familyi={Z\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{CC+1}
+    \strng{fullhash}{CCCJIGFPZP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{1025}
+    \field{title}{Creation of entangled states of distant atoms by
+  interference}
+    \field{volume}{59}
+    \field{journaltitle}{Physical Review A}
+    \field{year}{1999}
   \endentry
 
   \entry{PHuft2022}{article}{}{}
@@ -4740,6 +4825,93 @@
     \field{volume}{58}
     \field{journaltitle}{Phys. Rev. A}
     \field{year}{1998}
+  \endentry
+
+  \entry{fang2024interspersed}{unpublished}{}{}
+    \name{author}{12}{}{%
+      {{hash=FC}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Chengyu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Miles},
+         familyi={M\bibinitperiod},
+         given={Jared},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Murphree},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lichtman},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gillette},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bergdolt},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Goldwin},
+         familyi={G\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Deshpande},
+         familyi={D\bibinitperiod},
+         given={Sanket},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Norrell},
+         familyi={N\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Huft},
+         familyi={H\bibinitperiod},
+         given={Preston},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Kats},
+         familyi={K\bibinitperiod},
+         given={Mikhail\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Saffman},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCMJMJLMGMBMGJDSNSHPKMASM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Interspersed array of two species of atoms using a single
+  laser and optical mask}
+    \list{institution}{1}{%
+      {University of Wisconsin - Madison}%
+    }
+    \field{year}{2024}
   \endentry
 
   \entry{Graham2018}{article}{}{}

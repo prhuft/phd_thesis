@@ -38,7 +38,7 @@ The bottom external beam can then be aligned to overlap the top beam, for exampl
     \centering
     \includegraphics[width=0.9\textwidth]{Images/large_mot_and_thorcam_mot.pdf}
     \caption{(a) A bright MOT captured with Andor Luca, and (b) a more typical MOT 
-    as imaged through a custom 0.4 NA JenOptik objective cite?? onto a 
+    as imaged through a custom 0.4 NA objective onto a 
     CS165MU ThorCam.}
     \label{fig:large_mot_and_thorcam_mot}
 \end{figure}
@@ -46,9 +46,9 @@ An example of a particularly bright MOT is shown in Fig. (\ref{fig:large_mot_and
 
 \subsection{Fiber AOMs and cooling light power stabilization}\label{sec:fiber_AOM_power_stabilization}
 
-Making sure that the MOT position does not drift over time is crucial for reliable atom loading, especially with a small MOT. One source of instability comes from standing waves between pairs of MOT beams which shift as the phase of the laser varies, causing the MOT to move around. We mitigate this effect by using one fiber AOM (??) for each MOT beam to impart a relative frequency shift of $\sim 10$kHz between any given pair of beams. It can be shown that for $780$ nm light, this corresponds to 5000 intensity waves (with $\lambda=390$ nm) passing through the MOT in a 0.5 s loading period. 
+Making sure that the MOT position does not drift over time is crucial for reliable atom loading, especially with a small MOT. One source of instability comes from standing waves between pairs of MOT beams which shift as the phase of the laser varies, causing the MOT to move around. We mitigate this effect by using one fiber AOM for each MOT beam to impart a relative frequency shift of $\sim 10$kHz between any given pair of beams. It can be shown that for $780$ nm light, this corresponds to 5000 intensity waves (with $\lambda=390$ nm) passing through the MOT in a 0.5 s loading period. 
 
-A second source of instability comes from power imbalanced between the pairs of MOT beams, which can also cause variations in MOT temperature. To mitigate this, we employ a DC feedback loop in which the powers of the MOT beams are measured and the corresponding fiber AOMs are used as variable optical attenuators by varying the RF driving power. For the external MOT beams, the power for each beam is measured with a pick-off to an amplified photodiode \cite{Ebert2017thesis} which comes after the polarization optics but precedes the final mirrors before the chamber. For the on-chip beams, the situation is more involved. In order to have a reliable measure of the optical power at the atoms, we measure light which couples from one beam (e.g. 2) into the opposite beam's fiber (e.g. 4), with a free space $70/30$ beam-splitter (Thorlabs ??) outside of the chamber, as shown in Fig. (\ref{fig:mot_feedback}). 
+A second source of instability comes from power imbalanced between the pairs of MOT beams, which can also cause variations in MOT temperature. To mitigate this, we employ a DC feedback loop in which the powers of the MOT beams are measured and the corresponding fiber AOMs are used as variable optical attenuators by varying the RF driving power. For the external MOT beams, the power for each beam is measured with a pick-off to an amplified photodiode \cite{Ebert2017thesis} which comes after the polarization optics but precedes the final mirrors before the chamber. For the on-chip beams, the situation is more involved. In order to have a reliable measure of the optical power at the atoms, we measure light which couples from one beam (e.g. 2) into the opposite beam's fiber (e.g. 4), with a free space $30:70$ non-polarizing beamsplitter outside of the chamber, as shown in Fig. (\ref{fig:mot_feedback}). 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Images/on_chip_mot_feedback.pdf}
