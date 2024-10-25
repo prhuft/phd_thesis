@@ -36,7 +36,7 @@ For quantum networking in particular, neutral atoms possess several key attribut
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Images/network_of_quantum_registers.pdf}
-    \caption{A rudimentary network of quantum registers as envisioned in this thesis. The red ellipses on the right-hand node represent Rydberg gates between the encircled qubits. The atomic array data inset is from Ch. \ref{ch:array_pra}}.
+    \caption{A rudimentary network of quantum registers as envisioned in this thesis. The red ellipses on the right-hand node represent Rydberg gates between the encircled qubits. The atomic array data inset is from Ch. \ref{ch:array_pra}}
     \label{fig:quantumnetwork}
 \end{figure}
 
@@ -49,7 +49,7 @@ A second class of remote entanglement schemes involves so-called direct transmis
 %the chapters and section are not in the best order. this could go before the "establishing remote entanglement section", and all of the sections before "A remote entanglement protocol with Rb" could go in the intro to quantum networks section, with Quantum networking with neutral atom qubits as the final subsection in that section. the new section would be remote entanglement with rb atoms, and the atom-atom rate could be demoted to a subsection   
 \subsection{Quantum networks for distributed processing}
 
-Proposals to scale quantum computers with modular approach based on photonic interconnects between processing nodes have been around for over a decade\cite{Monroe2014modular}, and they remain a compelling challenge for the field, with use cases including surface code quantum computing\cite{Horsman2012}. In recent years, there has been an up-tick in both proposals\cite{li2024high, Young2022, Huie2021} and experimental demonstrations\cite{sinclair2024, hartung2024quantum, main2024distributed}, including an industry demonstration with trapped ions\cite{IonQ2024}. For neutral atom based platforms, a good review can be found in \cite{Covey2023}, though it is already slightly outdated. 
+Proposals to scale quantum computers with modular approach based on photonic interconnects between processing nodes have been around for over a decade\cite{Monroe2014modular}, and they remain a compelling challenge for the field, with use cases including surface code quantum computing\cite{Horsman2012}. In recent years, there has been an up-tick in both proposals\cite{li2024high, Young2022, Huie2021} and experimental demonstrations\cite{sinclair2024, hartung2024quantum, main2024}, including an industry demonstration with trapped ions\cite{IonQ2024}. For neutral atom based platforms, a good review can be found in \cite{Covey2023}, though it is already slightly outdated. 
 
 As generating remote entanglement is typically probabilistic, and slow compared to other operations on a quantum computer, establishing entanglement between many physical qubits in separate nodes can quickly consume cycle time. Proposals to alleviate this resource strain often involve multiplexing\cite{Huie2021} and iterative approaches to establishing entanglement pairs over multiple attempts\cite{li2024high}. For atomic qubits, the largest gain in entanglement rate is likely to be acheived by enhancing the photon collection efficiency using an optical cavity, which can approach collection efficienciies near unity. As outlined in \cite{Young2022}, using using near-concentric cavities can enable remote entanglement rates on the order of 1000 $\text{s}^{-1}$. Note that the gain for high rate entanglement largely comes in the form of increased link efficiency, as successfully entangled pairs are more likely to remain coherent over the duration of a batch of multi-pair entanglement creation. 
 
@@ -152,6 +152,7 @@ Another important quantity of interest for generating distributed entanglement i
 \end{equation}
 If we imagine a two-node network which can only create entanglement pairs in series, $\eta_{\text{link}}=1$ would imply that an entangled state has decohered by the time a subsequent state can be created. To date, $\eta_{\text{link}}>1$ has been out of reach for many experimental demonstrations, as shown in Fig. \ref{fig:covey_link_eff}.
 
+% could add more recent results to the plot?
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\textwidth]{Images/covey_link_efficiency.pdf}
