@@ -1,0 +1,72 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'dissertation.blg'
+[147] biber-MSWIN64:340> INFO - === 
+[198] Biber.pm:420> INFO - Reading 'dissertation.bcf'
+[368] Biber.pm:994> INFO - Found 37 citekeys in bib section 0
+[389] Biber.pm:4463> INFO - Processing section 0
+[404] Biber.pm:4654> INFO - Looking for bibtex file 'bib/example.bib' for section 0
+[505] bibtex.pm:1713> INFO - LaTeX decoding ...
+[517] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/example.bib'
+[576] Biber.pm:4654> INFO - Looking for bibtex file 'bib/atomic.bib' for section 0
+[717] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1327] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/atomic.bib'
+[1390] Biber.pm:4654> INFO - Looking for bibtex file 'bib/optics.bib' for section 0
+[1530] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1898] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/optics.bib'
+[1940] Biber.pm:4654> INFO - Looking for bibtex file 'bib/rydberg.bib' for section 0
+[2093] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2805] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/rydberg.bib'
+[2888] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2888] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2888] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2889] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[2897] bbl.pm:676> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[2899] bbl.pm:779> INFO - Output to dissertation.bbl
+[2900] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PHuft2022' is not an integer - this will probably not sort properly.
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\8fc33f08878ad02a2b7697e5cb299ac6_15156.utf8, line 339, warning: 1 characters of junk seen at toplevel
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\8fc33f08878ad02a2b7697e5cb299ac6_15156.utf8, line 824, warning: 1 characters of junk seen at toplevel
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\8fc33f08878ad02a2b7697e5cb299ac6_15156.utf8, line 5059, warning: 100 characters of junk seen at toplevel
+[2900] Biber.pm:131> WARN - Duplicate entry key: 'Shalaev2015' in file 'bib/optics.bib', skipping ...
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\6d98200fad6b0d307032281a6b7d09f7_15156.utf8, line 2640, warning: 75 characters of junk seen at toplevel
+[2900] Biber.pm:131> WARN - Duplicate entry key: 'Flannery2005' in file 'bib/rydberg.bib', skipping ...
+[2900] Biber.pm:131> WARN - Duplicate entry key: 'WLi2013' in file 'bib/rydberg.bib', skipping ...
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\3d9f81c9e71ded79a3047d4bcfb34689_15156.utf8, line 2324, warning: 1 characters of junk seen at toplevel
+[2900] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\3d9f81c9e71ded79a3047d4bcfb34689_15156.utf8, line 3435, warning: 1 characters of junk seen at toplevel
+[2901] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\prest\AppData\Local\Temp\biber_tmp_3wTx\3d9f81c9e71ded79a3047d4bcfb34689_15156.utf8, line 5053, warning: 1 characters of junk seen at toplevel
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Neumann2022' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Yin2020' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Kómár2014' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Monroe2014modular' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'main2024' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'drmota2024' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Langenfeld2021' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Schymik2021' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Wu2021' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Kumar2017' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'd’ArmagnacdeCastanet2024' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Bothwell2022' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'Huft2022' (section 0)
+[2901] Biber.pm:131> WARN - I didn't find a database entry for 'manetsch2024' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Pause2024' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'radnaev2024' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Evered2023' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Zukowski1993' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Horsman2012' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'li2024high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Young2022' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Huie2021' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'sinclair2024' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'hartung2024quantum' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'IonQ2024' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Covey2023' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'saha2024high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'harty2014high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'ballance2016high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'clark2021high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'srinivas2021high' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'ramette2024fault' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Hofmann2012' (section 0)
+[2902] Biber.pm:131> WARN - I didn't find a database entry for 'Kwon2017' (section 0)
+[2903] Biber.pm:131> WARN - I didn't find a database entry for 'Graham2022' (section 0)
+[2903] Biber.pm:131> WARN - I didn't find a database entry for 'fowles1989introduction' (section 0)
+[2903] Biber.pm:133> INFO - WARNINGS: 47

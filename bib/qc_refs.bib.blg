@@ -1,0 +1,8 @@
+[0] Config.pm:308> INFO - This is Biber 2.20 running in TOOL mode
+[1] Config.pm:311> INFO - Logfile is 'bib\qc_refs.bib.blg'
+[161] biber-MSWIN64:340> INFO - === 
+[211] Biber.pm:4650> INFO - Looking for bibtex file 'bib\qc_refs.bib'
+[401] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1995] bibtex.pm:1519> INFO - Found BibTeX data source 'bib\qc_refs.bib'
+[3248] bibtex.pm:97> FATAL - Caught signal: SEGV
+Likely your .bib has a very bad entry which causes libbtparse to crash: Inappropriate I/O control operation

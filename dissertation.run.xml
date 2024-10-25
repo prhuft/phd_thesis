@@ -86,10 +86,10 @@
     <requires type="editable">
       <file>bib/atomic.bib</file>
       <file>bib/optics.bib</file>
-      <file>bib/qc_refs.bib</file>
       <file>bib/rydberg.bib</file>
-      <file>bib/saffman_refs.bib</file>
+      <file>bib/saffman.bib</file>
       <file>bib/huft_bib.bib</file>
+      <file>bib/qc_refs.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

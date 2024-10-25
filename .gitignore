@@ -1,2 +1,14 @@
 *.gz
 .vscode
+*.aux
+*.bbl
+*.bcf
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.gz
+*.toc
+*-blx.bib
+/*/*.aux
