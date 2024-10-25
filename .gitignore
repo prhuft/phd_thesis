@@ -12,3 +12,10 @@
 *.toc
 *-blx.bib
 /*/*.aux
+*.log
+*blx*
+*synctex*
+*/.aux
+*/*.aux
+*.out
+*.fdb_latexmk
