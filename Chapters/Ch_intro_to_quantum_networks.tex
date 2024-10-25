@@ -11,7 +11,7 @@ Quantum entanglement is a phenomenon in which two or more systems can not be cor
 \begin{equation}
     \rho_{AB} \neq \rho_A \otimes \rho_B
 \end{equation}
-for two systems $A$ and $B$ where $\rho$ is a Hermitian matrix representing the density operator which gives the state, and the right-hand-side (RHS) represents a product state.
+where $\rho$ is a Hermitian matrix representing the density operator which gives the state, and the right-hand-side (RHS) represents a product state.
 In many cases, the entanglement applies only to one particular degree of freedom, such as the spin state of an atom or the polarization of a photon, whereas the other degrees of freedom remain separable and distinguishable, thus they can be factored out of the overall state. However, entanglement can also involve multiple degrees of freedom, such as both the polarization and frequency of photons, which is referred to as hyperentanglement.
 
 In addition to being an active area of fundamental research, quantum entanglement is also a useful resource in applications such as quantum sensing. Typical quantum sensing schemes rely on measuring the phase between two quantum states, for example using a Ramsey-type interference experiment. For such applications, certain quantum entangled states can show advantage over product states inputs, e.g. owing to a phase which evolves more rapidly than for an unentangled system. Two common states of interest for quantum sensing are GHZ states and N00N states:
@@ -49,7 +49,11 @@ A second class of remote entanglement schemes involves so-called direct transmis
 %the chapters and section are not in the best order. this could go before the "establishing remote entanglement section", and all of the sections before "A remote entanglement protocol with Rb" could go in the intro to quantum networks section, with Quantum networking with neutral atom qubits as the final subsection in that section. the new section would be remote entanglement with rb atoms, and the atom-atom rate could be demoted to a subsection   
 \subsection{Quantum networks for distributed processing}
 
-lots of recent interest, yada yada, proposal by Jeff Thompson, Vuletic, us, review by Covey, \cite{Thompson2024, sinclair2024, Covey2023, Young2022}, basic demonstration with ions in Lucas group, could be used for lattice surgery \cite{Horsman2012}
+Proposals to scale quantum computers with modular approach based on photonic interconnects between processing nodes have been around for over a decade\cite{Monroe2014modular}, and they remain a compelling challenge for the field, with use cases including surface code quantum computing\cite{Horsman2012}. In recent years, there has been an up-tick in both proposals\cite{li2024high, Young2022, Huie2021} and experimental demonstrations\cite{sinclair2024, hartung2024quantum, main2024distributed}, including an industry demonstration with trapped ions\cite{IonQ2024}. For neutral atom based platforms, a good review can be found in \cite{Covey2023}, though it is already slightly outdated. 
+
+As generating remote entanglement is typically probabilistic, and slow compared to other operations on a quantum computer, establishing entanglement between many physical qubits in separate nodes can quickly consume cycle time. Proposals to alleviate this resource strain often involve multiplexing\cite{Huie2021} and iterative approaches to establishing entanglement pairs over multiple attempts\cite{li2024high}. For atomic qubits, the largest gain in entanglement rate is likely to be acheived by enhancing the photon collection efficiency using an optical cavity, which can approach collection efficienciies near unity. As outlined in \cite{Young2022}, using using near-concentric cavities can enable remote entanglement rates on the order of 1000 $\text{s}^{-1}$. Note that the gain for high rate entanglement largely comes in the form of increased link efficiency, as successfully entangled pairs are more likely to remain coherent over the duration of a batch of multi-pair entanglement creation. 
+
+Finally, we note that fidelity in creating remote Bell pairs is typically lower than for controlled gates between qubits in the same node. For example,\cite{saha2024high} showed remote entanglement fidelity of 97$\%$ with ions, whereas local two-qubit gates with ions have exceeded 99.9$\%$ fidelity\cite{harty2014high, ballance2016high, clark2021high,srinivas2021high}. Fortuitously, it turns out that for some approaches to fault-tolerant quantum computing, requirements on fidelity are less stringent for the remote entangled pairs forming the boundary between nodes, tolerating infidelities at the 1$\%$ level\cite{ramette2024fault}.
 
 %now we get specific
 \subsection{A remote entanglement protocol with $^{87}$Rb atoms}
@@ -111,8 +115,6 @@ The first line gives the mean number of tries per REG success, and second gives 
     t_{\text{aa}}=\frac{t_{\text{aa}}^{(\text{loop})}}{\eta_{\text{duty}}}=\frac{1}{\eta_{\text{duty}}}N_{\text{epoch}}\left(N_{\text{series}}\left(t_{\text{OP}} + t_{\pi} + t_{\text{det}}\right) + t_{\text{cool}}\right)
 \end{equation}
 where the subscripted times denote the optical pumping, $\pi$-pulse excitation, detection, and Doppler re-cooling durations. This gives the REG rate that appears in Eq. (\ref{eq:Raa}) as $R_{\text{aa}} = \eta_{\text{duty}}/t_{\text{aa}}^{(\text{loop})}$. For realistic parameters (see Table \ref{tab:entanglement_steps}), we can compute $P_{\text{aa}}$ and $R_{\text{aa}}$.
-
-\newpage
 \begin{sidewaystable}
 % \begin{table}[h!] % too wide
     \centering    
@@ -157,10 +159,11 @@ If we imagine a two-node network which can only create entanglement pairs in ser
     \label{fig:covey_link_eff}
 \end{figure}
 
-\subsection{Photon collection - optical cavity vs free-space}
-% could mention assumption of negligible dark rates, then lift this assumption later.
-\subsection{Experiment repetition rate}
+% \subsection{Photon collection - optical cavity vs free-space}
+% % could mention assumption of negligible dark rates, then lift this assumption later.
+% \subsection{Experiment repetition rate}
 \section{Entanglement fidelity}
+
 \subsection{Dominant contributions}
 % dark counts effect fidelity and quantum efficiency effect the rate, 
 % but I discuss both effects here
