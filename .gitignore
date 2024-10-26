@@ -19,3 +19,6 @@
 */*.aux
 *.out
 *.fdb_latexmk
+Chapters/*.aux
+frontmatter/*.aux
+*.blg
