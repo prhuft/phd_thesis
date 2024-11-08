@@ -22,3 +22,4 @@
 Chapters/*.aux
 frontmatter/*.aux
 *.blg
+*.fls
