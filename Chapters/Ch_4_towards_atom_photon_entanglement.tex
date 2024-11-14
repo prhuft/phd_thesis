@@ -5,11 +5,11 @@
 % chapter,section,subsection,etc.
 
 \section{Single photon generation}
-The precursor to prepare Bell state between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state. Unlike some remote-entanglment protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
+A precursor to prepare Bell state between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state. Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
 
 %% put a level diagram here?
 
-As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow {5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
+As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow \ket{5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
 
 The excitation light, pulsed by an AOM, can be approximated by a Gaussian pulse in order to estimate how much power we need at the atoms for a given pulse width. The requirement to complete full population transfer with a time-varying Rabi frequency is 
 \begin{equation}
@@ -54,17 +54,18 @@ P_0 & = \frac{\hbar^2}{4d^2}\Omega_0^2\pi w_0^2 c \epsilon_0 \\
 \end{split}
 \end{equation}
 resulting in the peak Rabi frequency
-\begin{equation}
+\begin{equation}\label{eq:omega0}
     \Omega_0=\frac{2\sqrt{\pi \ln(2)}}{t_{\textrm{FWHM}}}.
 \end{equation}
-It can be shown with dimensional analysis that the units above are in fact power\footnote{Left as an exercise for the younger grad students.}.
+It can be shown with dimensional analysis that the units above (Eq. \ref{eq:omega0}) are in fact power\footnote{Left as an exercise for the younger grad students.}.
 
 The electric dipole matrix element for a transition $F,m_F$ to $F',m_F'$ on the $^{87}\textrm {Rb}$  $D_2$ line is given by
-$$d=4.227 e a_0 (-1)^{F'+J+1+I} \sqrt{(2 F'+1)(2 J+1)}\left\{\begin{array}{ccc}
+\begin{equation}d=4.227 e a_0 (-1)^{F'+J+1+I} \sqrt{(2 F'+1)(2 J+1)}\left\{\begin{array}{ccc}
 J & J' & 1 \\
 F' & F & I
-\end{array}\right\}C_{F,m_F;1,-q}^{F',m_F'}$$
-with $J=1/2$, $J'=3/2$, and $I=3/2$. The numerical prefactor times $e a0$ is the fine structure reduced matrix element. Note that I use the convention $q = m_F' - m_F$, which opposite of what is used by others, e.g. Steck.
+\end{array}\right\}C_{F,m_F;1,-q}^{F',m_F'}
+\end{equation}
+where $\left\{ \begin{array}{c} \dots \\ \dots \end{array} \right\}$ is a Wigner $6j$ symbol, with $J=1/2$, $J'=3/2$, and $I=3/2$. The numerical prefactor times $e a_0$ is the fine structure reduced matrix element. Note that I use the convention $q = m_F' - m_F$, which opposite of what is used by others, e.g. Steck.
 For $F=1, m_F=0$,  $F'=0, m_F'=0$, and linear polarization ($q=0$), we get
 $|d|=5.636*10^{-30} ~\textrm{C}\cdot\textrm{m}$.
 Now, we can evaluate what peak power we need to drive the $\pi$ rotation. The beam waist from either GRIN lens is about 300 $\mu \textrm{m}$. We can solve for the power with the relations above to get

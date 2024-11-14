@@ -21,14 +21,14 @@ For locking a cavity to a sufficiently narrow-linewidth laser, it is  advantageo
     FSR = \frac{c}{2L}
 \end{equation}
 
-where $c$ is the speed of light and L is the length of the cavity. For the long range or ``slow" piezo, PiezoDrive SR120610, the average sensitivity is 12.857 $V/ \mu$m, meaning that it takes about 5 V to change the cavity length by one FSR at 780 nm. 
+where $c$ is the speed of light and $L$ is the length of the cavity. For the long range or ``slow" piezo, PiezoDrive SR120610, the average sensitivity is 12.857 V$/ \mu$m, meaning that it takes about 5 V to change the cavity length by one FSR at 780 nm. 
 For locking the cavity to a narrow linewidth laser for Rydberg, we may want the frequency stability of the lock to be $\sim 100$ Hz. Converting this frequency change $\delta \nu$ to a change in wavelength $\delta \lambda$, given by $|\delta \nu| = \delta\lambda(c/\lambda^2)$, gives $\delta \lambda \sim 2*10^{-19}$ m. Considering that there are $\sim 256000$ half wavelengths in a 10 cm long cavity ($L=m \lambda/2$), the cavity length must be stabilized to $2.6*10^{-14}$ m. Given the sensitivity of the PiezoDrive SR120610, we would need a piezo driver with noise $\ll 0.3~\mu$V, which is usually unrealistic.
 
-A much less sensitive piezo can be used to overcome this requirement on the piezo driver noise. The Boston Piezo-Optics PZT-5H, chosen for this purpose, has an average sensitivity of 1709 $V/\mu$m. The constraint on the voltage noise is now $44 \mu$V, which is feasible with commercially available drivers (e.g. the PiezoDrive PDU150). By contrast, to scan one FSR with this piezo would require 666 V, over three times the range of typical commercially available piezo drivers. Hence, the need for two piezos is apparent. 
+A much less sensitive piezo can be used to overcome this requirement on the piezo driver noise. The Boston Piezo-Optics PZT-5H, chosen for this purpose, has an average sensitivity of 1709 V$/\mu$m. The constraint on the voltage noise is now $44 \mu$V, which is feasible with commercially available drivers (e.g. the PiezoDrive PDU150). By contrast, to scan one FSR with this piezo would require 666 V, over three times the range of typical commercially available piezo drivers. Hence, the need for two piezos is apparent. 
 
 \section{Cavity construction}
 
-The two-piezo cavity construction differs from the original build in that the additional slim piezo is mounted between the long range piezo stack and the mirror. Unlike the long piezo, which comes with wires attached to electrodes opposite sides of the cylindrical surface, the slim piezo's electrical contacts are gold-plated end faces, and electrodes do not come pre-attached. Because of this, it was necessary to design mounting hardware which would not completely obscure the end faces, and would leave clearance for attached wires. The result is shown 
+The two-piezo cavity construction differs from the original build in that the additional slim piezo is mounted between the long range piezo stack and the mirror. Unlike the long piezo, which comes with wires attached to electrodes opposite sides of the cylindrical surface, the slim piezo's electrical contacts are gold-plated end faces, and electrodes do not come pre-attached. Because of this, it was necessary to design mounting hardware which would not completely obscure the end faces, and would leave clearance for attached wires. The result is shown in Fig. \ref{fig:cavity_fig1}
 
 \begin{figure}[!ht]
     \centering
