@@ -5,6 +5,13 @@
 
 An outstanding technical challenge for cold atom technologies, including but not limited to quantum networks and processors, is reducing the footprint of these often space-consuming apparatuses. Building more compact cold atom science platforms is of both academic and potential commercial interest, and our implementation is one of several demonstrations to date. These include 3D printed optomechanics and vacuum chambers\cite{madkhaly2021performance}, laser beam delivery with photonic integrated circuits\cite{isichenko2023photonic}, and fiber-coupled vacuum chambers with grating-based MOTs\cite{lee2022compact}. The approach we present here makes use of relatively small bulk optics which are pre-aligned and placed in the ultra-high vacuum (UHV) chamber and connected to by fiber optic feedthroughs, making for a plug-and-play quantum testbed. The design and construction procedure for our apparatus is outlined in the remainder of this chapter.
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/two_nodes_in_the_lab.jpg}
+    \caption{The two node quantum network apparatus in the lab, as of 2024.11.14. The left-side node is the one discussed in detail in this thesis. The two nodes are housed in a temperature-stabilized box (Appendix \ref{ch:experiment_box}), and the Bell state measurement optics live under the black sheet which can be seen in the back right.}
+    \label{fig:twonodesinlab}
+\end{figure}
+
 \section{Quantum Network Node Design}
 \subsection{On-chip optical architecture}
 
@@ -18,7 +25,7 @@ Cold atom experiments often require on the order of ten different laser beams di
 %     \label{fig:network_node_apparatus_schematic}
 % \end{figure}
 
-The in-vacuum optics are installed on a custom substrate  machined out of Macor. Macor was chosen for its low thermal expansion, mechanical strength, and ability to be machined easily using common tools such as a Dremel. This last point proved important, as it provided some insurance against some unforeseen mechanical conflicts during optical assembly. The Macor substrate, henceforth referred to as either bridge or chip, interchangeably, was designed to accommodate different optical modules consisting of bulk optics which map the light from fiber to free space beams and set the polarization. The layout of the optics for the first version of the quantum network node is shown schematically in Fig. (\ref{fig:optical_chip_design}). Each optical module, described in detail in the following sections, was individually assembled then aligned and glued to the bridge using low-outgassing epoxy. 
+The in-vacuum optics are installed on a custom substrate  machined out of Macor. Macor was chosen for its low thermal expansion, mechanical strength, and ability to be machined easily using common tools such as a Dremel. This last point proved important, as it provided some insurance against some unforeseen mechanical conflicts during optical assembly. The Macor substrate, henceforth referred to as either bridge or chip, interchangeably, was designed to accommodate different optical modules consisting of bulk optics which map the light from fiber to free space beams and set the polarization. The layout of the optics for the first version of the quantum network node is shown schematically in Fig. \ref{fig:optical_chip_design}. Each optical module, described in detail in the following sections, was individually assembled then aligned and glued to the bridge using low-outgassing epoxy. 
 
 \begin{figure}[!ht]
     \centering
@@ -126,7 +133,7 @@ A full reconstruction of the three-dimensional shape of the beam focused by the 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{Images/fiber_scan_tranverse_slices.pdf}
-    \caption{Transverse slices of the dipole trap beam taken at several axial positions about the focus. Each pixel is 200 nm and the longitudinal position varies by 0.5 $\mu \mathrm{m}$ between each slice. Note that each slice has been individually normalized for clarity.}
+    \caption{Transverse slices of the dipole trap beam taken at several axial positions about the focus. Each pixel is 200 nm and the longitudinal position varies by 0.5 $\mu \mathrm{m}$ between each slice. Note that each slice has been individually normalized for clarity. The scale bars indicate $1~\mu \mathrm{m}$.}
     \label{fig:fiber_scan_axial_steps}
 \end{figure}
 
@@ -257,7 +264,7 @@ The cooling, MOT repump, and OP repump are delivered to the science chamber's fi
 A 795 nm DFB laser (EYP-DFB-0795-00080-1500-TOC03-0005) resonant with $F=1 \leftrightarrow F'=1$ on the $D_1$ line is used for optically pumping the atoms into $\ket{F=1, m=0}$. The laser is locked on the $F=1 \leftrightarrow F'=2$ $D_1$ transition with frequency modulation (FM) saturated absorption spectroscopy and frequency shifted with AOMs. This light shares a path to the atoms with the excitation light, where two AOMs are used for switching between two opposite directions (GRIN 1 and GRIN 2 paths in the chamber). This choice was made  because alternating between the two paths during optical pumping can reduce photo-scatter induced heating \cite{su2024fast}.
 
 \subsection{FORT}
-The dipole trap or far-off resonant trap (FORT), which we use interchangeably, is formed with a high-power 852 nm distributed Bragg reflector (DBR) laser\footnote{Most of the data shown in this thesis used an Eagleyard DFB, which was later replaced by the Photodigm so as to have sufficient power for the FORT for both network nodes.} (Photodigm 852.347DBRH-IBragg). The FORT light is coupled into the SM fiber interface to the science chamber after being combined with the 780 nm photon path using a dichroic beamsplitter (AVR Optics LPD02-785RU-25).  
+The dipole trap or far-off resonant trap (FORT), which we use interchangeably, is formed with a high-power 852 nm distributed Bragg reflector (DBR) laser\footnote{For most of the data shown in this thesis an Eagleyard DFB was used, which was later replaced by the Photodigm so as to have sufficient power for the FORT for both network nodes.} (Photodigm 852.347DBRH-IBragg). The FORT light is coupled into the SM fiber interface to the science chamber after being combined with the 780 nm photon path using a dichroic beamsplitter (AVR Optics LPD02-785RU-25).  
 
 \section{Magnetic field coils}
 The coils for creating the quadrupole field for forming a MOT as well as shim fields and a bias field for entanglement experiments were made from Kapton-coated wire wrapped around custom aluminum holders designed by the author (Fig. \ref{fig:node1_coils.pdf}). The holders consist of six c-shaped sections, one for each coil which bolt to each other to form a frame which clamps to the chamber. The c-shape, rather than a closed loop, was chosen to mitigate the formation of eddy currents. The author notes that in retrospect, a non-metallic material or a variant of this design with fewer sharp edges would be preferable in a future build, as multiple shorts in the wires were found after wiring, apparently caused by the Kapton coating being worn off in certain places during the winding process. The version of coil holders used in the second node still suffered from this problem, despite design changes to reduce the number of edges encountered by the wires during winding.
@@ -265,7 +272,7 @@ The coils for creating the quadrupole field for forming a MOT as well as shim fi
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{Images/node1_coils.pdf}
-    \caption{The coil assembly used for the first version of the quantum network experiment. A second version with minor modifications was made to give slightly deeper channels for the coils and notches to help start the winding. The circular coils can be driven in either an anti-Helmholtz or Helmholtz configuration to form a quadrupole field for the MOT or shim fields, respectively.}
+    \caption{The coil assembly used for the first node in the quantum network experiment. A second version with minor modifications was made to give slightly deeper channels for the coils and notches to help start the winding. The circular coils can be driven in either an anti-Helmholtz or Helmholtz configuration to form a quadrupole field for the MOT or shim fields, respectively.}
     \label{fig:node1_coils.pdf}
 \end{figure}
 
