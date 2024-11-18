@@ -183,19 +183,19 @@ The single atom experiment described above provides the basic framework for most
 \section{Qubit state preparation}
 
 \subsection{Optical pumping and microwave rotations}
+
 The communication qubit state must be initialized into $\ket{F=1,m_F=0}$ for attempting
 atom-photon entanglement generation. For optical pumping into this target state, we drive the $D_1$ transition $F=1 \leftrightarrow F'=1$ with linearly polarized light, for which the $m_F=0$ to $m_F'=0$ transition is dark. We typically apply a bias field of a few G parallel to the polarization of the light, which coincides with the axis of the parabolic mirror used for photon collection. To avoid worrying about Stark shifts from the FORT, the optical pumping and FORT light are chopped on and off out of phase so that we only address the bare atomic states. 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Images/microwave_Rabi_202409xx.png}
+    \caption{?? put a good microwave oscillation here. this image is just a placeholder}
+    \label{fig:microwave_oscillation}
+\end{figure}
 
 Optical pumping fidelity is verified by driving the ground state clock transition $\ket{F=1,m_F=0} \leftrightarrow \ket{F=2,m_F=0}$ with microwaves delivered with an external horn, where full population transfer would indicate unity pumping fidelity. A typical microwave Rabi oscillation is shown in \ref{fig:microwave_oscillation}. The observed Rabi oscillation is generally around 30 kHz, which is the correct order of magnitude expected given approximately 3 W microwave power emitted by the horn\cite{kwon2019rydberg}.
 
 %% ?? how much pumping power and pumping time?
-
-\begin{figure}[!ht]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Images/fig_coming_soon.png}
-    \caption{?? put a bad microwave oscillation here}
-    \label{fig:microwave_oscillation}
-\end{figure}
 
 The microwave system, based on an RF generator (Valon) has been adapted from the one used in \cite{Young2022thesis,kwon2019rydberg}, with minor modifications. The system, along with an RF line for use in the tomography of the atomic state, is shown in Fig. \ref{fig:microwave_system}.
 
