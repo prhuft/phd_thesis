@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="beam_balance_and_shims_optimization.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.41781004"
+     inkscape:cx="362.60497"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1280"
+     inkscape:window-height="698"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 71.709141,127.64613 2.8e-5,-26.73747"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="m 71.709141,100.90866 46.614819,-3e-5"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path11" />
+    <path
+       d="m 118.27581,114.27726 3e-5,-13.36873"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path13" />
+    <path
+       d="m 117.74664,114.13783 h 36.65643"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <path
+       d="M 62.184141,127.63158 H 71.33846"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <path
+       d="m 71.973724,158.86696 2.8e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path19" />
+    <path
+       d="m 71.973724,132.12949 46.614816,-3e-5"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path21" />
+    <path
+       d="m 118.54039,158.86696 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path23" />
+    <path
+       d="m 118.54039,158.85241 h 2.90433"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path25" />
+    <path
+       d="m 62.713308,158.85241 h 9.154318"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       d="m 121.18622,158.86696 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path29" />
+    <path
+       d="m 121.18622,132.12949 h 4.22275"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31" />
+    <path
+       d="m 125.68414,158.86696 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path33" />
+    <path
+       d="m 126.47789,158.85241 h 18.97698"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path35" />
+    <path
+       d="m 145.26331,158.86696 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path37" />
+    <path
+       d="m 145.26331,132.12949 h 4.22275"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path39" />
+    <path
+       d="m 150.02581,158.86696 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path41" />
+    <text
+       fill="#c00000"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text43"
+       x="29.754688"
+       y="143.77116"
+       style="stroke-width:0.264583">C</text>
+    <text
+       fill="#c00000"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text45"
+       x="34.164497"
+       y="143.77116"
+       style="stroke-width:0.264583">ooling</text>
+    <text
+       fill="#c00000"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text47"
+       x="54.757816"
+       y="143.77116"
+       style="stroke-width:0.264583">and</text>
+    <text
+       fill="#c00000"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text49"
+       x="30.283855"
+       y="151.44408"
+       style="stroke-width:0.264583">repump</text>
+    <text
+       fill="#ffc000"
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text51"
+       x="40.733047"
+       y="114.66699"
+       style="stroke-width:0.264583">FORT</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text53"
+       x="81.038612"
+       y="145.35866"
+       style="stroke-width:0.264583">MOT</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text55"
+       x="93.369789"
+       y="145.35866"
+       style="stroke-width:0.264583">/atom</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text57"
+       x="81.038612"
+       y="151.70866"
+       style="stroke-width:0.264583">l</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text59"
+       x="82.405449"
+       y="151.70866"
+       style="stroke-width:0.264583">oading</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text61"
+       x="117.5564"
+       y="165.99615"
+       style="stroke-width:0.264583">R</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text63"
+       x="120.71024"
+       y="165.99615"
+       style="stroke-width:0.264583">O</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text65"
+       x="125.64922"
+       y="165.99615"
+       style="stroke-width:0.264583">1</text>
+    <path
+       d="m 169.34039,159.13155 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path67" />
+    <path
+       d="m 169.34039,132.39408 h 4.22275"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path69" />
+    <path
+       d="m 173.83831,159.13155 3e-5,-26.73747"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path71" />
+    <path
+       d="m 154.52372,127.50643 3e-5,-13.36873"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path73" />
+    <path
+       d="m 157.43414,127.50643 3e-5,-13.36873"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path75" />
+    <path
+       d="m 154.25914,127.63158 h 3.19855"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path77" />
+    <path
+       d="m 157.69872,114.13783 h 17.43552"
+       stroke="#ffc000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path79" />
+    <path
+       d="m 150.02581,158.85241 h 18.97697"
+       stroke="#c00000"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path81" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text83"
+       x="167.87724"
+       y="165.20241"
+       style="stroke-width:0.264583">R</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text85"
+       x="171.03108"
+       y="165.20241"
+       style="stroke-width:0.264583">O</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text87"
+       x="175.97005"
+       y="165.20241"
+       style="stroke-width:0.264583">2</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text89"
+       x="141.88696"
+       y="165.20241"
+       style="stroke-width:0.264583">Test</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text91"
+       x="141.88696"
+       y="171.55241"
+       style="stroke-width:0.264583">R</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.29167px"
+       id="text93"
+       x="145.04079"
+       y="171.55241"
+       style="stroke-width:0.264583">O</text>
+    <path
+       d="m 135.47372,99.850328 0.054,77.195622"
+       stroke="#47d45a"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       stroke-dasharray="8, 6"
+       fill="none"
+       fill-rule="evenodd"
+       id="path95"
+       style="stroke-width:0.52916698;stroke-miterlimit:8;stroke-dasharray:1.58750095,1.58750095;stroke-dashoffset:0" />
+    <path
+       d="m 162.72581,99.056578 0.054,77.195622"
+       stroke="#d86ecc"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       stroke-dasharray="8, 6"
+       fill="none"
+       fill-rule="evenodd"
+       id="path97"
+       style="stroke-width:0.52916698;stroke-miterlimit:8;stroke-dasharray:2.11666793,2.11666793;stroke-dashoffset:0" />
+  </g>
+</svg>

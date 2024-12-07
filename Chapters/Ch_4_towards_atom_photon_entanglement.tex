@@ -7,7 +7,24 @@
 \section{Single photon generation}
 A precursor to preparing Bell state between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state. Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
 
-%% put a level diagram here?
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/single_photon_experiment_sequence.pdf}
+    \caption{The experiment sequence loop for generating single photons, involving multiple sequences of chopped optical pumping (blue) and excitation attempts (green) per atom loaded. The nomenclature shown is used for consistency with what is used in the lab.}
+    \label{fig:single_photon_sequence}
+\end{figure}
+
+The experiment sequence loop for generating single photons is shown in Fig. \ref{fig:single_photon_sequence}. For each atom loading attempt, multiple excitation cycles, defined as optically pumping the atom into $\ket{F=1,m_F=0}$ followed by at least one excitation pulse, are done in series several times. The exact number is chosen based on how likely the atom is to survive at the end of several cycles. For example, without adding in a recooling cycle, we observe that the atom survival probability after 10 excitation attempts is around 60$\%$ (Fig. \ref{fig:sequence_survival_probability}). Note that multiple excitation pulses in series may be used without worry of more than one photon collected per series of excitation pulses, as the atom either decays into the $F=1$ stretched states which are dark to the excitation light, or it decays back to the inital state, the emission of which is $\pi$-polarized so we do not collect it (if the bias field is tuned correctly to be along the axis of the collection optics). Using several excitation pulses this way allows us to fight the per-pulse probability of $2/3$ to get $\sigma$-polarized emission and get probability approaching 1 after several attempts. Since the optical pumping takes an order of magnitude longer than the excitation pulse, even in the best case, it is advantageous to have multiple excitation pulses in series. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/fig_coming_soon.png}
+    \caption{The probability an atom is retained following some number of excitation cycles with no recooling stage.}
+    \label{fig:sequence_survival_probability}
+\end{figure}
+
+
+
 
 As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow \ket{5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
 
@@ -86,4 +103,7 @@ The Rabi frequency scales as the square root of the power, so we have
 \frac{P_{\textrm{square}}}{P_{\textrm{Gaussian}}} \approx 1.12
 \end{equation}
 Evidently, one needs about $10\%$ more power to excite the atom with a Gaussian pulse of the same nominal temporal length.
+
+\section{Next steps}
+
 
