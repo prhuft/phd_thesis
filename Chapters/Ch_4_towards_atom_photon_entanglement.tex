@@ -1,11 +1,11 @@
 % \part{Template}\label{part:template}
-\chapter{Towards atom-photon entanglement}\label{ch:atomphoton}
+\chapter{Towards a single atom single photon source}\label{ch:atomphoton}
 
 % the hierarchy is 
 % chapter,section,subsection,etc.
 
-\section{Single photon generation}
-A precursor to preparing Bell state between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state. Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
+\section{Single photon generation loop}
+A precursor to preparing Bell states between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state (a scheme first demonstrated in \cite{Volz2006}). Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
 
 \begin{figure}[!h]
     \centering
@@ -14,18 +14,47 @@ A precursor to preparing Bell state between single atoms and emitted photons is 
     \label{fig:single_photon_sequence}
 \end{figure}
 
-The experiment sequence loop for generating single photons is shown in Fig. \ref{fig:single_photon_sequence}. For each atom loading attempt, multiple excitation cycles, defined as optically pumping the atom into $\ket{F=1,m_F=0}$ followed by at least one excitation pulse, are done in series several times. The exact number is chosen based on how likely the atom is to survive at the end of several cycles. For example, without adding in a recooling cycle, we observe that the atom survival probability after 10 excitation attempts is around 60$\%$ (Fig. \ref{fig:sequence_survival_probability}). Note that multiple excitation pulses in series may be used without worry of more than one photon collected per series of excitation pulses, as the atom either decays into the $F=1$ stretched states which are dark to the excitation light, or it decays back to the inital state, the emission of which is $\pi$-polarized so we do not collect it (if the bias field is tuned correctly to be along the axis of the collection optics). Using several excitation pulses this way allows us to fight the per-pulse probability of $2/3$ to get $\sigma$-polarized emission and get probability approaching 1 after several attempts. Since the optical pumping takes an order of magnitude longer than the excitation pulse, even in the best case, it is advantageous to have multiple excitation pulses in series. 
+The experiment sequence loop for generating single photons is shown in Fig. \ref{fig:single_photon_sequence}. For each atom loading attempt, multiple excitation cycles, defined as optically pumping the atom into $\ket{F=1,m_F=0}$ followed by at least one excitation pulse, are done in series several times. The exact number is chosen based on how likely the atom is to survive at the end of several cycles. The atom retention versus number of excitation cycles and the retention for 10 excitation cycles with varying amounts of recooling per cycle are shown in Fig. \ref{fig:sequence_survival_probability}. For the reported data, the recooling stages consists of turning on the MOT beams for some duration following the atom excitation, with the beam power and detuning used for the MOT, i.e., $2.5 \Gamma$ detuned from the bare $F=2\leftrightarrow F'=3$ cycling transition, or closer to $6 \Gamma$ including the AC Stark shifts from the FORT. It may be possible to acheive better cooling by going to lower power and more detuning. A limiting factor in this, however, is the extent to which the powers of opposing cooling beams are balanced and the magnetic field at the atom is near 0 (see Appendix \ref{ch:tempopt}). For now, the bias field of $\sim~3.2 $ G is left on continuously for the duration of the excitation loop.
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=\textwidth]{Images/fig_coming_soon.png}
-    \caption{The probability an atom is retained following some number of excitation cycles with no recooling stage.}
+    \includegraphics[width=\textwidth]{Images/retention_vs_excitation_cycles_and_recooling.pdf}
+    \caption{(a) The probability an atom is retained following some number of excitation cycles with no recooling and (b) the probability of atom survival after 10 excitation cycles versus the duration of a recooling cycling appended to the end of each excitation cycle. For this data, there is only one excitation attempt per excitation cycle.}
     \label{fig:sequence_survival_probability}
 \end{figure}
 
+Note that multiple excitation pulses in series may be used without worry of more than one photon collected per series of excitation pulses, as the atom either decays into the $F=1$ stretched states which are dark to the excitation light, or it decays back to the inital state, the emission of which is $\pi$-polarized so we do not collect it (if the bias field is tuned correctly to be along the axis of the collection optics). Using several excitation pulses this way allows us to fight the per-pulse probability of $2/3$ to get $\sigma$-polarized emission and get probability approaching 1 after several attempts. Since the optical pumping takes an order of magnitude longer than the excitation pulse, even in the best case, it is advantageous to have multiple excitation pulses in series. 
 
+\section{Photon extraction rate}
+The photon extraction rate depends on both the per-attempt collection efficiency of our setup and the repetition rate with which we excite the atom. The 0.61 NA parabolic mirror can couple $\sigma$-polarized emission, which we get two-thirds of the time, from an atom trapped at the focus to an SM fiber with 0.12 efficiency in an ideal situation, i.e. where imperfections in the fiber coupling lens are neglected. In addition, there is finite loss through the dichroic that separates the $780 $nm photons from the FORT light path and loss through the bandpass filters before the detectors. Finally, there is finite coupling into MM fibers that go to the two SPCMs used for collection, each of which have around 0.65 quantum efficiency at 780 nm. The efficiencies of each step in the pipeline are summarized in Table \ref{table:collection_efficiency}.
 
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{ | m{2.2cm}| m{1cm} | }
+        \hline
+        Efficiency & Value \\
+        \hline
+        $\eta_{\sigma}$& 2/3 \\ 
+        \hline
+        $\eta_{\mathrm{mirror-to-fiber}} $& 0.12 \\
+        \hline
+        $\eta_{\mathrm{filters}} $& 0.94\footnotemark{} \\
+        \hline
+        $\eta_{\mathrm{MM}} $& 0.98 \\
+        \hline
+        $\eta_{\mathrm{SPCM}} $& 0.65 \\
+        \hline
+        $\eta_{\mathrm{total}} $& 0.044 \\
+        \hline
+    \end{tabular}
+    \caption{Efficiencies through various elements in the path from atom to SPCMs.}
+    \label{table:collection_efficiency}
+\end{table}
+\footnotetext{This is an approximation based on the comment by Akbar Safari that the two bandpass filters per SPCM and dichroic each had transmission over $98\%$.}
 
+The repetition rate for generating photons once an atom is loaded depends primarily on the duration of time needed to optically pump the atom into $\ket{F=1,m_F=0}$ before each $\pi$ pulse. For the data presented in this thesis, the OP stage has not yet been optimized and therefore consumes typically 3 ms. The excitation pulse and collection window contribute a negligible amount of time by comparison, taking only $\sim~100$ ns. However, the OP time can be shortened to only a few $\mu \mathrm{s}$, perhaps at the expense of fidelity\cite{zhou2024long}. This would enable a peak photon detection rate on the order of $10^{5}~\mathrm{s}^{-1}$. Note however that this does not take into account recooling stages, and the average rate will be determined by how many times we need to reload an atom, which takes $\sim~500~\mathrm{ms}$ (see also Sec. \ref{sec:entanglementrate}).
+
+\section{Excitation $\pi$-pulse}
 As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow \ket{5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
 
 The excitation light, pulsed by an AOM, can be approximated by a Gaussian pulse in order to estimate how much power we need at the atoms for a given pulse width. The requirement to complete full population transfer with a time-varying Rabi frequency is 
@@ -74,7 +103,7 @@ resulting in the peak Rabi frequency
 \begin{equation}\label{eq:omega0}
     \Omega_0=\frac{2\sqrt{\pi \ln(2)}}{t_{\textrm{FWHM}}}.
 \end{equation}
-It can be shown with dimensional analysis that the units above (Eq. \ref{eq:omega0}) are in fact power\footnote{Left as an exercise for the younger grad students.}.
+It can be shown with dimensional analysis that the units of Eq. \ref{eq:p0} are in fact power\footnote{Left as an exercise for the younger grad students.}.
 
 The electric dipole matrix element for a transition $F,m_F$ to $F',m_F'$ on the $^{87}\textrm {Rb}$  $D_2$ line is given by
 \begin{equation}d=4.227 e a_0 (-1)^{F'+J+1+I} \sqrt{(2 F'+1)(2 J+1)}\left\{\begin{array}{ccc}
@@ -104,6 +133,7 @@ The Rabi frequency scales as the square root of the power, so we have
 \end{equation}
 Evidently, one needs about $10\%$ more power to excite the atom with a Gaussian pulse of the same nominal temporal length.
 
-\section{Next steps}
+\section{Measuring $g^{(2)}$}
 
+todo... add diagram of the collection optics, cite HBT, mention heatshrink and tape over MM fibers, 100-200 counts/s. 
 

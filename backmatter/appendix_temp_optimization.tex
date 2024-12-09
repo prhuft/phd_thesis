@@ -18,7 +18,7 @@ For our fiber-coupled apparatus, where our MOT beam powers can not be directly m
 
 After running the optimization routine described above, the set points for the beam powers should be set using the best photodetector values. Single atom loading can be found again by scanning the MOT coils, and the readout shims should be optimal using the shim values found in the optimization routine.
 
-To aid the author's successors, here is some ARTIQ python pseudocode for the described optimization routine. The following experiment function would be run with the GeneralVariableOptimizer experiment to optimize the variables $\mathrm{test} \_ \mathrm{amplitude}1$, etc.,  and $\mathrm{AZ} \_ \mathrm{bottom} \_ volts$, etc., shown in the code below. The i2V values corresponding to the best fiber AOM RF amplitudes should then be set as the new set points, and a MOT and single atom loading can be found with the new beam powers by scanning the MOT coils.
+To aid the author's successors, here is some ARTIQ python pseudocode for the described optimization routine. The following experiment function would be run with the GeneralVariableOptimizer experiment to optimize the variables $\mathrm{test} \_ \mathrm{amplitude}1$, etc.,  and $\mathrm{AZ} \_ \mathrm{bottom} \_ \mathrm{volts}$, etc., shown in the code below. The i2V values corresponding to the best fiber AOM RF amplitudes should then be set as the new set points, and a MOT and single atom loading can be found with the new beam powers by scanning the MOT coils.
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
