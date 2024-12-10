@@ -5,7 +5,7 @@
 % chapter,section,subsection,etc.
 
 \section{Single photon generation loop}
-A precursor to preparing Bell states between single atoms and emitted photons is the ability to generate a photon from an atom on-demand. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state (a scheme first demonstrated in \cite{Volz2006}). Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
+A precursor to preparing Bell states between single atoms and emitted photons is the ability to generate single photons from an atom on-demand\cite{Garcia2013, mucke2013generation, higginbottom2016pure}. With an atom optically pumped into $\ket{5S_{1/2},F=1,m_F=0}$ as described in the previous chapter, $\pi$-polarized 780 nm light incident on the atom can excite it to $\ket{5P_{3/2},F=1,m_F=0}$, where the spontaneous decay is expected to be in a single photon Fock state (a scheme first demonstrated in \cite{Volz2006}). Unlike some remote entanglement protocols which involve weak excitation\cite{cabrillo1999creation}, with an intentionally small probability of exciting the atom, here we employ a $\pi$ pulse so that the population is entirely in the excited state to maximize the per-excitation chance of extracting a photon. 
 
 \begin{figure}[!h]
     \centering
@@ -135,5 +135,20 @@ Evidently, one needs about $10\%$ more power to excite the atom with a Gaussian 
 
 \section{Measuring $g^{(2)}$}
 
-todo... add diagram of the collection optics, cite HBT, mention heatshrink and tape over MM fibers, 100-200 counts/s. 
-
+The test of whether the emission of our atoms is composed of single photon, that is, $\ket{n=1}$ Fock states, is measurement of the second-order quantum correlation function $g^{(2)}$. This correlation function, the measurement of which is also known as a Hanbury Brown and Twiss measurement\cite{brown1958interferometry} or intensity correlation, is given by\cite{gerry2004introductory}
+\begin{equation}\label{fig:g2long}
+    g^{(2)}(\tau) = \frac{\langle \hat{E}^{(-)}(t) \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \hat{E}^{(+)}(t) \rangle}{\langle \hat{E}^{(-)}(t) \hat{E}^{(+)}(t) \rangle \langle \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \rangle}.
+\end{equation}
+The positive frequency field operator $E^{(+)}$ at position $x$ for a single mode plane wave with angular frequency $\omega$ and wavevector $\mathbf{k}$ and mode volume $V$, is given by
+\begin{equation}\label{fig:Epositive}
+    \hat{E}^{(+)}(x) = i \left(\frac{\hbar \omega}{2 \epsilon_0 V}\right)^{\frac{1}{2}} \hat{a} e^{i(\mathbf{k\cdot r} - \omega t)}.
+\end{equation}
+and $\hat{a}$ is the annihilation operator. Evaluating \label{fig:g2} for a single mode field thus reduces to
+\begin{equation}
+    g^{(2)}(\tau) = \frac{\langle \hat{a}^{\dagger}\hat{a}^{\dagger}\hat{a}\hat{a} \rangle}{\langle \hat{a}^{\dagger}\hat{a} \rangle}^2 = 1 + \frac{\langle (\Delta \hat{n})^2 \rangle - \langle \hat{n} \rangle}{\langle \hat{n} \rangle^2}
+\end{equation}
+which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this gives 
+\begin{equation}
+    g^{(2)}(\tau) = 1 - \frac{1}{n}
+\end{equation}
+which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) < g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon}.
