@@ -317,7 +317,7 @@ More details on preliminary coil testing will be given in the upcoming PhD thesi
 %     F_z = f_z \cos(\theta_z) \nonumber
 % \end{align}
 
-\section{Experiment Control}
+\section{Experiment control}
 
 Quantum networking experiments with cold atoms require control hardware including analog and digital inputs and outputs, each with a high degree of timing precision. It is also important to be able to write flexible control programs which streamline experiment runs, including data acquisition and analysis. For these purposes, we use the Sinara hardware suite and ARTIQ control software. Our Sinara hardware consists of analog and digital I/O and DDS channels controlled by a Zynq-based FPGA controller, the Kasli-SoC\cite{lam2021combining}. The benefit of FPGA-controlled hardware, as opposed to looping a predetermined pulse sequence, is the ability to have experiments with conditional logic which determines how the experiment progresses. This is particularly important for the probabilistic entanglement sequence described in Sec. \ref{sec:reg}, in which a detection event heralding remote entanglement can be used to break out of the entanglement attempt loop to use the entanglement as a resource. Breaking out of the loop is also a necessity for verifying the state with quantum state tomography and for reloading atoms when one is lost.
 

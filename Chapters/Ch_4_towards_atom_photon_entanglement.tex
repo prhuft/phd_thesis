@@ -137,27 +137,26 @@ Evidently, one needs about $10\%$ more power to excite the atom with a Gaussian 
 
 \subsection{The second-order quantum correlation function}
 The test of whether the emission of our atoms is composed of single photon, that is, $\ket{n=1}$ Fock states, is measurement of the second-order quantum correlation function $g^{(2)}$. This correlation function, sometimes referred to as an intensity correlation, is given by\cite{gerry2004introductory}
-\begin{equation}\label{fig:g2long}
+\begin{equation}\label{eq:g2long}
     g^{(2)}(\tau) = \frac{\langle \hat{E}^{(-)}(t) \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \hat{E}^{(+)}(t) \rangle}{\langle \hat{E}^{(-)}(t) \hat{E}^{(+)}(t) \rangle \langle \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \rangle}.
 \end{equation}
 The positive frequency field operator $E^{(+)}$ at position $x$ for a single mode plane wave with angular frequency $\omega$ and wavevector $\mathbf{k}$ and mode volume $V$, is given by
-\begin{equation}\label{fig:Epositive}
+\begin{equation}\label{eq:Epositive}
     \hat{E}^{(+)}(x) = i \left(\frac{\hbar \omega}{2 \epsilon_0 V}\right)^{\frac{1}{2}} \hat{a} e^{i(\mathbf{k\cdot r} - \omega t)}.
 \end{equation}
-and $\hat{a}$ is the annihilation operator. Evaluating \label{fig:g2} for a single mode field thus reduces to
-\begin{equation}
+and $\hat{a}$ is the annihilation operator. Evaluating Eq. (\label{eq:g2long}) for a single mode field thus reduces to
+\begin{equation}\label{g2singlemode}
     g^{(2)}(\tau) = \frac{\langle \hat{a}^{\dagger}\hat{a}^{\dagger}\hat{a}\hat{a} \rangle}{\langle \hat{a}^{\dagger}\hat{a} \rangle}^2 = 1 + \frac{\langle (\Delta \hat{n})^2 \rangle - \langle \hat{n} \rangle}{\langle \hat{n} \rangle^2}
 \end{equation}
-which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this gives 
-\begin{equation}
+which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this further reduces to 
+\begin{equation}\label{eq:g2fock}
     g^{(2)}(\tau) = 1 - \frac{1}{n}
 \end{equation}
-which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) < g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon}.
+which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) < g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon,volz2007atom}, since a single quantum emitter can not emit more than one photon simultaneously.
 
 \subsection{Hanbury Brown Twiss measurement}
 
-% this is pretty poor. describe the measurement.
-Intensity correlation measurements were first conducted by Hanbury Brown and Twiss with intention to apply the technique to improve angular resolution of astronomical objects using two telescopes\cite{brown1958interferometry}. Today, the method is widely used in quantum optics for measuring $g^{(2)}$. The optical setup is relatively simple, consisting of a beamsplitter used to split a state of light incident on one port of the beamsplitter between two detectors at the output ports, shown in Fig. \ref{fig:hbtsetup}.
+Intensity correlation measurements were first conducted by Hanbury Brown and Twiss for improving the baseline angular resolution of radio telescopes\cite{HANBURYBROWN1956} and later extended to measuring coherence in visible light\cite{brown1958interferometry}. Today, variations of their method is widely used in quantum optics for measuring $g^{(2)}$. The optical setup is relatively simple, consisting of a beamsplitter used to split a state of light incident on one port of the beamsplitter between two detectors at the output ports, shown in Fig. \ref{fig:hbtsetup}. By measuring the correlation of the intensity of a single mode field at the two detectors, one enacts a measurement of Eq. (\ref{eq:g2singlemode}).
 
 \begin{figure}[!h]
     \centering
@@ -166,7 +165,7 @@ Intensity correlation measurements were first conducted by Hanbury Brown and Twi
     \label{fig:hbtsetup}
 \end{figure}
 
-A non-polarizing beamsplitter can be described as an operator which transforms the annihilation (and creation) operators at the input ports to those at the output ports according to
+A non-polarizing beamsplitter can be described as a quantum operator which transforms the annihilation (or creation) operators at the input ports to those at the output ports according to
 \begin{equation}
 \left(\begin{array}{l}
     a_{c} \\
@@ -182,13 +181,13 @@ A non-polarizing beamsplitter can be described as an operator which transforms t
 where we will take $t=1/\sqrt{2}$ and $r=i/\sqrt{2}$. This results in 
 \begin{equation}
 \begin{aligned}
-&a_{c}=\frac{1}{\sqrt{2}}\left(a_{a}+i a_{1}\right) \\
-&a_{d}=\frac{1}{\sqrt{2}}\left(i a_{b}+a_{1}\right)
+&a_{c}=\frac{1}{\sqrt{2}}\left(a_{a}+i a_{b}\right) \\
+&a_{d}=\frac{1}{\sqrt{2}}\left(i a_{a}+a_{b}\right)
 \end{aligned}
 \end{equation}
-and can be used, for example, to derive the famous Hong-Ou-Mandel effect\cite{Hong1987}.
+which can be used, for example, to derive the famous Hong-Ou-Mandel effect\cite{Hong1987}.
 
-It is clear that for an input state $\ket{0}_a+\ket{0}_b$
+% It is clear that for an input state $\ket{0}_a+\ket{0}_b$
 
 
 
