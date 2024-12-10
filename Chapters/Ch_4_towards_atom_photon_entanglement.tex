@@ -145,7 +145,7 @@ The positive frequency field operator $E^{(+)}$ at position $x$ for a single mod
     \hat{E}^{(+)}(x) = i \left(\frac{\hbar \omega}{2 \epsilon_0 V}\right)^{\frac{1}{2}} \hat{a} e^{i(\mathbf{k\cdot r} - \omega t)}.
 \end{equation}
 and $\hat{a}$ is the annihilation operator. Evaluating Eq. (\label{eq:g2long}) for a single mode field thus reduces to
-\begin{equation}\label{g2singlemode}
+\begin{equation}\label{eq:g2singlemode}
     g^{(2)}(\tau) = \frac{\langle \hat{a}^{\dagger}\hat{a}^{\dagger}\hat{a}\hat{a} \rangle}{\langle \hat{a}^{\dagger}\hat{a} \rangle}^2 = 1 + \frac{\langle (\Delta \hat{n})^2 \rangle - \langle \hat{n} \rangle}{\langle \hat{n} \rangle^2}
 \end{equation}
 which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this further reduces to 
@@ -160,8 +160,8 @@ Intensity correlation measurements were first conducted by Hanbury Brown and Twi
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=\textwidth]{Images/fig_coming_soon.png}
-    \caption{The optical setup for conducting a Hanbury Brown Twiss measurement.}
+    \includegraphics[width=0.7\textwidth]{Images/hbt_measurment.pdf}
+    \caption{The optical setup for measuring $g^{(2)}$, where a vacuum state at port $b$ is implied. The time tagging hardware is our Sinara hardware, where the TTL signals from the SPCMs are read in with DIO channels.}
     \label{fig:hbtsetup}
 \end{figure}
 
@@ -178,17 +178,30 @@ A non-polarizing beamsplitter can be described as a quantum operator which trans
     a_{b}
 \end{array}\right)
 \end{equation}
-where we will take $t=1/\sqrt{2}$ and $r=i/\sqrt{2}$. This results in 
+where we will take $t=1/\sqrt{2}$ and $r=i/\sqrt{2}$. This results in the following relations for the input operators,
 \begin{equation}
 \begin{aligned}
-&a_{c}=\frac{1}{\sqrt{2}}\left(a_{a}+i a_{b}\right) \\
-&a_{d}=\frac{1}{\sqrt{2}}\left(i a_{a}+a_{b}\right)
+&a_{a}=\frac{1}{\sqrt{2}}\left(a_{c} - i a_{d}\right) \\
+&a_{b}=\frac{1}{\sqrt{2}}\left(a_{d} - i a_{c}\right).
 \end{aligned}
 \end{equation}
-which can be used, for example, to derive the famous Hong-Ou-Mandel effect\cite{Hong1987}.
+It is now trivial to show that, as expected, a single photon state impinging on port $a$ will result in a photon detected at either output port with equal probability. For the input state $\ket{a}_a\ket{0}_b$, we have:
+\begin{equation}
+    \begin{aligned}
+        \ket{0}_a\ket{0}_b &= a_a^{\dagger}\ket{0}_a\ket{0}_b \\
+                           &= \frac{1}{\sqrt{2}}\left(a_{c}^{\dagger} - i a_{d}^{\dagger}\right)\ket{0}_c\ket{0}_d \\
+                           &= \frac{1}{\sqrt{2}}\left(\ket{1}_c\ket{0}_d - i \ket{0}_c\ket{1}_d\right)
+    \end{aligned}
+\end{equation}
 
-% It is clear that for an input state $\ket{0}_a+\ket{0}_b$
-
+The detectors used in our experiment, SPCMs, output a TTL pulse upon detection of a photon. However, the detectors are not photon number resolving, meaning that a single TTL pulse could just as well indicate two photons arriving to that detector simultaneously. It is interesting therefore to ask whether the absence of correlation between the two detectors in fact allows us to claim measurement of single photons. Consider the case in which the output state of the beamsplitter is a N00N state, $\ket{N00N} = (1/2)(\ket{n}_c\ket{0}_d + \ket{0}_c\ket{n}_d)$. Solving for the state expressed in terms of the field at the input ports results in
+\begin{equation}
+    \begin{aligned}
+        \frac{1}{2}\left(\ket{n}_c\ket{0}_d+\ket{0}_c\ket{n}_d\right) &= \frac{\left(a_a^{\dagger} + i a_b^{\dagger}\right)^n + \left(i a_a^{\dagger} + a_b^{\dagger}\right)^n}{\sqrt{2 n!}}\ket{0}_a\ket{0}_b
+    \end{aligned}
+\end{equation}
+from which it is clear that in general we will need an input state with non-zero amplitudes for mode occupation at both input ports, whereas in our experiment, port $b$ can always be taken to be in the vacuum state given the low probability of a 780 nm photon from background at room temperature.
+For $n=2$, we find that the required input state is $i\ket{1}_a\ket{1}_b$. We have just worked out the famous Hong-Ou-Mandel effect\cite{Hong1987} in reverse.
 
 
 
