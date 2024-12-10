@@ -135,7 +135,8 @@ Evidently, one needs about $10\%$ more power to excite the atom with a Gaussian 
 
 \section{Measuring $g^{(2)}$}
 
-The test of whether the emission of our atoms is composed of single photon, that is, $\ket{n=1}$ Fock states, is measurement of the second-order quantum correlation function $g^{(2)}$. This correlation function, the measurement of which is also known as a Hanbury Brown and Twiss measurement\cite{brown1958interferometry} or intensity correlation, is given by\cite{gerry2004introductory}
+\subsection{The second-order quantum correlation function}
+The test of whether the emission of our atoms is composed of single photon, that is, $\ket{n=1}$ Fock states, is measurement of the second-order quantum correlation function $g^{(2)}$. This correlation function, sometimes referred to as an intensity correlation, is given by\cite{gerry2004introductory}
 \begin{equation}\label{fig:g2long}
     g^{(2)}(\tau) = \frac{\langle \hat{E}^{(-)}(t) \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \hat{E}^{(+)}(t) \rangle}{\langle \hat{E}^{(-)}(t) \hat{E}^{(+)}(t) \rangle \langle \hat{E}^{(-)}(t+\tau) \hat{E}^{(+)}(t+\tau) \rangle}.
 \end{equation}
@@ -152,3 +153,44 @@ which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this 
     g^{(2)}(\tau) = 1 - \frac{1}{n}
 \end{equation}
 which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) < g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon}.
+
+\subsection{Hanbury Brown Twiss measurement}
+
+% this is pretty poor. describe the measurement.
+Intensity correlation measurements were first conducted by Hanbury Brown and Twiss with intention to apply the technique to improve angular resolution of astronomical objects using two telescopes\cite{brown1958interferometry}. Today, the method is widely used in quantum optics for measuring $g^{(2)}$. The optical setup is relatively simple, consisting of a beamsplitter used to split a state of light incident on one port of the beamsplitter between two detectors at the output ports, shown in Fig. \ref{fig:hbtsetup}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/fig_coming_soon.png}
+    \caption{The optical setup for conducting a Hanbury Brown Twiss measurement.}
+    \label{fig:hbtsetup}
+\end{figure}
+
+A non-polarizing beamsplitter can be described as an operator which transforms the annihilation (and creation) operators at the input ports to those at the output ports according to
+\begin{equation}
+\left(\begin{array}{l}
+    a_{c} \\
+    a_{d}
+    \end{array}\right)=\left(\begin{array}{ll}
+    t^{\prime} & r \\
+    r^{\prime} & t
+    \end{array}\right)\left(\begin{array}{l}
+    a_{a} \\
+    a_{b}
+\end{array}\right)
+\end{equation}
+where we will take $t=1/\sqrt{2}$ and $r=i/\sqrt{2}$. This results in 
+\begin{equation}
+\begin{aligned}
+&a_{c}=\frac{1}{\sqrt{2}}\left(a_{a}+i a_{1}\right) \\
+&a_{d}=\frac{1}{\sqrt{2}}\left(i a_{b}+a_{1}\right)
+\end{aligned}
+\end{equation}
+and can be used, for example, to derive the famous Hong-Ou-Mandel effect\cite{Hong1987}.
+
+It is clear that for an input state $\ket{0}_a+\ket{0}_b$
+
+
+
+
+

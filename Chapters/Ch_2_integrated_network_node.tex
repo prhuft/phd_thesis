@@ -41,16 +41,16 @@ The vacuum system consists of a custom science chamber in which the optics live,
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{Images/chamber_is_open_and_shut.pdf}
-    \caption{The custom two piece 6" flange-like vacuum chamber for one of the quantum network nodes. (a) The brain and spinal cord of the quantum node being strung through its head (optical chip, fibers, and bottom of the chamber, respectively). Note the Kimball Physics Groove Grabbers and copper shims used for mounting the so-called optical chip. b) The optical chip in the chamber with the top window attached.}
+    \caption{The custom two piece 6" flange-like vacuum chamber for one of the quantum network nodes. (a) The brain and spinal cord of the quantum node being strung through its head (optical chip, fibers, and bottom of the chamber, respectively). Note the Kimball Physics Groove Grabbers and copper shims used for mounting the so-called optical chip. (b) The optical chip in the chamber with the top window attached.}
     \label{fig:vacuum_chamber_imgs}
 \end{figure}
 
 The custom stainless steel chamber (MDC Precision) which houses the optical chip is modeled in the fashion of a pair of 6" Conflat flanges, furnished with fused silica view ports on each side for external optical access (Fig. \ref{fig:vacuum_chamber_imgs}). The view ports are anti-reflection (AR) coated on both sides for 400-1100 nm and the thickness of each was chosen so as to cancel optical aberrations when used with existing custom objective lenses (JenOptik) used in our group. The Macor chip holding the optics mounts into the chamber with the help of two Kimball Physics Groove Grabbers (6", Reverse) which mount to the inner wall of the lower half of the science chamber. The chip is situated such that the plane defined by the axes of the optical beams on the chip, and hence the region where an atom will be trapped, is equidistant from each window. See the mechanical drawing in Appendix \ref{ch:mech_drawings} for the full dimensions of the science chamber.
 
-\begin{figure}
+\begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Images/differential_pumping.pdf}
-    \caption{A cross-section illustration showing the copper pinch off tube used as a differential pumping tube between the upper and lower vacuum chamber regions. The 8 fibers coming through the drilled Teflon plugged SwageLock feedthroughs (each feedthrough marked as a black X) go up through the copper tube and into the science region.}
+    \caption{A cross-section illustration of the vacuum chamber design\protect\footnotemark{} showing the copper pinch off tube used as a differential pumping tube between the upper and lower vacuum chamber regions. The 8 fibers coming through the drilled Teflon plugged SwageLock feedthroughs (each feedthrough marked as a black X) go up through the copper tube and into the science region.}
     \label{fig:differential_pumping}
 \end{figure}
 
@@ -58,7 +58,7 @@ The vacuum system is divided into two sections, upper and lower, separated by a 
 \begin{equation}
      C = 12.1\frac{d^3}{l}
 \end{equation}
-for a pipe of diameter $d$ and length $l$, where $l \geq 10d$ \cite{Marquardt1999}. This gives a conductivity of 0.44 L/s between the two chambers, which is lower than the upper ion pump's pumping speed, 10 L/s, by a factor of about 22. The actual conductivity is lower due to the pinch, and the conductivity between the science region and lower chamber is lower still due to the right angle between the science chamber and differential pumping path. In practice, we observed an order of magnitude difference ($P_{\textrm{upper}}=4\cdot10^{-10}$ Torr, compared to $P_{\textrm{lower}}=2\cdot10^{-9}$ Torr) between the two chambers following the vacuum bakeout and prior to opening the valve to release Rb vapor.
+for a pipe of diameter $d$ and length $l$, where $l \geq 10d$ \cite{Marquardt1999}. This gives a conductivity of 0.44 L/s between the two chambers, which is lower than the upper ion pump's pumping speed, 10 L/s, by a factor of about 22. The actual conductivity is lower due to the pinch, and the conductivity between the science region and lower chamber is lower still due to the right angle between the science chamber and differential pumping path. In practice, we observed an order of magnitude difference ($P_{\textrm{upper}}=4\cdot10^{-10}$ Torr, compared to $P_{\textrm{lower}}=2\cdot10^{-9}$ Torr) between the two chambers following the vacuum bakeout and prior to opening the valve to release Rb vapor.\footnotetext{This figure reflects the chamber as initially constructed. However, the direct line of sight to the upper ion pump from the science chamber and lack of line of sight to the ampoule turned out to be a poor design choice. The ion pump became poisoned within only the first few months of use. The chamber was then backfilled with nitrogen and we swapped the location of the ampoule and upper ion pump.} 
 
 \section{UHV science optics}\label{sec:science_optics}
 
