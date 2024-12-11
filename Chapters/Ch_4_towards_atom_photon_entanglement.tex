@@ -55,7 +55,7 @@ The photon extraction rate depends on both the per-attempt collection efficiency
 The repetition rate for generating photons once an atom is loaded depends primarily on the duration of time needed to optically pump the atom into $\ket{F=1,m_F=0}$ before each $\pi$ pulse. For the data presented in this thesis, the OP stage has not yet been optimized and therefore consumes typically 3 ms. The excitation pulse and collection window contribute a negligible amount of time by comparison, taking only $\sim~100$ ns. However, the OP time can be shortened to only a few $\mu \mathrm{s}$, perhaps at the expense of fidelity\cite{zhou2024long}. This would enable a peak photon detection rate on the order of $10^{5}~\mathrm{s}^{-1}$. Note however that this does not take into account recooling stages, and the average rate will be determined by how many times we need to reload an atom, which takes $\sim~500~\mathrm{ms}$ (see also Sec. \ref{sec:entanglementrate}).
 
 \section{Excitation $\pi$-pulse}
-As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow \ket{5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
+As the lifetime of the $5P_{3/2}$ states is only 27 ns, we would like to excite the atom in less time than this to mitigate decay during the excitation, as this can lead to an effective jitter in the arrival time of photons due to decay during the excitation. Short pulses are broader in frequency and can potentially lead to unwanted excitation. The nearest state that could be excited off-resonantly is $\ket{5P_{3/2},F=2,m_F=0}$, which is nearly 230 MHz away (note that the $\ket{5S_{1/2},F=1,m_F=0} \leftrightarrow \ket{5P_{3/2},F=1,m_F=0}$ transition is electric dipole forbidden because $F$ and $m_F=0$ do not change). Thus for a pulse of width $\sim$10 ns, we can safely neglect off-resonant driving.
 
 The excitation light, pulsed by an AOM, can be approximated by a Gaussian pulse in order to estimate how much power we need at the atoms for a given pulse width. The requirement to complete full population transfer with a time-varying Rabi frequency is 
 \begin{equation}
@@ -109,11 +109,11 @@ The electric dipole matrix element for a transition $F,m_F$ to $F',m_F'$ on the 
 \begin{equation}d=4.227 e a_0 (-1)^{F'+J+1+I} \sqrt{(2 F'+1)(2 J+1)}\left\{\begin{array}{ccc}
 J & J' & 1 \\
 F' & F & I
-\end{array}\right\}C_{F,m_F;1,-q}^{F',m_F'}
+\end{array}\right\}C_{F,m_F;1,q}^{F',m_F'}
 \end{equation}
-where $\left\{ \begin{array}{c} \dots \\ \dots \end{array} \right\}$ is a Wigner $6j$ symbol, with $J=1/2$, $J'=3/2$, and $I=3/2$. The numerical prefactor times $e a_0$ is the fine structure reduced matrix element. Note that I use the convention $q = m_F' - m_F$, which opposite of what is used by others, e.g. Steck.
+where $\left\{ \begin{array}{c} \dots \\ \dots \end{array} \right\}$ is a Wigner $6j$ symbol, with $J=1/2$, $J'=3/2$, and $I=3/2$. The numerical prefactor times $e a_0$ is the fine structure reduced matrix element.
 For $F=1, m_F=0$,  $F'=0, m_F'=0$, and linear polarization ($q=0$), we get
-$|d|=5.636*10^{-30} ~\textrm{C}\cdot\textrm{m}$.
+$|d|=5.636 \cdot 10^{-30} ~\textrm{C}\cdot\textrm{m}$.
 Now, we can evaluate what peak power we need to drive the $\pi$ rotation. The beam waist from either GRIN lens is about 300 $\mu \textrm{m}$. We can solve for the power with the relations above to get
 \begin{equation}
     P_0 = c \epsilon_0 \pi^2 w_0^2 \frac{\hbar^2 \ln(2)}{d^2 t_{\textrm{FWHM}}^2}
@@ -144,7 +144,7 @@ The positive frequency field operator $E^{(+)}$ at position $x$ for a single mod
 \begin{equation}\label{eq:Epositive}
     \hat{E}^{(+)}(x) = i \left(\frac{\hbar \omega}{2 \epsilon_0 V}\right)^{\frac{1}{2}} \hat{a} e^{i(\mathbf{k\cdot r} - \omega t)}.
 \end{equation}
-and $\hat{a}$ is the annihilation operator. Evaluating Eq. (\label{eq:g2long}) for a single mode field thus reduces to
+and $\hat{a}$ is the annihilation operator. Evaluating Eq. (\cite{eq:g2long}) for a single mode field thus reduces to
 \begin{equation}\label{eq:g2singlemode}
     g^{(2)}(\tau) = \frac{\langle \hat{a}^{\dagger}\hat{a}^{\dagger}\hat{a}\hat{a} \rangle}{\langle \hat{a}^{\dagger}\hat{a} \rangle}^2 = 1 + \frac{\langle (\Delta \hat{n})^2 \rangle - \langle \hat{n} \rangle}{\langle \hat{n} \rangle^2}
 \end{equation}
@@ -152,7 +152,7 @@ which is independent of the delay time $\tau$. For a Fock state $\ket{n}$, this 
 \begin{equation}\label{eq:g2fock}
     g^{(2)}(\tau) = 1 - \frac{1}{n}
 \end{equation}
-which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) < g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon,volz2007atom}, since a single quantum emitter can not emit more than one photon simultaneously.
+which is less than 1 for all $n$, a signature that Fock states are non-classical. Of particular interest to the present work, single photon states result in $g^{(2)}(\tau)=0$. Note that $g^{(2)}$ is independent of $\tau$ for single-mode states, whereas, for example, a multi-mode field consisting of single photons in travelling modes spread out in time by $\Delta t$ would have $g^{(2)}(\tau) > g^{(2)}(0)$. This is an example of antibunching, which can be observed in atomic fluorescence\cite{schubert1992photon,volz2007atom}, since a single quantum emitter can not emit more than one photon simultaneously.
 
 \subsection{Hanbury Brown and Twiss measurement}
 
@@ -188,7 +188,7 @@ where we will take $t=1/\sqrt{2}$ and $r=i/\sqrt{2}$. This results in the follow
 It is now trivial to show that, as expected, a single photon state impinging on port $a$ will result in a photon detected at either output port with equal probability. For the input state $\ket{a}_a\ket{0}_b$, we have:
 \begin{equation}
     \begin{aligned}
-        \ket{0}_a\ket{0}_b &= a_a^{\dagger}\ket{0}_a\ket{0}_b \\
+        \ket{1}_a\ket{0}_b &= a_a^{\dagger}\ket{0}_a\ket{0}_b \\
                            &= \frac{1}{\sqrt{2}}\left(a_{c}^{\dagger} - i a_{d}^{\dagger}\right)\ket{0}_c\ket{0}_d \\
                            &= \frac{1}{\sqrt{2}}\left(\ket{1}_c\ket{0}_d - i \ket{0}_c\ket{1}_d\right)
     \end{aligned}
