@@ -20,7 +20,7 @@ but tricky due to the lack of optical access from the side of the chamber. Align
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Images/chamber_cross_section.pdf}
-    \caption{Cross section of the network node science chamber, with the steel chamber hidden, with two 0.4 NA JenOptik objectives represented in black. The cylindrical solids representing the MOT beam have radius equal to the $1/e^2$ intensity waist $w_0$, and there is $\sim~2w_0$ from the beam axis to the objectives at closest approach.}
+    \caption{Cross section of the network node science chamber, with the steel chamber hidden, with two 0.4 NA JenOptik objectives represented in black. The cylindrical solids representing the MOT beam have radius equal to the $1/e^2$ intensity waist $w_0$, and there is $\sim2w_0$ from the beam axis to the objectives at closest approach.}
     \label{fig:chamber_cross_section}
 \end{figure}
 We overcame the limitation of optical access by using the atomic fluorescence to verify proper MOT beam alignment. By launching resonant MOT repump light through one of the on-chip MOT beams, and sending only cooling light through the top external MOT beam, we were able to align the top MOT beam until there was an obvious increase in fluorescence where the beams overlapped, as seen by imaging with an Andor Luca camera from the top chamber window\footnote{Better SNR can be acheived using $^{85}\text{Rb}$ transitions as there is more than 2.5 times as much of this isotope compared to $^{87}\text{Rb}$. As our frequency shifting AOMs are not tuned for this isotope, we lock the cooling laser to $^{85}\text{Rb}$'s $\text{D}2$ line cycling transition and tune the repump frequency until we see an increase in fluorescence.}. For this technique to be reliable, it is necessary to make sure there is negligible fluorescence from the repump itself, which would result in an increased fluorescence signal near the overlap region even if the beams are not crossing. The camera settings must also be adjusted to clip the image so background, e.g. from scattering in the chamber, does not obscure the signal. The beam overlap can then be clearly verified by moving the repump on and off resonance, as shown in Fig. (\ref{fig:external_beam_alignment}).
@@ -151,7 +151,7 @@ where $w_0$ is the transverse $1/e^2$ intensity waist, $U_0$ is the trap depth, 
 The trap frequency measurement is done by loading and verifying the presence of an atom in the FORT (see Sec. \ref{sec:singleatomexperiments}), modulating the FORT sinusoidally for a fixed amount of time, and checking whether the atom is retained. A dip in the retention will show up when the FORT is modulated at twice the vibrational frequency. The electronics setup for modulating the trap light is shown in Fig. \ref{fig:networktrapfrequencyelectronics} and the measured vibrational spectrum is shown in Fig. \ref{fig:networktrapfrequencies}. We see two radial frequency dips owing to a slightly elliptical transverse trap profile which was first observed during the tapered fiber scans of the mirror focal intensity pattern (see Sec. \ref{sec:mirror}), though we have not come up with a definitive explanation of why the two radial resonances show different depths. 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.9\textwidth]{Images/network_trap_frequencies_20240627.pdf}
+    \includegraphics[width=0.9\textwidth]{Images/trap_frequency_experiment 15450.pdf}
     \caption{Vibrational spectroscopy of trapped atoms in the network experiment. The non-degenerate transverse resonances at high frequencies result from slightly different transverse waists in $x$ and $y$. The two axial resonances at low frequency are not resolved, showing up as a single resonance. The error bars are $1/\sqrt{N}$, with $N$ the number of atoms loaded per data point. The solid line is a fit to a sum of three Gaussians.}
     \label{fig:networktrapfrequencies}
 \end{figure}
@@ -162,7 +162,7 @@ We extract the trap depth and two beam waists by fitting the data to a sum of th
 \section{Single atom experiments}\label{sec:singleatomexperiments}
 % The typical experiment sequence we use.    
 
-\subsection{FORT loading and atom readout}\label{sec:fort_loading}
+\subsection{FORT loading, readout, and lifetime}\label{sec:fort_loading}
 % Same as continuous MOT loading, but truncated to 500 ms, UV LED pulsed, MOT and FORT loaded, 
 % MOT dropped, two readouts with science phase in the middle
 
@@ -177,8 +177,16 @@ We extract the trap depth and two beam waists by fitting the data to a sum of th
 
 The presence of atoms in the second readout is used as the primary method of answering questions about what we have done to the atom. In specific, every question we want to ask is mapped onto ``with what probability do we expect an atom to be retained?"
 
+The lifetime of the atoms in FORT has been measured by varying a delay between the readout while the atoms are in the trap, as shown in Fig. \ref{fig:atom_lifetime}. This lifetime is typically by the vacuum pressure, which determines the rate of collisions between the trapped atom with thermal atoms in the chamber. Lifetimes of $\sim10$ s are readily acheived by loading the MOT from a pre-cooled beam in a two-chamber setup\cite{Graham2022} rather than from background vapor as is done here, and up to over an hour by going to cryogenic temperatures\cite{Schymik2021}.
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/trap_lifetime_experiment 17951.pdf}
+    \caption{Single atom lifetime in the FORT. The dashed line is a fit to a decaying exponential with decay constant $\tau$.}
+    \label{fig:atom_lifetime}
+\end{figure}
+
 \subsection{Limitations to cycle time}
-The single atom experiment described above provides the basic framework for most of the experiments described in this thesis. As such, any timing limitations intrinsic to this framework will affect the cycle rate we achieve. The dominant offender is the MOT loading phase, which typically takes 500 ms, depending on the pressure of background atoms in the chamber. Coming in second place is DC feedback to the MOT and FORT power to the atoms, as described in Sec. \ref{sec:fiber_AOM_power_stabilization}, which takes $\sim~50$ ms. Lastly, the two atom readouts take $\sim10$ ms each. Enhancing cycle time is best achieved by atom reuse, so that we amortize the cost of loading the MOT over many experiments per loading event. This is of high importance for fast entanglement attempt rates (see Sec. \ref{sec:entanglementrate}).
+The single atom experiment described above provides the basic framework for most of the experiments described in this thesis. As such, any timing limitations intrinsic to this framework will affect the cycle rate we achieve. The dominant offender is the MOT loading phase, which typically takes 500 ms, depending on the pressure of background atoms in the chamber. Coming in second place is DC feedback to the MOT and FORT power to the atoms, as described in Sec. \ref{sec:fiber_AOM_power_stabilization}, which takes $\sim50$ ms. Lastly, the two atom readouts take $\sim10$ ms each. Enhancing cycle time is best achieved by atom reuse, so that we amortize the cost of loading the MOT over many experiments per loading event. This is of high importance for fast entanglement attempt rates (see Sec. \ref{sec:entanglementrate}).
 
 \section{Qubit state preparation}
 
