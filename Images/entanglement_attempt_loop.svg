@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="entanglement_attempt_loop.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.83562009"
+     inkscape:cx="350.03945"
+     inkscape:cy="146.59772"
+     inkscape:window-width="1280"
+     inkscape:window-height="698"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text9"
+       x="-6.8572426"
+       y="27.0068"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text11"
+       x="-4.437099"
+       y="28.329718"
+       style="stroke-width:0.264583">𝜋</text>
+    <path
+       d="m 84.88544,43.410967 c 0,2.849562 -0.386292,5.159375 -0.859896,5.159375 H 33.093253 c -0.474927,0 -0.859896,2.309812 -0.859896,5.159375 0,-2.849563 -0.384969,-5.159375 -0.859896,-5.159375 H -19.55883 c -0.474927,0 -0.859896,-2.309813 -0.859896,-5.159375"
+       stroke="#0070c0"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path13" />
+    <text
+       fill="#202020"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text15"
+       x="45.308006"
+       y="35.738049"
+       style="stroke-width:0.264583">…</text>
+    <rect
+       x="84.885437"
+       y="29.917217"
+       width="26.722916"
+       height="10.054167"
+       fill="#ffb8b8"
+       id="rect17"
+       style="stroke-width:0.264583" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text19"
+       x="90.77771"
+       y="25.948467"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text21"
+       x="93.198647"
+       y="27.271383"
+       style="stroke-width:0.264583">recool</text>
+    <path
+       d="m 81.711451,40.267816 32.771599,-0.125258 -0.002,-0.529163 -32.771771,0.125259 z m 32.421829,0.669835 2.11269,-1.066416 -2.12063,-1.050235 z"
+       fill="#c5050c"
+       id="path23"
+       style="stroke-width:0.264583" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text25"
+       x="111.34642"
+       y="48.967216"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text27"
+       x="-21.851709"
+       y="10.602634"
+       style="stroke-width:0.264583">Entanglement</text>
+    <text
+       fill="#202020"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text29"
+       x="-21.851709"
+       y="18.275551"
+       style="stroke-width:0.264583">attempt</text>
+    <g
+       id="g372"
+       transform="translate(1.5875)">
+      <text
+         fill="#202020"
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="6.35px"
+         id="text31"
+         x="10.741253"
+         y="59.285969"
+         style="stroke-width:0.264583">𝑁</text>
+      <text
+         fill="#202020"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="6.35px"
+         id="text33"
+         x="16.981979"
+         y="59.285969"
+         style="stroke-width:0.264583">attempts</text>
+    </g>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text37"
+       x="43.81258"
+       y="59.285969"
+       style="stroke-width:0.264583">~</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text39"
+       x="48.35442"
+       y="59.285969"
+       style="stroke-width:0.264583"></text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text41"
+       x="49.765705"
+       y="59.285969"
+       style="stroke-width:0.264583">10</text>
+    <path
+       d="m 111.60836,59.285967 c 0,3.361002 -0.45509,6.085416 -1.01336,6.085416 H 46.608963 c -0.560123,0 -1.014148,2.724679 -1.014148,6.085681 0,-3.361002 -0.454025,-6.085681 -1.014148,-6.085681 h -63.985245 c -0.560123,0 -1.014148,-2.724414 -1.014148,-6.085416"
+       stroke="#7030a0"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path43" />
+    <text
+       fill="#202020"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text45"
+       x="-9.6157885"
+       y="76.483887"
+       style="stroke-width:0.264583">Repeat until atom entanglement or atom lost</text>
+    <path
+       d="m -21.344767,24.449338 c 0,-2.021417 1.638829,-3.660246 3.660245,-3.660246 H 8.5970698 c 2.0216812,0 3.6602462,1.638829 3.6602462,3.660246 v 14.639925 c 0,2.021681 -1.638565,3.660245 -3.6602462,3.660245 H -17.684522 c -2.021416,0 -3.660245,-1.638564 -3.660245,-3.660245 z"
+       stroke="#520102"
+       stroke-width="0.352777"
+       stroke-miterlimit="8"
+       fill="#e7e7e7"
+       fill-rule="evenodd"
+       id="path49" />
+    <rect
+       x="-3.7499759"
+       y="29.917217"
+       width="1.3229166"
+       height="10.054167"
+       fill="#c5050c"
+       id="rect51"
+       style="stroke-width:0.264583" />
+    <path
+       d="m -20.418726,40.235967 h 31.09886"
+       stroke="#c5050c"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path53" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text55"
+       x="-18.59363"
+       y="27.271383"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text57"
+       x="-16.173752"
+       y="28.594299"
+       style="stroke-width:0.264583">OP</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text59"
+       x="0.26666367"
+       y="36.796383"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text61"
+       x="2.6868074"
+       y="38.119301"
+       style="stroke-width:0.264583">det</text>
+    <rect
+       x="-19.360392"
+       y="30.181801"
+       width="10.318749"
+       height="10.054167"
+       fill="#940409"
+       id="rect63"
+       style="stroke-width:0.264583" />
+    <rect
+       x="29.058357"
+       y="29.652634"
+       width="1.3229166"
+       height="10.318749"
+       fill="#c5050c"
+       id="rect65"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 12.389607,39.971383 h 31.09886"
+       stroke="#c5050c"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path67" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text69"
+       x="14.289316"
+       y="27.0068"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text71"
+       x="16.709194"
+       y="28.329718"
+       style="stroke-width:0.264583">OP</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text73"
+       x="33.149609"
+       y="36.531799"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text75"
+       x="35.569752"
+       y="37.854717"
+       style="stroke-width:0.264583">det</text>
+    <rect
+       x="13.447941"
+       y="29.917217"
+       width="10.318749"
+       height="10.318749"
+       fill="#940409"
+       id="rect77"
+       style="stroke-width:0.264583" />
+    <rect
+       x="67.422943"
+       y="29.652634"
+       width="1.3229166"
+       height="10.318749"
+       fill="#c5050c"
+       id="rect79"
+       style="stroke-width:0.264583" />
+    <path
+       d="M 50.75419,39.971383 H 81.853315"
+       stroke="#c5050c"
+       stroke-width="0.529167"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path81" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text83"
+       x="52.653107"
+       y="27.271383"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text85"
+       x="55.07325"
+       y="28.594299"
+       style="stroke-width:0.264583">OP</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text87"
+       x="71.513397"
+       y="36.531799"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text89"
+       x="73.934334"
+       y="37.854717"
+       style="stroke-width:0.264583">det</text>
+    <rect
+       x="51.812523"
+       y="30.181801"
+       width="10.318749"
+       height="10.054167"
+       fill="#940409"
+       id="rect91"
+       style="stroke-width:0.264583" />
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text93"
+       x="65.61319"
+       y="26.742216"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text95"
+       x="68.034126"
+       y="28.065134"
+       style="stroke-width:0.264583">𝜋</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text97"
+       x="27.412649"
+       y="26.742216"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text99"
+       x="29.832792"
+       y="28.065134"
+       style="stroke-width:0.264583">𝜋</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text101"
+       x="-5.9166489"
+       y="27.271383"
+       style="stroke-width:0.264583">𝑡</text>
+    <text
+       fill="#202020"
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="4.7625px"
+       id="text103"
+       x="-3.496505"
+       y="28.594299"
+       style="stroke-width:0.264583">𝜋</text>
+  </g>
+</svg>

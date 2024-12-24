@@ -114,7 +114,7 @@ The first line gives the mean number of tries per REG success, and second gives 
 \begin{equation}
     t_{\text{aa}}=\frac{t_{\text{aa}}^{(\text{loop})}}{\eta_{\text{duty}}}=\frac{1}{\eta_{\text{duty}}}N_{\text{epoch}}\left(N_{\text{series}}\left(t_{\text{OP}} + t_{\pi} + t_{\text{det}}\right) + t_{\text{cool}}\right)
 \end{equation}
-where the subscripted times denote the optical pumping, $\pi$-pulse excitation, detection, and Doppler re-cooling durations. This gives the REG rate that appears in Eq. (\ref{eq:Raa}) as $R_{\text{aa}} = \eta_{\text{duty}}/t_{\text{aa}}^{(\text{loop})}$. For realistic parameters (see Table \ref{tab:entanglement_steps}), we can compute $P_{\text{aa}}$ and $R_{\text{aa}}$.
+where the subscripted times denote the optical pumping, $\pi$-pulse excitation, detection, and Doppler re-cooling durations. This gives the REG rate that appears in Eq. (\ref{eq:Raa}) as $R_{\text{aa}} = \eta_{\text{duty}}/t_{\text{aa}}^{(\text{loop})}$. For realistic parameters (see Table \ref{tab:entanglement_steps}), we can estimate a maximum rate (i.e., the rate during the attempt loop) of $R_{\text{aa}} \approx 84000 \mathrm{s}^{-1}$. If the attempt loop duration is limited only by the trap lifetime, and the atom loading time is accounted for, $\eta_{\text{duty}}=0.2$, giving an average attempt rate of 16800 ${\mathrm{s}^{-1}}$.% If the attempt loop duration is limited only by the trap lifetime ($\sim 2$ s), the duty cycle taking into account the atom ($\sim~0.5$ s) loading time is $\eta_{\text{duty}} = 0.5/(2+0.5) = 0.2$, giving an average attempt rate of 16800 ${s^{-1}}$.
 \begin{sidewaystable}
 % \begin{table}[h!] % too wide
     \centering    
@@ -123,17 +123,17 @@ where the subscripted times denote the optical pumping, $\pi$-pulse excitation, 
         \hline (a) Entanglement generation: & & & \\
         1- prepare MOT, load into dipole trap & $t_{\textrm{load}}$ & 500 ms & $>0.99$ \\
         2- pump to $5 s_{1 / 2}\ket{1,0}$ & $t_{\textrm{OP}}$ & $6 ~\mu \mathrm{s}$ & $>0.99$ \\
-        3- $\pi$-pulse to $5 p_{3 / 2}\ket{0,0}$ & $t_\pi$ & 30 ns & $>0.99$ \\
+        3- $\pi$-pulse to $5 p_{3 / 2}\ket{0,0}$ & $t_\pi$ & 20 ns\cite{rosenfeld2017event} & $>0.99$ \\
         4a- atomic decay, record and process photon clicks & $t_{\text {det }}$ & $1 ~\mu \mathrm{s}$ & 1 \\
-        4b- cool atom if proper coincidence is not registered after $N_1=10$ cycles & $t_{\textrm{cool}}$ & $100 ~\mu \mathrm{s}$ & $>0.99$ \\
+        4b- cool atom if proper coincidence is not registered after $N_1=40$ cycles & $t_{\textrm{cool}}$ & $350 ~\mu \mathrm{s}$\cite{rosenfeld2017event} & $>0.99$ \\
         (b) Entanglement verification: & & & \\
         5- map atomic qubit states $\ket{1,1} \rightarrow \ket{2,1}$ with $\mu$-wave $\pi$-pulse & $t_{\mu \textrm{w}}$ & $50 ~\mu \mathrm{s}$ & $\sim 0.99$ \\
         6- atomic qubit rotation with $\mu$-wave $+\mathrm{RF}~\pi / 2$ pulse & $t_{\mathrm{rot}}$ & $500 ~\mu \mathrm{s}$ & $\sim 0.98$ \\
         7- non-destructive atomic state measurement & $t_{\textrm{m}}$ & 3 ms & $\sim 0.94$\cite{Kwon2017} \\
-        8- cool atom to maintain localization in trap & $t_{\textrm{cool}}$ & $100 ~\mu \mathrm{s}$ &$>0.99$ \\
+        8- cool atom to maintain localization in trap & $t_{\textrm{cool}}$ & $350 ~\mu \mathrm{s}$\cite{rosenfeld2017event} &$>0.99$ \\
         \hline
     \end{tabular}
-    \caption{Entanglement generation and tomography operations and estimates of their durations, adapted from \cite{Young2022}.}
+    \caption{Entanglement generation and tomography operations and estimates of their durations, adapted from \cite{Young2022} with some values updated based on the experimental details from the supplementary material in \cite{rosenfeld2017event}. These updates were made in order to base our rate estimate on what is realistically acheivable.}
     \label{tab:entanglement_steps}
 % \end{table}
 \end{sidewaystable}
