@@ -174,9 +174,9 @@ Two major advantages exist for optical traps created with passive rather than ac
 
 The paper is organized as follows. In sec. \ref{sec:theory}, the working principle is discussed for creating an array of bright red-detuned traps, dark blue-detuned traps, or a combination of the two. In sec. \ref{sec:exp}, we discuss an experimental demonstration of trapping single Cs atoms in a dark trap array, and show that the Talbot effect can be mitigated by using incoherent trap light. 
 
-\section{Working Principle} \label{sec:theory}
+\section{Working principle} \label{sec:theory}
 
-\subsection{Bright Trap Array}
+\subsection{Bright trap array}
 Here we discuss the case of creating an array of bright optical dipole traps, in which atoms are trapped in regions of maximum intensity for light which is far-detuned red of an atomic transition. Consider a plane wave, incident on an opaque mask with a fully transmitting aperture of radius $a$ (Fig. \ref{fig:working_principle}). If the illuminated mask is placed in the front focal plane of a lens $f_1$, the field in the back focal plane is the familiar Airy disk, which is the Fourier transform of the top hat profile of the field just after the mask. Because the Fourier plane field gives the spatial frequency spectrum of the front focal plane field, we can reason that filtering out higher spatial frequencies from the Airy disk will have the effect of creating a low-passed top hat beam after a second lens transformation.  
 \begin{figure*}
     \includegraphics[width=\textwidth]{Images/figure1.eps}
@@ -231,7 +231,7 @@ We note that a single array mask can be used with different laser wavelengths $\
 
 It is also possible to create tighter trap profiles than those described above, at the expense of using a  more complicated amplitude or phase mask in the Fourier plane\cite{Beguin2020}. This is discussed in Sec. \ref{sec:tighter}.
 
-\subsection{Dark Trap Array}
+\subsection{Dark trap array}
 The scheme presented above can be modified to produce dark traps, where atoms are trapped in regions of zero intensity for blue-detuned trap light. Dark traps are often preferable over bright traps for a number of reasons. For example, 1) the trapped atoms are insensitive to laser power fluctuations 2) the trap light can be kept on during experiment sequences involving laser excitation, which may be untenable in bright traps due to large AC Stark shifts, and 3) Rydberg states, for which the AC Stark shift is always positive, can also be trapped\cite{SZhang2011}.
 
 It is possible to form an aG dark trap, in which an atom can be trapped at the intensity minimum, and axial confinement is provided by the diffraction of the field out of focus. This can be done with a mask which is somewhat complementary to that above, having partially transmitting apertures on a fully transmitting background. Denoting the aperture and background transmission amplitudes as $t_a$ and $t_b$, respectively, the field after transforming to the Fourier plane is
@@ -334,7 +334,7 @@ The fractional power transmission through the $4f$ filtering setup for the dark 
 % \end{sidewaystable}
 % \newpage 
 
-\subsection{Combined Bright and Dark Trap Array}
+\subsection{Combined bright and dark trap array}
 
 An   interesting application of this technique is a grid of both bright and dark traps for trapping two atomic species with a single trapping wavelength. There has been interest in such two-species trap arrays as they have potential applications for error-corrected quantum computing\cite{Beterov2015}. While a large array of Rb and Cs atoms was recently demonstrated\cite{Singh2022}, the proposed approach requires only one trapping wavelength and a single passive optical element to create the intensity pattern for both traps, which simplifies the complexity  of the experimental setup. Such a trap can be made utilizing transitions in two species which have dynamic polarizabilities of comparable magnitude but opposite sign for the chosen wavelength.
 
@@ -353,7 +353,7 @@ where $I_{\text {bright}}(\rho_2=0,z_2=0)$ and $I_{\text{ dark}}(\rho_2\rightarr
 The condition for one species to be trapped in the bright spots and one in dark traps, with equal trap depths, is  $\left|\alpha_b I_{\text {bright}}\right| = \left|\alpha_d I_{\text {dark}}\right|$. Choosing $\lambda=810$ nm, we can create bright traps for Rb and dark traps for Cs. The dynamic ground state polarizability at 810 nm for Rb is 
 $\alpha_b = 847~ \textrm{\AA}^{3}$ and for Cs is $\alpha_d = -433~ \textrm{\AA}^{3}$, from which we obtain $t_b= 0.86$ to have equal trap depths for Rb and Cs. For the case of using fully opaque dark apertures, i.e. $t_a=0$, the dark trap efficiency is about 1.2 and we get $t_b=0.84$ for the bright and dark mask. Note that in this case, the dark apertures should have radius $a_{\textrm{dark}} = a_{\textrm{bright}} (x_1^{(0)}/x_1^{(1)})$ so that the same Fourier filter radius is optimal for both the bright and dark traps.
 
-\subsection{Atom Confinement}\label{sub:confine}
+\subsection{Atom confinement}\label{sub:confine}
 
 The figures of merit for trapping a particle, such as an atom or molecule, are the depth of the trapping potential and the spatial confinement of the particle. Assuming the particle to be in a low energy motional state, we can approximate the trap as a harmonic potential by keeping only up to the quadratic terms in spatial coordinates. For a bright trap, where atoms are trapped at the peak intensity, we have $U=U_{0}\left(1-\epsilon_{\perp} \rho^{2}-\epsilon_{\|} z^{2}+\ldots\right)$, where $\rho$ and $z$ are the radial and axial coordinates of the particle, respectively, and $z$ is along the axis of optical propagation of the trap light. For a dark trap, where atoms are trapped at the minimum intensity, $U=U_{0}\left(\epsilon_{\perp} \rho^{2}-\epsilon_{\|} z^{2}+\ldots\right)$. Because the equations of motion are not affected by constant terms in the potential, the equations for trap frequencies and confinement that follow are valid for either bright or dark potentials.
 
@@ -521,7 +521,7 @@ It is possible to create tighter trap profiles than those presented in the main 
     \label{fig:zonefilter}
 \end{figure}
 
-\section{Talbot Trap Mitigation}\label{sec:talbot}
+\section{Talbot trap mitigation}\label{sec:talbot}
 
 In cold atom experiments using periodic optical trap arrays, it is a known problem that secondary traps, which form due to the Talbot effect, lead to out-of-focus trapped atoms. This contributes additional background in fluorescence measurements used for atom state detection and atom rearrangement\cite{graham2019}. The Talbot effect is a well-known phenomenon in optics, in which a field which is spatially periodic in the transverse plane will be reimaged after propagating a distance equal to 
 \begin{equation*}
@@ -604,7 +604,7 @@ A dual species trap array consisting of interleaved lattices of intensity minima
     \label{fig:dual_species_traps}
 \end{figure}
 
-\section{Vacuum Pressure from MOT loading rate}
+\section{Vacuum pressure from MOT loading rate}
 
 The observed short lifetime of atoms in the incoherent trap implied at least one of a few plausible loss mechanisms, including RIN on the trapping laser and loss from collisions with hot background atoms. Because our initial RIN measurements did not seem to fully account for the observed trap lifetime, we measured the vacuum pressure in the science region. 
 

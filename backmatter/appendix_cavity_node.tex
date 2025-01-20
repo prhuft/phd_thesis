@@ -3,7 +3,7 @@
 
 In light of the analysis in \cite{Young2022}, we had planned to implement a cavity version of the network experiment. One of the main bottlenecks in the remote entanglement generation rate for a quantum network is the photon collection efficiency, which can approach unity by placing the communication qubits in a suitable optical cavity. By using a cavity operated in the near-concentric regime, i.e. with length $L$ just below twice the mirror radii of curvature $R$, a small mode waist can be obtained while maintaining a relatively large mirror separation. This means that we acheive a strong interaction between the an atom and the cavity mode while avoiding deleterious effects associated with short cavities such as the accumulation surface charges which can induce significant Stark shifts on Rydberg states \cite{Bohorquez2023}. Moroever, the cavity length allows for increased optical access, allowing, e.g., for forming a MOT within the cavity. This appendix presents the mechanical and optical design for cavity-based network node, for which all of the main parts have been ordered. The project is on-pause as of the time of this writing, as the lab pivots toward dual-species remote entanglement.
 
-\section{Cavity Mirrors}\label{sec:cavmirrors}
+\section{Cavity mirrors}\label{sec:cavmirrors}
 
 The cavities were designed to simultaneously support modes at 780 nm and 1540 nm, the wavelengths of the emitted photons for networking and cavity lock reference, respectively. Depending on the choice of phases imparted by the mirror coatings, the nodes and anti-nodes of standing waves at these two wavelengths can line up in different ways, as is described in \cite{garcia2020overlapping}. By suitable choice of these phases, the 1540 field can be used to provide tight axial confinement of atoms within the pancakes shaped high intensity regions formed by antinodes in the standing wave. The analysis to calculate the mirror coating phases was done by Akbar Safari.
 
@@ -16,7 +16,7 @@ The cavities were designed to simultaneously support modes at 780 nm and 1540 nm
 
 The cavity is designed to be ``one-sided" at 780 nm, such that nearly all of the photons emitted from the atom exit through only one of the two mirrors. The 1540 nm laser used for the cavity lock will be coupled into the cavity through the other mirror. 
 
-\section{Mode Matching}\label{sec:cavmatching}
+\section{Mode matching}\label{sec:cavmatching}
 
 Mode matching light to a near-concentric cavity involves converting an incident plane wave (i.e. a collimated beam) into a spherical wave which focuses down to the cavity waist, which is accomplished optimally by using a cavity mirror whose back surface is elliptical \cite{Durak_2014}. However, for ease of budget and design complexity, we can approximate such a monolithic mirror substrate with by a flat-back cavity mirror and a plano-convex lens, placed nearly back to back (Fig. (\ref{fig:modematchapprox})). 
 
@@ -91,7 +91,7 @@ The entire cavity assembly can be mounted in Macor V-groove pieces which themsel
     \label{fig:cavitybridge}
 \end{figure}
 
-\section{MInt Chip}\label{sec:mintchip}
+\section{MInt chip}\label{sec:mintchip}
 
 In light of the difficulty in assembling the chip-based node discussed in Ch. \ref{ch:nodes} and the lack of ability to pivot or course correct in the event of catastrophy (e.g. a part glued down incorrectly), here we present an updated architecture dubbed MInt Chip (Modular Integrated Chip). The MInt Chip systems consistes of Ti substrate with a grid of tapped holes, acting a miniature breadboard to which miniature optomechanical modules can be attached. Components of the MInt Chip system machined from Grade 2 Ti (manufactured by Fast Radius), including hardware for mounting the cavity described in the previous section, is shown in Fig. \ref{fig:mintchip}.
 \begin{figure}[htb]
